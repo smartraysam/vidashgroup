@@ -182,14 +182,14 @@
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
                             <i>
-                                <a href="{{route('shelter')}}">
+                                <a href="#">
                                     <img src="{{ asset('welcome/images/vidashshelter.jpg') }}" width="70px"
                                         height="70px" alt="">
                                 </a>
                             </i>
                         </div>
                         <div class="media-body">
-                            <a href="{{route('shelter')}}">
+                            <a href="#">
                                 <h4 class="media-heading">Vidash City Shelters Ltd</h4>
                             </a>
                             <p>This is our property development company focused on premiering the integration of
