@@ -54,13 +54,13 @@
                     <ul class="nav navbar-nav">
                         <li class="scroll active"><a href="#home">Home</a></li>
                         <li class="scroll"><a href="#about">About</a></li>
-                        <li class="scroll dropdown"><a href="#features"  data-toggle="dropdown"
+                        <li class="scroll dropdown"><a href="#company"  data-toggle="dropdown"
                             class="dropdown-toggle">Our Companies  <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Vidash Shelter</a></li>
-                                <li><a href="#">Vidash Property</a></li>
-                                <li><a href="#">Vidash Paint</a></li>
-                                <li><a href="#">Vidash Logistics</a></li>
+                                <li><a href="{{route('shelter')}}">Vidash Shelter</a></li>
+                                <li><a href="{{route('property')}}">Vidash Property</a></li>
+                                <li><a href="{{route('paint')}}">Vidash Paint</a></li>
+                                <li><a href="{{route('logistics')}}">Vidash Logistics</a></li>
                             </ul>
                         </li>
                         <li class="scroll"><a href="#services">Services</a></li>
@@ -71,18 +71,7 @@
             </div>
             <!--/.container-->
         </nav>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $(".dropdown, .btn-group").hover(function() {
-                    var dropdownMenu =
-                        $(this).children(".dropdown-menu");
-                    if (dropdownMenu.is(":visible")) {
-                        dropdownMenu.parent().toggleClass("open");
-                    }
-                });
-            });
-        </script>
-        <!--/nav-->
+              <!--/nav-->
     </header>
     <!--/header-->
 
@@ -240,7 +229,7 @@
 
     <!--/#cta-->
 
-    <section id="features">
+    <section id="company">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Our Awesome Companies</h2>
@@ -720,11 +709,8 @@
                                 <abbr title="Phone">P:</abbr> (123) 456-7890
                             </address>
 
-                            <form id="main-contact-form" action="{{ route('contactus.store') }}" method="POST">
+                            <form  method="POST" enctype="multipart/form-data"  action="{{ route('contactus.store') }}">
                                 @csrf
-
-                                @method('post')
-
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" placeholder="Name" required>
                                 </div>
@@ -786,6 +772,17 @@
     <script src="{{ asset('welcome/js/jquery.inview.min.js') }}"></script>
     <script src="{{ asset('welcome/js/wow.min.js') }}"></script>
     <script src="{{ asset('welcome/js/main.js') }}"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown, .btn-group").hover(function() {
+                var dropdownMenu =
+                    $(this).children(".dropdown-menu");
+                if (dropdownMenu.is(":visible")) {
+                    dropdownMenu.parent().toggleClass("open");
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

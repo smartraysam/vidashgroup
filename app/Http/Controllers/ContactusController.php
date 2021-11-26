@@ -36,7 +36,14 @@ class ContactusController extends Controller
     public function store(Request $request)
     {
         //
-        dd($request);
+
+        $contactus = new Contactus();
+        $contactus->name=$request->name;
+        $contactus->email=$request->email;
+        $contactus->subject=$request->subject;
+        $contactus->message=$request->message;
+        $contactus->save();
+        
 
     }
 
