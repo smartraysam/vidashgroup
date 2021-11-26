@@ -8,6 +8,7 @@
     <meta name="author" content="">
     <title> We are passionate in creating & Developing Property Values.| Vidash Group</title>
     <!-- core CSS -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="{{ asset('welcome/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('welcome/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('welcome/css/animate.min.css') }}" rel="stylesheet">
@@ -274,14 +275,14 @@
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
                             <i>
-                                <a href="#">
+                                <a href="{{route ('property')}}">
                                     <img src="{{ asset('welcome/images/vidashproperty.jpg') }}" width="70px"
                                         height="70px" alt="">
                                 </a>
                             </i>
                         </div>
                         <div class="media-body">
-                            <a href="#">
+                            <a href="{{route ('property')}}">
                                 <h4 class="media-heading">Vidash Properties Ltd</h4>
                             </a>
                             <p>This is our property development company focused on premiering the integration of
@@ -294,14 +295,14 @@
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
                             <i>
-                                <a href="#">
+                                <a href="{{route ('paint')}}">
                                     <img src="{{ asset('welcome/images/vidashpaint.jpg') }}" width="70px"
                                         height="40px" alt="">
                                 </a>
                             </i>
                         </div>
                         <div class="media-body">
-                            <a href="#">
+                            <a href="{{route ('paint')}}">
                                 <h4 class="media-heading">Vidash Paints Ltd</h4>
                             </a>
                             <p>This is our property development company focused on premiering the integration of
@@ -314,14 +315,14 @@
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
                             <i>
-                                <a href="#">
+                                <a href="{{route ('logistics')}}">
                                     <img src="{{ asset('welcome/images/vidashlogistics.jpg') }}" width="70px"
                                         height="70px" alt="">
                                 </a>
                             </i>
                         </div>
                         <div class="media-body">
-                            <a href="#">
+                            <a href="{{route ('logistics')}}">
                                 <h4 class="media-heading">Vidash Logistics Ltd </h4>
                             </a>
                             <p>Our Logistics company plan, implement, and control the movement and storage of your goods, services, or information within a given supply chain
@@ -719,7 +720,11 @@
                                 <abbr title="Phone">P:</abbr> (123) 456-7890
                             </address>
 
-                            <form id="main-contact-form" name="contact-form" method="post" action="#">
+                            <form id="main-contact-form" action="{{ route('contactus.store') }}" method="POST">
+                                @csrf
+
+                                @method('post')
+
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" placeholder="Name" required>
                                 </div>

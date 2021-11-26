@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Shelter;
+use App\Models\Paint;
 use Illuminate\Http\Request;
 
-class ShelterController extends Controller
+class PaintController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +15,7 @@ class ShelterController extends Controller
     public function index()
     {
         //
-        return view('companies.shelter.index');
+        return view('companies.paint.index');
     }
 
     /**
@@ -42,10 +42,10 @@ class ShelterController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Shelter  $shelter
+     * @param  \App\Models\Paint  $paint
      * @return \Illuminate\Http\Response
      */
-    public function show(Shelter $shelter)
+    public function show(Paint $paint)
     {
         //
     }
@@ -53,10 +53,10 @@ class ShelterController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Shelter  $shelter
+     * @param  \App\Models\Paint  $paint
      * @return \Illuminate\Http\Response
      */
-    public function edit(Shelter $shelter)
+    public function edit(Paint $paint)
     {
         //
     }
@@ -65,10 +65,10 @@ class ShelterController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Shelter  $shelter
+     * @param  \App\Models\Paint  $paint
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Shelter $shelter)
+    public function update(Request $request, Paint $paint)
     {
         //
     }
@@ -76,10 +76,10 @@ class ShelterController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Shelter  $shelter
+     * @param  \App\Models\Paint  $paint
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Shelter $shelter)
+    public function destroy(Paint $paint)
     {
         //
     }
