@@ -86,6 +86,13 @@
     </header>
     <!--/header-->
 
+    @if ($message = Session::get('success'))
+    <div class="alert alert-success alert-block">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong>{{ $message }}</strong>
+    </div>
+    @endif
+
     <section id="main-slider">
         <div class="owl-carousel">
             <div class="item" style="background-image: url(welcome/images/slider/shelter.jpg);">
@@ -720,7 +727,7 @@
                                 <abbr title="Phone">P:</abbr> (123) 456-7890
                             </address>
 
-                            <form id="main-contact-form" action="{{ route('contactus.store') }}" method="POST">
+                            <form  method="POST" enctype="multipart/form-data" action="{{ route('contactus.store') }}">
                                 @csrf
 
                                 @method('post')
