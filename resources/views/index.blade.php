@@ -76,6 +76,13 @@
     </header>
     <!--/header-->
 
+    @if ($message = Session::get('success'))
+    <div class="alert alert-success alert-block">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong>{{ $message }}</strong>
+    </div>
+    @endif
+
     <section id="main-slider">
         <div class="owl-carousel">
             <div class="item" style="background-image: url(welcome/images/slider/shelter.jpg);">
