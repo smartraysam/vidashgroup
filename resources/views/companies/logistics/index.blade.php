@@ -192,7 +192,7 @@
                 </div>
                 <div class="col-md-offset-1 col-sm-6 col-md-5">
                     <div class="about_car">
-                        <img src="{{ asset('logistic/img/about_car.png') }}" alt="car">
+                        <img width="541px" height="218px" src="{{ asset('logistic/img/vidashlogistics.jpg') }}" alt="car">
                     </div>
                 </div>
             </div>
@@ -227,7 +227,7 @@
                         <div class="col-md-3 col-sm-3 col-md-offset-1 text-center">
                             <div class="single_count">
                                 <h1 class="counter">3546</h1>
-                                <h5>Product delivered s</h5>
+                                <h5>Product delivered</h5>
                             </div>
                         </div>
                     </div>
