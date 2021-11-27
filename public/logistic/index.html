@@ -7,26 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fast Delivery</title>
     <!--  bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--  font Awesome Css  -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!--    stylesheet for fonts-->
-    <link href="{{ asset('logistic/fonts/stylesheet.css') }}" rel="stylesheet">
+    <link href="fonts/stylesheet.css" rel="stylesheet">
     <!-- Reset css-->
-    <link href="{{ asset('logistic/css/reset.css') }}" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
 
     <!--slick css-->
-    <link href="{{ asset('logistic/css/slick.css') }}" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
     <!--  owl-carousel css -->
-    <link href="{{ asset('logistic/css/owl.carousel.css') }}" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
     <!--  YTPlayer css For Background Video -->
-    <link href="{{ asset('logistic/css/jquery.mb.YTPlayer.min.css') }}" rel="stylesheet">
+    <link href="css/jquery.mb.YTPlayer.min.css" rel="stylesheet">
     <!--  style css  -->
-    <link rel="stylesheet" href="{{ asset('logistic/css/meanmenu.css') }}">
-    <link href="{{ asset('logistic/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link href="style.css" rel="stylesheet">
     <!--  Responsive Css  -->
-    <link href="{{ asset('logistic/css/responsive.css') }}" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
     <!--  browser campatibel css files-->
     <!--[if lt IE 9]>
@@ -45,59 +44,35 @@
                 <div class="row">
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-6">
                         <div class="logo">
-                            <a href="{{ route('index') }}"><img width="172px" height="37px"
-                                    src="{{ asset('logistic/img/logo.jpg') }}" alt="logo"></a>
+                            <a href="#"><img src="img/logo.png" alt="logo"></a>
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-6 col-md-offset-1 col-sm-7 col-lg-offset-1 col-lg-6 mobMenuCol">
                         <nav class="navbar">
                             <!-- Collect the nav links, forms, and other content for toggling -->
-                            <ul class="nav navbar-nav navbar-right menu">
-                                <li class="current-menu-item"><a href="{{ route('logistics') }}">home</a>
-                                </li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">pricing</a></li>
-                                <li><a href="#">contact</a></li>
-                            </ul>
+                                <ul class="nav navbar-nav navbar-right menu">
+                                    <li class="current-menu-item"><a href="index.html">home <span class="caret"></span></a>
+                                       <ul class="dropdownMenu">
+                                           <li><a href="index-2.html">Home 2</a></li>
+                                           <li><a href="index-3.html">Home 3</a></li>
+                                           <li><a href="index-4.html">Home 4</a></li>
+                                           <li><a href="index-5.html">Home 5</a></li>
+                                           <li><a href="index-6.html">Home 6</a></li>
+                                       </ul>
+                                        
+                                    </li>
+                                    <li><a href="about.html">about</a></li>
+                                    <li><a href="service.html">services</a></li>
+                                    <li><a href="pricing.html">pricing</a></li>
+                                    <li><a href="contact.html">contact</a></li>
+                                </ul>
                             <!-- /.navbar-collapse -->
                         </nav>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-4 col-lg-3 signup">
                         <ul class="nav navbar-nav">
-                            @guest
-                                @if (Route::has('login'))
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                                    </li>
-                                @endif
-
-                                @if (Route::has('register'))
-                                    <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="{{ route('register') }}">{{ __('sign up') }}</a>
-                                    </li>
-                                @endif
-                            @else
-                                <li class="nav-item dropdown">
-                                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                        {{ Auth::user()->name }}
-                                    </a>
-
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                             document.getElementById('logout-form').submit();">
-                                            {{ __('Logout') }}
-                                        </a>
-
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                            class="d-none">
-                                            @csrf
-                                        </form>
-                                    </div>
-                                </li>
-                            @endguest
+                            <li><a href="#">login</a></li>
+                            <li><a href="#">sign up</a></li>
                         </ul>
                     </div>
                 </div>
@@ -140,7 +115,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
+                            <img src="img/item_icon.png" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Fastest Delivery</h4>
@@ -151,7 +126,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
+                            <img src="img/item_icon.png" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Fastest Delivery</h4>
@@ -162,7 +137,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
+                            <img src="img/item_icon.png" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Fastest Delivery</h4>
@@ -183,16 +158,13 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="about_us_content">
                         <h2>about us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                        </p>
-                        <a href="#">read more <span class="fa fa-long-arrow-right"></span></a>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        <a href="#">read more <span  class="fa fa-long-arrow-right"></span></a>
                     </div>
                 </div>
                 <div class="col-md-offset-1 col-sm-6 col-md-5">
                     <div class="about_car">
-                        <img src="{{ asset('logistic/img/about_car.png') }}" alt="car">
+                        <img src="img/about_car.png" alt="car">
                     </div>
                 </div>
             </div>
@@ -322,7 +294,7 @@
             </div>
         </div>
         <div class="calculat-image">
-            <img src="{{ asset('logistic/img/men.png') }}" alt="#">
+            <img src="img/men.png" alt="#">
         </div>
     </section>
     <!--    end of calculate area-->
@@ -343,11 +315,10 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-clients">
                         <div class="client-img">
-                            <img src="{{ asset('logistic/img/client.jpg') }}" alt="client">
+                            <img src="img/client.jpg" alt="client">
                         </div>
                         <div class="client-details">
-                            <p>“Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod
-                                tinci dunt ut laoreet dolore magna aliquam.”</p>
+                            <p>“Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tinci dunt ut laoreet dolore magna aliquam.”</p>
                             <h4>John Doe<span>Student</span></h4>
                         </div>
                     </div>
@@ -355,11 +326,10 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-clients">
                         <div class="client-img">
-                            <img src="{{ asset('logistic/img/client-2.jpg') }}" alt="client">
+                            <img src="img/client-2.jpg" alt="client">
                         </div>
                         <div class="client-details">
-                            <p>“Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod
-                                tinci dunt ut laoreet dolore magna aliquam.”</p>
+                            <p>“Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tinci dunt ut laoreet dolore magna aliquam.”</p>
                             <h4>John Doe<span>Student</span></h4>
                         </div>
                     </div>
@@ -380,13 +350,10 @@
                                 <div class="pricing-desc-title">
                                     <div class="title">
                                         <h2>Pricing & plans</h2>
-                                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-                                            consequat,</p>
+                                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,</p>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh ut
-                                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                                    tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                                 </p>
                             </div>
                         </div>
@@ -394,170 +361,170 @@
                 </div>
             </div>
         </div>
-        <div class="column-out">
-            <div class="pricing-slider">
-                <ul class="carousel">
-                    <li class="items main-pos slides" id="1">
-                        <!-- Single Pricing Table -->
-                        <div class="single-pricing-table">
-                            <div class="pricing-head">
-                                <h6 class="price-title">Premium</h6>
+            <div class="column-out">
+                <div class="pricing-slider">
+                    <ul class="carousel">
+                        <li class="items main-pos slides" id="1">
+                            <!-- Single Pricing Table -->
+                            <div class="single-pricing-table">
+                                <div class="pricing-head">
+                                    <h6 class="price-title">Premium</h6>
+                                </div>
+                                <div class="price">
+                                    <p>$450</p>
+                                    <span class="pricing-status">per month</span>
+                                </div>
+                                <div class="pricing-body">
+                                    <ul>
+                                        <li>Full website maintance</li>
+                                        <li>Free domain & hosting</li>
+                                        <li>High quality product</li>
+                                        <li>24/7 Customer service</li>
+                                    </ul>
+                                    <a href="#" class="price-btn">Get started today</a>
+                                </div>
                             </div>
-                            <div class="price">
-                                <p>$450</p>
-                                <span class="pricing-status">per month</span>
+                            <!-- /.End Of Single Pricing Table -->
+                        </li>
+                        <li class="items right-pos slides" id="2">
+                            <!-- Single Pricing Table -->
+                            <div class="single-pricing-table">
+                                <div class="pricing-head">
+                                    <h6 class="price-title">Basic</h6>
+                                </div>
+                                <div class="price">
+                                    <p>$150</p>
+                                    <span class="pricing-status">per month</span>
+                                </div>
+                                <div class="pricing-body">
+                                    <ul>
+                                        <li>Full website maintance</li>
+                                        <li>Free domain & hosting</li>
+                                        <li>High quality product</li>
+                                        <li>24/7 Customer service</li>
+                                    </ul>
+                                    <a href="#" class="price-btn">Get started today</a>
+                                </div>
                             </div>
-                            <div class="pricing-body">
-                                <ul>
-                                    <li>Full website maintance</li>
-                                    <li>Free domain & hosting</li>
-                                    <li>High quality product</li>
-                                    <li>24/7 Customer service</li>
-                                </ul>
-                                <a href="#" class="price-btn">Get started today</a>
+                            <!-- /.End Of Single Pricing Table -->
+                        </li>
+                        <li class="items back-pos slides" id="3">
+                            <!-- Single Pricing Table -->
+                            <div class="single-pricing-table">
+                                <div class="pricing-head">
+                                    <h6 class="price-title">Basic</h6>
+                                </div>
+                                <div class="price">
+                                    <p>$150</p>
+                                    <span class="pricing-status">per month</span>
+                                </div>
+                                <div class="pricing-body">
+                                    <ul>
+                                        <li>Full website maintance</li>
+                                        <li>Free domain & hosting</li>
+                                        <li>High quality product</li>
+                                        <li>24/7 Customer service</li>
+                                    </ul>
+                                    <a href="#" class="price-btn">Get started today</a>
+                                </div>
                             </div>
-                        </div>
-                        <!-- /.End Of Single Pricing Table -->
-                    </li>
-                    <li class="items right-pos slides" id="2">
-                        <!-- Single Pricing Table -->
-                        <div class="single-pricing-table">
-                            <div class="pricing-head">
-                                <h6 class="price-title">Basic</h6>
+                            <!-- /.End Of Single Pricing Table -->
+                        </li>
+                        <li class="items back-pos slides" id="4">
+                            <!-- Single Pricing Table -->
+                            <div class="single-pricing-table">
+                                <div class="pricing-head">
+                                    <h6 class="price-title">Premium</h6>
+                                </div>
+                                <div class="price">
+                                    <p>$450</p>
+                                    <span class="pricing-status">per month</span>
+                                </div>
+                                <div class="pricing-body">
+                                    <ul>
+                                        <li>Full website maintance</li>
+                                        <li>Free domain & hosting</li>
+                                        <li>High quality product</li>
+                                        <li>24/7 Customer service</li>
+                                    </ul>
+                                    <a href="#" class="price-btn">Get started today</a>
+                                </div>
                             </div>
-                            <div class="price">
-                                <p>$150</p>
-                                <span class="pricing-status">per month</span>
+                            <!-- /.End Of Single Pricing Table -->
+                        </li>
+                        <li class="items back-pos slides" id="5">
+                            <!-- Single Pricing Table -->
+                            <div class="single-pricing-table">
+                                <div class="pricing-head">
+                                    <h6 class="price-title">Basic</h6>
+                                </div>
+                                <div class="price">
+                                    <p>$150</p>
+                                    <span class="pricing-status">per month</span>
+                                </div>
+                                <div class="pricing-body">
+                                    <ul>
+                                        <li>Full website maintance</li>
+                                        <li>Free domain & hosting</li>
+                                        <li>High quality product</li>
+                                        <li>24/7 Customer service</li>
+                                    </ul>
+                                    <a href="#" class="price-btn">Get started today</a>
+                                </div>
                             </div>
-                            <div class="pricing-body">
-                                <ul>
-                                    <li>Full website maintance</li>
-                                    <li>Free domain & hosting</li>
-                                    <li>High quality product</li>
-                                    <li>24/7 Customer service</li>
-                                </ul>
-                                <a href="#" class="price-btn">Get started today</a>
+                            <!-- /.End Of Single Pricing Table -->
+                        </li>
+                        <li class="items back-pos slides" id="6">
+                            <!-- Single Pricing Table -->
+                            <div class="single-pricing-table">
+                                <div class="pricing-head">
+                                    <h6 class="price-title">Basic</h6>
+                                </div>
+                                <div class="price">
+                                    <p>$150</p>
+                                    <span class="pricing-status">per month</span>
+                                </div>
+                                <div class="pricing-body">
+                                    <ul>
+                                        <li>Full website maintance</li>
+                                        <li>Free domain & hosting</li>
+                                        <li>High quality product</li>
+                                        <li>24/7 Customer service</li>
+                                    </ul>
+                                    <a href="#" class="price-btn">Get started today</a>
+                                </div>
                             </div>
-                        </div>
-                        <!-- /.End Of Single Pricing Table -->
-                    </li>
-                    <li class="items back-pos slides" id="3">
-                        <!-- Single Pricing Table -->
-                        <div class="single-pricing-table">
-                            <div class="pricing-head">
-                                <h6 class="price-title">Basic</h6>
+                            <!-- /.End Of Single Pricing Table -->
+                        </li>
+                        <li class="items left-pos slides" id="7">
+                            <!-- Single Pricing Table -->
+                            <div class="single-pricing-table">
+                                <div class="pricing-head">
+                                    <h6 class="price-title">Basic</h6>
+                                </div>
+                                <div class="price">
+                                    <p>$150</p>
+                                    <span class="pricing-status">per month</span>
+                                </div>
+                                <div class="pricing-body">
+                                    <ul>
+                                        <li>Full website maintance</li>
+                                        <li>Free domain & hosting</li>
+                                        <li>High quality product</li>
+                                        <li>24/7 Customer service</li>
+                                    </ul>
+                                    <a href="#" class="price-btn">Get started today</a>
+                                </div>
                             </div>
-                            <div class="price">
-                                <p>$150</p>
-                                <span class="pricing-status">per month</span>
-                            </div>
-                            <div class="pricing-body">
-                                <ul>
-                                    <li>Full website maintance</li>
-                                    <li>Free domain & hosting</li>
-                                    <li>High quality product</li>
-                                    <li>24/7 Customer service</li>
-                                </ul>
-                                <a href="#" class="price-btn">Get started today</a>
-                            </div>
-                        </div>
-                        <!-- /.End Of Single Pricing Table -->
-                    </li>
-                    <li class="items back-pos slides" id="4">
-                        <!-- Single Pricing Table -->
-                        <div class="single-pricing-table">
-                            <div class="pricing-head">
-                                <h6 class="price-title">Premium</h6>
-                            </div>
-                            <div class="price">
-                                <p>$450</p>
-                                <span class="pricing-status">per month</span>
-                            </div>
-                            <div class="pricing-body">
-                                <ul>
-                                    <li>Full website maintance</li>
-                                    <li>Free domain & hosting</li>
-                                    <li>High quality product</li>
-                                    <li>24/7 Customer service</li>
-                                </ul>
-                                <a href="#" class="price-btn">Get started today</a>
-                            </div>
-                        </div>
-                        <!-- /.End Of Single Pricing Table -->
-                    </li>
-                    <li class="items back-pos slides" id="5">
-                        <!-- Single Pricing Table -->
-                        <div class="single-pricing-table">
-                            <div class="pricing-head">
-                                <h6 class="price-title">Basic</h6>
-                            </div>
-                            <div class="price">
-                                <p>$150</p>
-                                <span class="pricing-status">per month</span>
-                            </div>
-                            <div class="pricing-body">
-                                <ul>
-                                    <li>Full website maintance</li>
-                                    <li>Free domain & hosting</li>
-                                    <li>High quality product</li>
-                                    <li>24/7 Customer service</li>
-                                </ul>
-                                <a href="#" class="price-btn">Get started today</a>
-                            </div>
-                        </div>
-                        <!-- /.End Of Single Pricing Table -->
-                    </li>
-                    <li class="items back-pos slides" id="6">
-                        <!-- Single Pricing Table -->
-                        <div class="single-pricing-table">
-                            <div class="pricing-head">
-                                <h6 class="price-title">Basic</h6>
-                            </div>
-                            <div class="price">
-                                <p>$150</p>
-                                <span class="pricing-status">per month</span>
-                            </div>
-                            <div class="pricing-body">
-                                <ul>
-                                    <li>Full website maintance</li>
-                                    <li>Free domain & hosting</li>
-                                    <li>High quality product</li>
-                                    <li>24/7 Customer service</li>
-                                </ul>
-                                <a href="#" class="price-btn">Get started today</a>
-                            </div>
-                        </div>
-                        <!-- /.End Of Single Pricing Table -->
-                    </li>
-                    <li class="items left-pos slides" id="7">
-                        <!-- Single Pricing Table -->
-                        <div class="single-pricing-table">
-                            <div class="pricing-head">
-                                <h6 class="price-title">Basic</h6>
-                            </div>
-                            <div class="price">
-                                <p>$150</p>
-                                <span class="pricing-status">per month</span>
-                            </div>
-                            <div class="pricing-body">
-                                <ul>
-                                    <li>Full website maintance</li>
-                                    <li>Free domain & hosting</li>
-                                    <li>High quality product</li>
-                                    <li>24/7 Customer service</li>
-                                </ul>
-                                <a href="#" class="price-btn">Get started today</a>
-                            </div>
-                        </div>
-                        <!-- /.End Of Single Pricing Table -->
-                    </li>
-                </ul>
-                <div class="slider-navs">
-                    <div class="prev-nav" id="prev"><i class="fa fa-angle-left"></i></div>
-                    <div class="next-nav" id="next"><i class="fa fa-angle-right"></i></div>
+                            <!-- /.End Of Single Pricing Table -->
+                        </li>
+                    </ul>
+                    <div class="slider-navs">
+                        <div class="prev-nav" id="prev"><i class="fa fa-angle-left"></i></div>
+                        <div class="next-nav" id="next"><i class="fa fa-angle-right"></i></div>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- /.End Of Pricing Area -->
 
@@ -570,10 +537,7 @@
                 <div class="col-md-4 col-sm-3 col-xs-12 col-lg-4">
                     <div class="single-footer">
                         <h2>about us</h2>
-                        <p>ABOUT US Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-                            veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                            commodo consequat.</p>
+                        <p>ABOUT US Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-12 col-lg-2">
@@ -591,7 +555,7 @@
                 <div class="col-md-3 col-sm-3 col-xs-12 col-lg-3">
                     <div class="single-footer">
                         <h2>We Accepts</h2>
-                        <a href="#"><img src="{{ asset('logistic/img/cards_credt_1.png') }}" alt="#"></a>
+                        <a href="#"><img src="img/cards_credt_1.png" alt="#"></a>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-12 col-lg-3">
@@ -630,26 +594,24 @@
     <!--  jquery.min.js  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <!--    bootstrap.min.js-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
-    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!--    jquery.sticky.js-->
-    <script src="{{ asset('logistic/js/jquery.sticky.js') }}"></script>
+    <script src="js/jquery.sticky.js"></script>
     <!--  owl.carousel.min.js  -->
-    <script src="{{ asset('logistic/js/jquery.meanmenu.js') }}"></script>
-    <script src="{{ asset('logistic/js/owl.carousel.min.js') }}"></script>
+    <script src="js/jquery.meanmenu.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <!--  jquery.mb.YTPlayer.min.js   -->
-    <script src="{{ asset('logistic/js/jquery.mb.YTPlayer.min.js') }}"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
     <!--    slick.min.js-->
-    <script src="{{ asset('logistic/js/slick.min.js') }}"></script>
+    <script src="js/slick.min.js"></script>
     <!--    jquery.nav.js-->
-    <script src="{{ asset('logistic/js/jquery.nav.js') }}"></script>
+    <script src="js/jquery.nav.js"></script>
     <!--jquery waypoints js-->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <!--    jquery counterup js-->
-    <script src="{{ asset('logistic/js/jquery.counterup.min.js') }}"></script>
+    <script src="js/jquery.counterup.min.js"></script>
     <!--    main.js-->
-    <script src="{{ asset('logistic/js/main.js') }}"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
