@@ -225,7 +225,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('welcome/images/tracking.png') }}" alt="item">
+                            <img width="53px" height="37px" src="{{ asset('welcome/images/processing.png') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Fastest Processing</h4>
@@ -236,7 +236,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('welcome/images/homedelivery.jpg') }}" alt="item">
+                            <img src="{{ asset('welcome/images/tracking.png') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Realtime Tracking</h4>
@@ -247,7 +247,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img width="53px" height="37px" src="{{ asset('welcome/images/processing.png') }}" alt="item">
+                            <img src="{{ asset('welcome/images/homedelivery.jpg') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Home Delivery</h4>
