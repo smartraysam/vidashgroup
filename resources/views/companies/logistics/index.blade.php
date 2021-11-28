@@ -114,8 +114,8 @@
                                 <h1>Get the fastest service </h1>
                                 <h1>for your product</h1>
                                 <div class="welcome_p">
-                                    <p>Moving your product , good and service has been made easier </p>
-                                    <p>with our moderm fast tracking logistic system.</p>
+                                    <p>Moving your products, goods and services have been made easier </p>
+                                    <p>with our modern fast tracking logistic system.</p>
                                 </div>
                                 <div class="welcome_form">
                                     <form action="#">
@@ -225,7 +225,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
+                            <img src="{{ asset('welcome/images/tracking.png') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Fastest Processing</h4>
@@ -236,7 +236,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
+                            <img src="{{ asset('welcome/images/homedelivery.jpg') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Realtime Tracking</h4>
@@ -247,7 +247,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
+                            <img width="53px" height="37px" src="{{ asset('welcome/images/processing.png') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Home Delivery</h4>
@@ -377,8 +377,8 @@
                                 <input type="submit" class="calulate" value="Calculate your cost now">
                             </div>
                             <div class="totla-cost">
-                                <h5>Total Cost: <span>$ 30</span></h5>
-                                <h5>Duration:: <span>3 days</span></h5>
+                                <h5>Total Cost: <span>₦ 30</span></h5>
+                                <h5>Duration: <span>3 days</span></h5>
                             </div>
                         </form>
                     </div>
