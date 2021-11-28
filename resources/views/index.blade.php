@@ -909,6 +909,8 @@
         </div>
     </footer>
     <!--/#footer-->
+
+
     <script src="{{ asset('welcome/js/jquery.js') }}"></script>
     <script src="{{ asset('welcome/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('welcome/js/owl.carousel.min.js') }}"></script>
