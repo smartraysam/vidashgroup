@@ -889,7 +889,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; <?php echo date('Y'); ?> Vidash Group of Company. All Rights Reserved.
+                    &copy; Copyright <?php echo date('Y'); ?> Vidash Group of Company. All Rights Reserved.
                 </div>
                 {{-- <div class="col-sm-6">
                     <ul class="social-icons">
