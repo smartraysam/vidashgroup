@@ -21,7 +21,7 @@
 /*start header area css*/
 
 .header_area {
-    background: url(img/version-1.jpg) no-repeat center center / cover;
+    background: url(../welcome/images/slider/logistics.png) no-repeat center center / cover;
     position: relative;
 }
 
@@ -59,7 +59,7 @@
     width: 100% !important;
 }
 
-.is-sticky .logo > img {
+.is-sticky .logo>img {
     margin-top: 8px;
 }
 
@@ -67,10 +67,11 @@ nav.navbar {
     margin-bottom: 0;
     border: 0
 }
-.mean-container .mean-bar {
-  background: transparent none repeat scroll 0 0;
 
+.mean-container .mean-bar {
+    background: transparent none repeat scroll 0 0;
 }
+
 .is-sticky .menu li a:hover,
 .signup li a:hover {
     color: #fff;
@@ -111,9 +112,11 @@ nav.navbar {
     -webkit-transition: .4s;
     transition: .4s
 }
+
 .caret {
-  margin-left: 5px;
+    margin-left: 5px;
 }
+
 .menu li.current-menu-item a {
     color: #f9bf3b;
     position: relative;
@@ -320,18 +323,20 @@ nav.navbar {
 
 /*start about us css*/
 
-.page-title{
+.page-title {
     padding-bottom: 50px;
 }
 
 .about_top {
     padding: 120px 0;
     border-bottom: 1px solid #dfdfdf;
-    padding-bottom:70px; 
+    padding-bottom: 70px;
 }
+
 .about_single_item {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
+
 .item_icon {
     float: left;
     margin-right: 30px;
@@ -362,7 +367,7 @@ nav.navbar {
     padding: 100px 0;
 }
 
-.about_us_content > a {
+.about_us_content>a {
     color: #f9bf3b;
     display: inline-block;
     font-family: "montserratbold";
@@ -370,14 +375,14 @@ nav.navbar {
     text-transform: uppercase;
 }
 
-.about_us_content > a span {
+.about_us_content>a span {
     padding-left: 10px;
 }
 
 .couter_up_area {
     height: 330px;
     position: relative;
-    background: url(img/count_up.jpg) no-repeat center center / cover;
+    background: url(../welcome/images/slider/logistics.png) no-repeat center center / cover;
 }
 
 .couter_up_area:before {
@@ -390,13 +395,13 @@ nav.navbar {
     height: 100%;
 }
 
-.single_count > h1 {
+.single_count>h1 {
     color: #f9bf3b;
     font-size: 60px;
     font-family: "montserratbold";
 }
 
-.single_count > h5 {
+.single_count>h5 {
     color: #fff;
     font-family: 'montserratlight';
     font-size: 16px;
@@ -421,7 +426,7 @@ nav.navbar {
     padding: 100px 0;
 }
 
-.calculate_title > h2 {
+.calculate_title>h2 {
     color: #000000;
     text-transform: uppercase;
     font-family: "montserratbold";
@@ -472,7 +477,7 @@ nav.navbar {
     padding-left: 10px;
 }
 
-.single_calculate > input {
+.single_calculate>input {
     border: none;
     display: inline-block;
     height: 100%;
@@ -483,7 +488,7 @@ nav.navbar {
     width: 207px;
 }
 
-.single_calculate input:focus + label {
+.single_calculate input:focus+label {
     background-color: #f9bf3b;
 }
 
@@ -530,7 +535,7 @@ nav.navbar {
     left: -50%;
 }
 
-.single_calculate.addcolor > label {
+.single_calculate.addcolor>label {
     background: #f9bf3b none repeat scroll 0 0;
 }
 
@@ -569,11 +574,11 @@ nav.navbar {
     color: #22313f
 }
 
-.totla-cost > h5 {
+.totla-cost>h5 {
     line-height: 25px;
 }
 
-.totla-cost > h5 span {
+.totla-cost>h5 span {
     text-transform: uppercase;
     padding-left: 25px;
     color: #f9bf3b
@@ -591,7 +596,7 @@ nav.navbar {
     padding: 100px 0;
 }
 
-.slients-title > h2 {
+.slients-title>h2 {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -617,14 +622,14 @@ nav.navbar {
     font-size: 14px;
 }
 
-.client-details > h4 span {
+.client-details>h4 span {
     display: block;
     font-size: 12px;
     line-height: 22px;
     font-family: 'montserratlight';
 }
 
-.client-details > h4 {
+.client-details>h4 {
     font-size: 18px;
     font-family: "montserratbold";
 }
@@ -664,7 +669,7 @@ nav.navbar {
     margin-bottom: 35px;
 }
 
-.title > h2 {
+.title>h2 {
     color: #000000;
     font-family: "montserratbold";
     font-size: 28px;
@@ -748,11 +753,13 @@ span.pricing-status {
 .main-pos .single-pricing-table .price-btn {
     background-color: #f9690e;
 }
+
 .price-btn:hover {
-  background: white none repeat scroll 0 0 !important;
-  border: 1px solid #eee;
-  color: #f9690e !important;
+    background: white none repeat scroll 0 0 !important;
+    border: 1px solid #eee;
+    color: #f9690e !important;
 }
+
 .pricing-area .main-pos {
     background: #fff none repeat scroll 0 0;
     box-shadow: 0 0 24px 2px rgba(0, 0, 0, 0.14);
@@ -773,7 +780,7 @@ span.pricing-status {
     text-align: center;
 }
 
-.items.slides.main-pos .price > p {
+.items.slides.main-pos .price>p {
     color: #f9690e;
 }
 
@@ -854,9 +861,11 @@ div.slider-navs {
     top: 33%;
     width: 650px;
 }
-.carousel{
+
+.carousel {
     position: static;
 }
+
 div.slider-navs div {
     background: #000 none repeat scroll 0 0;
     border-radius: 50%;
@@ -978,7 +987,7 @@ video#bgvid {
     padding: 70px 0;
 }
 
-.single-footer > h2 {
+.single-footer>h2 {
     color: #fff;
     font-size: 22px;
     margin-bottom: 20px;
@@ -1034,7 +1043,7 @@ video#bgvid {
     color: #f9bf3b;
 }
 
-.list > li a {
+.list>li a {
     color: #fff;
     line-height: 25px;
     text-transform: capitalize;
@@ -1188,7 +1197,7 @@ ul.breadcrumbs li {
     text-transform: capitalize;
 }
 
-.about_us_content_title > h2 {
+.about_us_content_title>h2 {
     margin-bottom: 5px;
     text-transform: uppercase;
     color: #111;
@@ -1214,7 +1223,7 @@ ul.breadcrumbs li {
     padding-top: 30px;
 }
 
-.pricing-title > h1 {
+.pricing-title>h1 {
     color: #222;
     font-weight: 700;
     margin-bottom: 15px;
@@ -1245,7 +1254,7 @@ ul.breadcrumbs li {
     color: #222;
 }
 
-.order-buton > a {
+.order-buton>a {
     background: #f9bf3b none repeat scroll 0 0;
     border-radius: 3px;
     color: #fff;
@@ -1324,7 +1333,7 @@ ul.breadcrumbs li {
     color: #f9bf3b
 }
 
-.google-map > div {
+.google-map>div {
     height: 400px;
     margin-top: 60px;
     width: 100%;
@@ -1341,9 +1350,12 @@ ul.breadcrumbs li {
     background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;
 }
 
-.pricing-area .single-pricing-table.slick-slide:focus, .single_calculate input:focus, .single_calculate select:focus {
-outline: none;
+.pricing-area .single-pricing-table.slick-slide:focus,
+.single_calculate input:focus,
+.single_calculate select:focus {
+    outline: none;
 }
+
 .single-footer .form-control:focus {
-box-shadow: none;
+    box-shadow: none;
 }

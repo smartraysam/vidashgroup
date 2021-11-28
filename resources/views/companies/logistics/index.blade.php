@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fast Delivery</title>
+    <title>Reaching your client globally | Vidash Logistics</title>
     <!--  bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
         integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -24,7 +24,7 @@
     <link href="{{ asset('logistic/css/jquery.mb.YTPlayer.min.css') }}" rel="stylesheet">
     <!--  style css  -->
     <link rel="stylesheet" href="{{ asset('logistic/css/meanmenu.css') }}">
-    <link href="{{ asset('logistic/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('logistic/style.css?v=1') }}" rel="stylesheet">
     <!--  Responsive Css  -->
     <link href="{{ asset('logistic/css/responsive.css') }}" rel="stylesheet">
 
@@ -45,7 +45,7 @@
                 <div class="row">
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-6">
                         <div class="logo">
-                            <a href="{{ route('index') }}"><img width="172px" height="37px"
+                            <a href="#home"><img width="180px" height="60px"
                                     src="{{ asset('logistic/img/logo.jpg') }}" alt="logo"></a>
                         </div>
                     </div>
@@ -53,12 +53,12 @@
                         <nav class="navbar">
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <ul class="nav navbar-nav navbar-right menu">
-                                <li class="current-menu-item"><a href="{{ route('logistics') }}">home</a>
+                                <li class="current-menu-item"><a href="#home">home</a>
                                 </li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">pricing</a></li>
-                                <li><a href="#">contact</a></li>
+                                <li><a href="#about">about</a></li>
+                                <li><a href="#services">services</a></li>
+                                <li><a href="#pricing">pricing</a></li>
+                                <li><a href="#contact">contact</a></li>
                             </ul>
                             <!-- /.navbar-collapse -->
                         </nav>
@@ -114,8 +114,8 @@
                                 <h1>Get the fastest service </h1>
                                 <h1>for your product</h1>
                                 <div class="welcome_p">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam </p>
-                                    <p>nibh euismod tincidunt ut laoreet dolore magna.</p>
+                                    <p>Moving your product , good and service has been made easier </p>
+                                    <p>with our moderm fast tracking logistic system.</p>
                                 </div>
                                 <div class="welcome_form">
                                     <form action="#">
@@ -143,7 +143,7 @@
                             <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
-                            <h4>Fastest Delivery</h4>
+                            <h4>Fastest Processing</h4>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                             <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
-                            <h4>Fastest Delivery</h4>
+                            <h4>Realtime Tracking</h4>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                 </div>
                 <div class="col-md-offset-1 col-sm-6 col-md-5">
                     <div class="about_car">
-                        <img width="541px" height="218px" src="{{ asset('logistic/img/vidashlogistics.jpg') }}" alt="car">
+                        <img width="541px" height="218px" src="{{ asset('logistic/img/logo.jpg') }}" alt="car">
                     </div>
                 </div>
             </div>
@@ -325,8 +325,6 @@
             <img src="{{ asset('logistic/img/men.png') }}" alt="#">
         </div>
     </section>
-    <!--    end of calculate area-->
-
 
     <!--    start client say area-->
     <section class="client-area" id="blog">

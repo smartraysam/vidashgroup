@@ -2,1258 +2,965 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>We are passionate in building and creating valued shelters and homes | Vidash Shelter</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
+    <meta name="keywords" content="">
     <meta name="author" content="">
-    <title> We are passionate in creating & Developing Property Values.| Vidash Group</title>
-    <!-- core CSS -->
-    <link href="{{ asset('welcome/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('welcome/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('welcome/css/animate.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('welcome/css/owl.carousel.css') }}" rel="stylesheet">
-    <link href="{{ asset('welcome/css/owl.transitions.css') }}" rel="stylesheet">
-    <link href="{{ asset('welcome/css/prettyPhoto.css') }}" rel="stylesheet">
-    <link href="{{ asset('welcome/css/main.css?v=2') }}" rel="stylesheet">
-    <link href="{{ asset('welcome/css/responsive.css?v=1') }}" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="{{ asset('welcome/images/favicon.ico') }}">
-    {{-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> --}}
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{asset('buildshelter/css/bootstrap.min.css')}}" type="text/css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{asset('buildshelter/js/owl-carousel/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{asset('buildshelter/js/owl-carousel/owl.theme.css')}}">
+    <link rel="stylesheet" href="{{asset('buildshelter/js/owl-carousel/owl.transitions.css')}}">
+    <link rel="stylesheet" href="{{asset('buildshelter/js/rs-plugin/css/settings.css')}}">
+    <link rel="stylesheet" href="{{asset('buildshelter/js/flexslider/flexslider.css')}}">
+    <link rel="stylesheet" href="{{asset('buildshelter/js/isotope/isotope.css')}}">
+    <link rel="stylesheet" href="{{asset('buildshelter/css/jquery-ui.css')}}">
+    <link rel="stylesheet" href="{{asset('buildshelter/js/magnific-popup/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('buildshelter/css/style.css')}}">
+
+    <!-- Google Fonts -->
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900' rel='stylesheet'
+        type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800' rel='stylesheet'
+        type='text/css'>
+
+    <!-- Icon Fonts -->
+    <link rel="stylesheet" href="{{asset('buildshelter/css/icomoon/style.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('buildshelter/font-awesome/css/font-awesome.min.css')}}" type="text/css">
+
+    <!-- SKIN -->
+    <link rel="stylesheet" href="{{asset('buildshelter/css/color-scheme/yellow.css')}}" type="text/css">
 </head>
-<!--/head-->
 
-<body id="home" class="homepage">
+<body>
 
-    <header id="header">
-        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="{{route('index')}}"><img width="120px" height="40px"
-                            src="{{ asset('welcome/images/logo.jpg') }}" alt="logo"></a>
-                </div>
+    <div class="outer-wrapper">
+        <div id="page-top"></div>
 
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">Home</a></li>
-                        <li class="scroll"><a href="#features">Our Companies</a></li>
-                        <li class="scroll"><a href="#services">Services</a></li>
-                        <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-                        <li class="scroll"><a href="#about">About</a></li>
-                        {{-- <li class="scroll"><a href="#meet-team">Team</a></li>
-                        <li class="scroll"><a href="#pricing">Pricing</a></li>
-                        <li class="scroll"><a href="#blog">Blog</a></li> --}}
-                        <li class="scroll"><a href="#get-in-touch">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!--/.container-->
-        </nav>
-        <!--/nav-->
-    </header>
-    <!--/header-->
-
-    <section id="main-slider">
-        <div class="owl-carousel">
-            <div class="item" style="background-image: url(welcome/images/slider/shelter.jpg);">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h2><span>VIDASH SHELTER</span> bringsyou the value for you money</h2>
-                                    <p style="font-size: 20px; ">We ensure that our clients have value for their money.Our estate are tailored to deliver value to clients. </p>
-                                    <a class="btn btn-primary btn-lg" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.item-->
-            <div class="item" style="background-image: url(welcome/images/slider/bg1.jpg);">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h2>Beautifully designed <span> use </span> Vidash paint </h2>
-                                    <p style="font-size: 20px">Our quality paint product bring life to your creativity. </p>
-                                    <a class="btn btn-primary btn-lg" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(welcome/images/slider/logistics.png);">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6" style="margin-top: 50px">
-                                <div class="carousel-content" style="color: black">
-                                    <h2 style="color:black"></h2>
-                                    <p style="font-size: 20px">Moving your goods and service, secured and safely </p>
-                                    <a class="btn btn-primary btn-lg" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.item-->
-        </div>
-        <!--/.owl-carousel-->
-    </section>
-    <!--/#main-slider-->
-    <section id="work-process" class="wow fadein" style="background: #eeeeee !important; color: #d98d01 !important">
-        <div class="container">
-            <div class="row text-center" style="width: 100%">
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <div class="row">
-                            <div class="col-4">
-                                <h3 style="color: black; margin-bottom: 10px">OUR MISSION</h3>
-                                <div class="icon-circle"
-                                    style="width: 120px;height: 120px; border: 4px solid #d98d01">
-                                    <i class="fa fa-space-shuttle fa-3x" style="margin-top: 25%"></i>
-                                </div>
-                            </div>
-                            <div class="col-8" style="margin-top:10px ">
-                                <p style="color: black; font-size: 18px">
-                                    To increase our property portfolio, expand our client base while delivering smart
-                                    homes with the best living amenities.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
-                        <div class="row">
-                            <div class="col-4">
-                                <h3 style="color: black; margin-bottom: 10px">OUR VISION</h3>
-                                <div class="icon-circle"
-                                    style="width: 120px;height: 120px; border: 4px solid #d98d01">
-                                    <i class="fa fa-eye fa-3x" style="margin-top: 25%"></i>
-                                </div>
-                            </div>
-                            <div class="col-8" style="margin-top:10px ">
-                                <p style="color: black; font-size: 18px">
-                                    Ensure optimum returns to our stake holders while solving the Pan-African housing
-                                    deficit.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!--/#cta-->
-
-    <section id="features">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Our Awesome Companies</h2>
-                <p class="text-center wow fadeInDown">Vidash Group of Companies has the following world class companies
-                    offering you the best service:</p>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeft" style="margin-top: 25%">
-                    <img class="img-responsive" src="{{ asset('welcome/images/logo.jpg') }}" alt="">
-                </div>
-                <div class="col-sm-6">
-                    <div class="media service-box wow fadeInRight">
-                        <div class="pull-left">
-                            <i>
-                                <a href="#">
-                                    <img src="{{ asset('welcome/images/vidashshelter.jpg') }}" width="70px"
-                                        height="70px" alt="">
-                                </a>
-                            </i>
-                        </div>
-                        <div class="media-body">
-                            <a href="#">
-                                <h4 class="media-heading">Vidash City Shelters Ltd</h4>
-                            </a>
-                            <p>This is our property development company focused on premiering the integration of
-                                creatively innovative technology and professionalism
-                                into property development using sustainable methods.</p>
-                                <a href="#" class="btn">Learn more</a>
-                        </div>
-                    </div>
-
-                    <div class="media service-box wow fadeInRight">
-                        <div class="pull-left">
-                            <i>
-                                <a href="#">
-                                    <img src="{{ asset('welcome/images/vidashproperty.jpg') }}" width="70px"
-                                        height="70px" alt="">
-                                </a>
-                            </i>
-                        </div>
-                        <div class="media-body">
-                            <a href="#">
-                                <h4 class="media-heading">Vidash Properties Ltd</h4>
-                            </a>
-                            <p>This is our property development company focused on premiering the integration of
-                                creatively innovative technology and professionalism
-                                into property development using sustainable methods.</p>
-                                <a href="#" class="btn">Learn more</a>
-                        </div>
-                    </div>
-
-                    <div class="media service-box wow fadeInRight">
-                        <div class="pull-left">
-                            <i>
-                                <a href="#">
-                                    <img src="{{ asset('welcome/images/vidashpaint.jpg') }}" width="70px"
-                                        height="40px" alt="">
-                                </a>
-                            </i>
-                        </div>
-                        <div class="media-body">
-                            <a href="#">
-                                <h4 class="media-heading">Vidash Paints Ltd</h4>
-                            </a>
-                            <p>This is our property development company focused on premiering the integration of
-                                creatively innovative technology and professionalism
-                                into property development using sustainable methods.</p>
-                                <a href="#" class="btn">Learn more</a>
-                        </div>
-                    </div>
-
-                    <div class="media service-box wow fadeInRight">
-                        <div class="pull-left">
-                            <i>
-                                <a href="#">
-                                    <img src="{{ asset('welcome/images/vidashlogistics.jpg') }}" width="70px"
-                                        height="70px" alt="">
-                                </a>
-                            </i>
-                        </div>
-                        <div class="media-body">
-                            <a href="#">
-                                <h4 class="media-heading">Vidash Logistics Ltd </h4>
-                            </a>
-                            <p>Our Logistics company plan, implement, and control the movement and storage of your goods, services, or information within a given supply chain
-                                and between the points of origin and consumption with our advance technologcal tracking and reporting system.</p>
-                                <a href="#" class="btn">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="cta2">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms"><span>PAINT</span> IS TO BEAUTIFY YOUR
-                    CREATIVE</h2>
-                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">We give the best quality of paint.</p>
-                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a
-                        class="btn btn-primary btn-lg" href="#">Learn more about our paint products</a></p>
-                <img class="img-responsive wow fadeIn" src="images/cta2/cta2-img.png" alt="" data-wow-duration="300ms"
-                    data-wow-delay="300ms">
-            </div>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Our Services</h2>
-                <p class="text-center wow fadeInDown">We render world class services to our customers. Our service include all offered by our companies but not limited to:</p>
-            </div>
-
-            <div class="row">
-                <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                            <i class="fa fa-home" aria-hidden="true"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Real Estate Services</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform
-                                    that fosters greater</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-cubes"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Logistics</h4>
-                                <p>Our world class logistic service help you in moving your good and services safely and secure using moderm advenced technolgy.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bar-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Properties Development</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform
-                                    that fosters greater</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-paint-brush"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Paint Manaufacturing and Sale</h4>
-                                <p>Our world class paint manufacturing factory produces quality paint products </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-building" aria-hidden="true"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Facility Management</h4>
-                                <p>We deliver world class Integrated Building Maintenance & Management Services using our local team of experts & professionals,
-                                     leveraging our local and international partners. We ensure your facilities are managed and well maintained.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-users"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Consultancy
-                                </h4>
-                                <p>We are capable of advising clients on the value of their property assets for all purposes and commissioning valuation reports when needed.
-                                    We also prepare feasibility and viability reports for proposed developments and offer consultancy services as project managers .</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-md-4-->
-                </div>
-            </div>
-            <!--/.row-->
-        </div>
-        <!--/.container-->
-    </section>
-    <!--/#services-->
-
-    <section id="portfolio">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Our Works</h2>
-                <p class="text-center wow fadeInDown">Our work speaks for us.</p>
-            </div>
-
-            <div class="text-center">
-                <ul class="portfolio-filter">
-                    <li><a class="active" href="#" data-filter="*">All Works</a></li>
-                    <li><a href="#" data-filter=".shelter">Vidash Shelter</a></li>
-                    <li><a href="#" data-filter=".properties">Vidash Properties</a></li>
-                    <li><a href="#" data-filter=".paint">Vidash Paint</a></li>
-                    <li><a href="#" data-filter=".logistics">Vidash Logistics</a></li>
-                </ul>
-                <!--/#portfolio-filter-->
-            </div>
-
-            <div class="portfolio-items">
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="{{ asset('welcome/images/portfolio/01.jpg') }}" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 1</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i
-                                    class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.portfolio-item-->
-
-                <div class="portfolio-item corporate portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 2</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i
-                                    class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.portfolio-item-->
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 3</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i
-                                    class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.portfolio-item-->
-
-                <div class="portfolio-item corporate">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/04.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 4</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i
-                                    class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.portfolio-item-->
-
-                <div class="portfolio-item creative portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/05.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 5</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i
-                                    class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.portfolio-item-->
-
-                <div class="portfolio-item corporate">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/06.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 5</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i
-                                    class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.portfolio-item-->
-
-                <div class="portfolio-item creative portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/07.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 7</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i
-                                    class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.portfolio-item-->
-
-                <div class="portfolio-item corporate">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/08.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 8</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i
-                                    class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.portfolio-item-->
-            </div>
-        </div>
-        <!--/.container-->
-    </section>
-    <!--/#portfolio-->
-
-    <section id="about">
-        <div class="container">
-
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">About Us</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeft">
-                    <h3 class="column-title">Video Intro</h3>
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe
-                            src="//player.vimeo.com/video/58093852?title=0&amp;byline=0&amp;portrait=0&amp;color=e79b39"
-                            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 wow fadeInRight">
-                    <h3 class="column-title">Multi Capability</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.</p>
-
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <ul class="nostyle">
-                                <li><i class="fa fa-check-square"></i> Ipsum is simply dummy</li>
-                                <li><i class="fa fa-check-square"></i> When an unknown</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <ul class="nostyle">
-                                <li><i class="fa fa-check-square"></i> The printing and typesetting</li>
-                                <li><i class="fa fa-check-square"></i> Lorem Ipsum has been</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <a class="btn btn-primary" href="#">Learn More</a>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/#about-->
-
-    <section id="work-process">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Our Process</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <div class="icon-circle">
-                            <span>1</span>
-                            <i class="fa fa-coffee fa-2x"></i>
-                        </div>
-                        <h3>MEET</h3>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                        <div class="icon-circle">
-                            <span>2</span>
-                            <i class="fa fa-bullhorn fa-2x"></i>
-                        </div>
-                        <h3>PLAN</h3>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="icon-circle">
-                            <span>3</span>
-                            <i class="fa fa-image fa-2x"></i>
-                        </div>
-                        <h3>DESIGN</h3>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                        <div class="icon-circle">
-                            <span>4</span>
-                            <i class="fa fa-heart fa-2x"></i>
-                        </div>
-                        <h3>DEVELOP</h3>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
-                        <div class="icon-circle">
-                            <span>5</span>
-                            <i class="fa fa-shopping-cart fa-2x"></i>
-                        </div>
-                        <h3>TESTING</h3>
-                    </div>
-                </div>
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
-                        <div class="icon-circle">
-                            <span>6</span>
-                            <i class="fa fa-space-shuttle fa-2x"></i>
-                        </div>
-                        <h3>LAUNCH</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/#work-process-->
-
-    <section id="meet-team">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Meet The Team</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4 col-xs-6 team-column col-md-3">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/02.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Jane Man</h3>
-                            <span>Project Manager</span>
-                        </div>
-                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
-                            fosters greater</p>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 team-column col-md-3">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/03.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Pahlwan</h3>
-                            <span>Designer</span>
-                        </div>
-                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
-                            fosters greater</p>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 team-column col-md-3">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/04.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Nasir uddin</h3>
-                            <span>UI/UX</span>
-                        </div>
-                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
-                            fosters greater</p>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 team-column col-md-3">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/01.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Bin Burhan</h3>
-                            <span>Co-Founder</span>
-                        </div>
-                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
-                            fosters greater</p>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="divider"></div>
-
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-30">
-                    <h3 class="column-title">Our Skills</h3>
-                    <strong>GRAPHIC DESIGN</strong>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" data-width="85">85%</div>
-                    </div>
-                    <strong>WEB DESIGN</strong>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" data-width="70">70%</div>
-                    </div>
-                    <strong>WORDPRESS DEVELOPMENT</strong>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" data-width="90">90%</div>
-                    </div>
-                    <strong>JOOMLA DEVELOPMENT</strong>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-primary" role="progressbar" data-width="65">65%</div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-30">
-                    <h3 class="column-title">Our History</h3>
-                    <div role="tabpanel">
-                        <ul class="nav main-tab nav-justified" role="tablist">
-                            <li role="presentation" class="active">
-                                <a href="#tab1" role="tab" data-toggle="tab" aria-controls="tab1"
-                                    aria-expanded="true">2010</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab2" role="tab" data-toggle="tab" aria-controls="tab2"
-                                    aria-expanded="false">2011</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab3" role="tab" data-toggle="tab" aria-controls="tab3"
-                                    aria-expanded="false">2013</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab4" role="tab" data-toggle="tab" aria-controls="tab4"
-                                    aria-expanded="false">2014</a>
-                            </li>
-                        </ul>
-                        <div id="tab-content" class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade active in" id="tab1" aria-labelledby="tab1">
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                                    letters readable English.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab2" aria-labelledby="tab2">
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                                    letters readable English.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab3" aria-labelledby="tab3">
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                                    letters readable English.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab4" aria-labelledby="tab3">
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                                    letters readable English.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-30">
-                    <h3 class="column-title">Faqs</h3>
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne">
-                                        Enim eiusmod high life accusamus
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
-                                aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-                                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Nihil anim keffiyeh helvetica
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-                                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Vegan excepteur butcher vice lomo
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                    brunch. Food truck quinoa nesciunt laborum.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!--/#meet-team-->
-
-    <section id="animated-number">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Fun Facts</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <div class="animated-number" data-digit="2305" data-duration="1000"></div>
-                        <strong>CUPS OF COFFEE CONSUMED</strong>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                        <div class="animated-number" data-digit="1231" data-duration="1000"></div>
-                        <strong>CLIENT WORKED WITH</strong>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="animated-number" data-digit="3025" data-duration="1000"></div>
-                        <strong>PROJECT COMPLETED</strong>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                        <div class="animated-number" data-digit="1199" data-duration="1000"></div>
-                        <strong>QUESTIONS ANSWERED</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/#animated-number-->
-
-    <section id="pricing">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Pricing Table</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        $39
-                                    </span>
-                                    <span class="duration">
-                                        per month
-                                    </span>
-                                </div>
-
-                                <div class="plan-name">
-                                    Starter
-                                </div>
-                            </li>
-                            <li><strong>1</strong> DOMAIN</li>
-                            <li><strong>100GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>10</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">ORDER NOW</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        $69
-                                    </span>
-                                    <span class="duration">
-                                        per month
-                                    </span>
-                                </div>
-
-                                <div class="plan-name">
-                                    Business
-                                </div>
-                            </li>
-                            <li><strong>3</strong> DOMAIN</li>
-                            <li><strong>300GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>30</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li class="plan-purchase"><a class="btn btn-default" href="#">ORDER NOW</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
-                        <ul class="pricing featured">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        $99
-                                    </span>
-                                    <span class="duration">
-                                        per month
-                                    </span>
-                                </div>
-
-                                <div class="plan-name">
-                                    Pro
-                                </div>
-                            </li>
-                            <li><strong>5</strong> DOMAIN</li>
-                            <li><strong>500GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>50</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">ORDER NOW</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        $199
-                                    </span>
-                                    <span class="duration">
-                                        per month
-                                    </span>
-                                </div>
-
-                                <div class="plan-name">
-                                    Ultra
-                                </div>
-                            </li>
-                            <li><strong>10</strong> DOMAIN</li>
-                            <li><strong>1000GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>100</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">ORDER NOW</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/#pricing-->
-
-    <section id="testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-
-                    <div id="carousel-testimonial" class="carousel slide text-center" data-ride="carousel">
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <p><img class="img-circle img-thumbnail" src="images/testimonial/01.jpg" alt=""></p>
-                                <h4>Louise S. Morgan</h4>
-                                <small>Treatment, storage, and disposal (TSD) worker</small>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            </div>
-                            <div class="item">
-                                <p><img class="img-circle img-thumbnail" src="images/testimonial/01.jpg" alt=""></p>
-                                <h4>Louise S. Morgan</h4>
-                                <small>Treatment, storage, and disposal (TSD) worker</small>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <div class="btns">
-                            <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button"
-                                data-slide="prev">
-                                <span class="fa fa-angle-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button"
-                                data-slide="next">
-                                <span class="fa fa-angle-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/#testimonial-->
-
-    <section id="blog">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Latest Blogs</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img class="img-responsive" src="images/blog/01.jpg" alt="">
-                                    <span class="post-format post-format-video"><i class="fa fa-film"></i></span>
-                                </div>
-                                <div class="entry-date">25 November 2014</div>
-                                <h2 class="entry-title"><a href="#">While now the fated Pequod had been so long
-                                        afloat this</a></h2>
-                            </header>
-
-                            <div class="entry-content">
-                                <p>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then
-                                    handing to the mate the long iron rod remaining, bade him hold it upright, without
-                                    its touching off the steel head of the lance, and then handing to the mate the long
-                                    iron rod remaining. without its touching off the steel without its touching off the
-                                    steel</p>
-                                <a class="btn btn-primary" href="#">Read More</a>
-                            </div>
-
-                            <footer class="entry-meta">
-                                <span class="entry-author"><i class="fa fa-pencil"></i> <a
-                                        href="#">Victor</a></span>
-                                <span class="entry-category"><i class="fa fa-folder-o"></i> <a
-                                        href="#">Tutorial</a></span>
-                                <span class="entry-comments"><i class="fa fa-comments-o"></i> <a
-                                        href="#">15</a></span>
-                            </footer>
-                        </article>
-                    </div>
-                </div>
-                <!--/.col-sm-6-->
-                <div class="col-sm-6">
-                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <article class="media clearfix">
-                            <div class="entry-thumbnail pull-left">
-                                <img class="img-responsive" src="images/blog/02.jpg" alt="">
-                                <span class="post-format post-format-gallery"><i class="fa fa-image"></i></span>
-                            </div>
-                            <div class="media-body">
-                                <header class="entry-header">
-                                    <div class="entry-date">01 December 2014</div>
-                                    <h2 class="entry-title"><a href="#">BeReviews was a awesome envent in dhaka</a>
-                                    </h2>
-                                </header>
-
-                                <div class="entry-content">
-                                    <p>With a blow from the top-maul Ahab knocked off the steel head of the lance, and
-                                        then handing to the steel</p>
-                                    <a class="btn btn-primary" href="#">Read More</a>
-                                </div>
-
-                                <footer class="entry-meta">
-                                    <span class="entry-author"><i class="fa fa-pencil"></i> <a
-                                            href="#">Campbell</a></span>
-                                    <span class="entry-category"><i class="fa fa-folder-o"></i> <a
-                                            href="#">Tutorial</a></span>
-                                    <span class="entry-comments"><i class="fa fa-comments-o"></i> <a
-                                            href="#">15</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <article class="media clearfix">
-                            <div class="entry-thumbnail pull-left">
-                                <img class="img-responsive" src="images/blog/03.jpg" alt="">
-                                <span class="post-format post-format-audio"><i class="fa fa-music"></i></span>
-                            </div>
-                            <div class="media-body">
-                                <header class="entry-header">
-                                    <div class="entry-date">03 November 2014</div>
-                                    <h2 class="entry-title"><a href="#">Play list of old bangle music and gajal</a>
-                                    </h2>
-                                </header>
-
-                                <div class="entry-content">
-                                    <p>With a blow from the top-maul Ahab knocked off the steel head of the lance, and
-                                        then handing to the steel</p>
-                                    <a class="btn btn-primary" href="#">Read More</a>
-                                </div>
-
-                                <footer class="entry-meta">
-                                    <span class="entry-author"><i class="fa fa-pencil"></i> <a
-                                            href="#">Ruth</a></span>
-                                    <span class="entry-category"><i class="fa fa-folder-o"></i> <a
-                                            href="#">Tutorial</a></span>
-                                    <span class="entry-comments"><i class="fa fa-comments-o"></i> <a
-                                            href="#">15</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="get-in-touch">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Get in Touch</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-        </div>
-    </section>
-    <!--/#get-in-touch-->
-
-
-    <section id="contact">
-        <div id="google-map" style="height:650px" data-latitude="52.365629" data-longitude="4.871331"></div>
-        <div class="container-wrapper">
+        <!-- TOPBAR -->
+        <div id="top-bar" class="hidden-xs hidden-sm">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-md-offset-8 col-sm-6 col-sm-offset-6">
-                        <div class="contact-form">
-                            <h3>Contact Info</h3>
+                    <div class="col-md-12">
+                        <div class="top-bar-content">
+                            <p>Have any questions? <span></span><i class="icon-mobile2"></i> (33) 2222-33-24
+                                <span></span>&bull;<span></span> <i class="icon-mail3"></i> Mail us - <a
+                                    href="#">mail@ckthemes.com</a></p>
+                        </div>
+                        <div class="nav-social-icons">
+                            <ul class="social-icons">
+                                <li class="facebook">
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-facebook"></i><i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="twitter">
+                                    <a href="http://twitter.com" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="google-plus">
+                                    <a href="http://google.com" target="_blank">
+                                        <i class="fa fa-google-plus"></i>
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li class="flickr">
+                                    <a href="http://flickr.com" target="_blank">
+                                        <i class="fa fa-flickr"></i>
+                                        <i class="fa fa-flickr"></i>
+                                    </a>
+                                </li>
+                                <li class="pinterest">
+                                    <a href="http://pinterest.com" target="_blank">
+                                        <i class="fa fa-pinterest"></i>
+                                        <i class="fa fa-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="http://instagram.com" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
 
-                            <address>
-                                <strong>Twitter, Inc.</strong><br>
-                                795 Folsom Ave, Suite 600<br>
-                                San Francisco, CA 94107<br>
-                                <abbr title="Phone">P:</abbr> (123) 456-7890
-                            </address>
-
-                            <form id="main-contact-form" name="contact-form" method="post" action="#">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Name" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" placeholder="Email"
-                                        required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="subject" class="form-control" placeholder="Subject"
-                                        required>
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" class="form-control" rows="8" placeholder="Message"
-                                        required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Send Message</button>
-                            </form>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--/#bottom-->
-    <!--//container-->
-    </footer>
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; <?php echo date('Y'); ?> Vidash Group of Company. All Rights Reserved.
+
+        <!-- HEADER -->
+        <header id="header-main">
+            <div class="container">
+                <div class="navbar yamm navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1"
+                            class="navbar-toggle">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand"><img src="{{asset('welcome/images/vidashshelter.jpg')}}" width="180" height="80"
+                                alt="" /></a>
+                    </div>
+
+                    <!-- CART / SEARCH -->
+                    <div class="header-x pull-right">
+                        <div class="s-cart">
+                            <div class="sc-trigger"><i class="icon-bag"></i><span>2</span></div>
+                            <div class="cart-info">
+                                <small>You have <em class="highlight">2 item(s)</em> in your shopping bag</small>
+                                <br>
+                                <br>
+                                <div class="ci-item">
+                                    <img src="images/shop/2.jpg" width="70" alt="" />
+                                    <div class="ci-item-info">
+                                        <h5><a href="shop-single-right.html">Product fashion</a></h5>
+                                        <p>2 x $250.00</p>
+                                        <div class="ci-edit">
+                                            <a href="#" class="edit fa fa-edit"></a>
+                                            <a href="#" class="edit fa fa-trash"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ci-item">
+                                    <img src="images/shop/8.jpg" width="70" alt="" />
+                                    <div class="ci-item-info">
+                                        <h5><a href="shop-single-right.html">Product fashion</a></h5>
+                                        <p>2 x $250.00</p>
+                                        <div class="ci-edit">
+                                            <a href="#" class="edit fa fa-edit"></a>
+                                            <a href="#" class="edit fa fa-trash"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ci-total">Subtotal: $750.00</div>
+                                <div class="cart-btn">
+                                    <a href="shop-cart.html">View Bag</a>
+                                    <a href="shop_checkout.html">Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="navbar-collapse-1" class="navbar-collapse collapse navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+
+
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                    Services </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="interior-renovation.html">Interior Renovation</a></li>
+                                    <li><a href="household-repairs.html">Household Repairs</a></li>
+                                    <li><a href="house-renovation.html">House Renovation</a></li>
+                                    <li><a href="metal-roofing.html">Metal Roofing</a></li>
+                                    <li><a href="tiles-painting.html">Tiling and Painting</a></li>
+                                    <li><a href="solar-systems.html">Solar Systems</a></li>
+                                    <li><a href="general-contracting.html">General Contracting</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                    Projects </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="project-2-col.html">Project 2 Col</a></li>
+                                    <li><a href="project-3col.html">Project 3 Col</a></li>
+                                    <li><a href="project-4-col.html">Project 4 Col</a></li>
+                                    <li><a href="project-single.html">Project Single</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                    Pages </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="about.html">About Company</a></li>
+                                    <li><a href="404.html">404 Not Found</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="project-single.html">Project Single</a></li>
+                                    <li><a href="careers.html">Careers</a></li>
+                                    <li><a href="support.html">Support</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                    Blog </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li class="dropdown-submenu">
+                                        <a href="blog-2column.html">Blog 2 Column</a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="blog-3column.html">Blog 3 Column</a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="blog-left-sidbar.html">Blog with Left Sidebar</a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="blog-right-sidebar.html">Blog with Right Sidebar</a>
+                                    </li>
+
+                                    <li class="dropdown-submenu">
+                                        <a href="blog-single.html">Blog Single</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="contact.html">
+                                    Contact </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                        <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+            </div>
+        </header>
+
+        <!-- SLIDER -->
+
+        <div class="slider-wrap">
+            <div class="tp-banner-container">
+                <div class="tp-banner">
+                    <ul>
+                        <!-- SLIDE  -->
+                        <!-- SLIDE  -->
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-saveperformance="on"
+                            data-title="Ken Burns Slide">
+                            <!-- MAIN IMAGE -->
+                            <img src="{{asset('welcome/images/slider/gate2.jpg')}}" alt="2" data-lazyload="{{asset('welcome/images/slider/gate2.jpg')}}"
+                                data-bgposition="right top" data-kenburns="on" data-duration="12000"
+                                data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100"
+                                data-bgpositionend="center bottom">
+                            <!-- LAYERS -->
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption small_text ss-bg-color customin tp-resizeme rs-parallaxlevel-0"
+                                data-x="center" data-y="360"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="500" data-start="2600" data-easing="Power3.easeInOut" data-splitin="none"
+                                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;   width: 150px !important;
+       height: 5px !important;
+       background: #8DC73F ;
+       ">
+                                <p class="line white"></p>
+                            </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0 center-align"
+                                data-x="center" data-y="215"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="500" data-start="2200" data-easing="Power3.easeInOut" data-splitin="none"
+                                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;  color: #222222;
+       text-shadow: none;
+       font-size: 60px;
+       line-height: 60px;
+       font-weight: 900;
+       background-color: none;
+       text-decoration: none;
+       font-family:Open Sans, sans-serif;
+       text-transform: uppercase;
+       border-width: 0px;
+       color: #fff;
+       text-align:center;
+       border-color: transparent;
+       border-style: none;
+       letter-spacing: -2px;
+       "><span>We build not homes, we build<br> your dream palace</span>
+                            </div>
+                            <!-- LAYER NR. 5 -->
+                            <div class="tp-caption small_text lfr tp-resizeme rs-parallaxlevel-0" data-x="center"
+                                data-y="385"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="500" data-start="3000" data-easing="Power3.easeInOut" data-splitin="none"
+                                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;  position: absolute;
+       color: #222222;
+       text-shadow: none;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 20px;
+       margin: 0px;
+       border-width: 0px;
+       font-family:Open Sans, sans-serif;
+       text-transform: uppercase;
+       white-space: nowrap;
+       color: #fff;
+       letter-spacing: 1.8px;
+       "><span>Create UNLIMITED portfolios and showcase them ANYWHERE</span>
+                            </div>
+                            <!-- LAYER NR. 6 -->
+                            <a href="#" class="tp-caption lfb tp-resizeme rs-parallaxlevel-0" data-x="center"
+                                data-y="430"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="500" data-start="3400" data-easing="Power3.easeInOut" data-splitin="none"
+                                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                data-linktoslide="next" style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;padding:18px 28px;
+       color: #fff;
+       text-transform: uppercase;
+       border: none;
+       background:#000;
+       font-size: 13px;
+       letter-spacing: 2px;
+       font-family: Montserrat;
+       border-radius: 0px;
+       display: table;
+       transition: .4s;">buy this theme</a>
+                        </li>
+                        <!-- SLIDE  -->
+                        <!-- SLIDE  -->
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-saveperformance="on"
+                            data-title="Ken Burns Slide">
+                            <!-- MAIN IMAGE -->
+                            <img src="{{asset('welcome/images/slider/advert1.jpeg')}}" alt="2" data-lazyload="{{asset('welcome/images/slider/advert1.jpeg')}}"
+                                data-bgposition="right top" data-kenburns="on" data-duration="12000"
+                                data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100"
+                                data-bgpositionend="center bottom">
+                            <!-- LAYERS -->
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption small_text ss-bg-color customin tp-resizeme rs-parallaxlevel-0"
+                                data-x="center" data-y="360"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="500" data-start="2600" data-easing="Power3.easeInOut" data-splitin="none"
+                                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;   width: 150px !important;
+       height: 5px !important;
+       background: #8DC73F;
+       ">
+                                <p class="line white"></p>
+                            </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0 center-align"
+                                data-x="center" data-y="215"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="500" data-start="2200" data-easing="Power3.easeInOut" data-splitin="none"
+                                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;  color: #222222;
+       text-shadow: none;
+       font-size: 60px;
+       line-height: 60px;
+       font-weight: 900;
+       background-color: none;
+       text-decoration: none;
+       font-family:Open Sans, sans-serif;
+       text-transform: uppercase;
+       border-width: 0px;
+       color: #fff;
+       text-align:center;
+       border-color: transparent;
+       border-style: none;
+       letter-spacing: -2px;
+       "><span>The leader in construction<br> business for a decade</span>
+                            </div>
+                            <!-- LAYER NR. 5 -->
+                            <div class="tp-caption small_text lfr tp-resizeme rs-parallaxlevel-0" data-x="center"
+                                data-y="385"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="500" data-start="3000" data-easing="Power3.easeInOut" data-splitin="none"
+                                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;  position: absolute;
+       color: #222222;
+       text-shadow: none;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 20px;
+       margin: 0px;
+       border-width: 0px;
+       font-family:Open Sans, sans-serif;
+       text-transform: uppercase;
+       white-space: nowrap;
+       color: #fff;
+       letter-spacing: 1.8px;
+       "><span>Create UNLIMITED portfolios and showcase them ANYWHERE</span>
+                            </div>
+                            <!-- LAYER NR. 6 -->
+                            <a href="#" class="tp-caption lfb tp-resizeme rs-parallaxlevel-0" data-x="center"
+                                data-y="430"
+                                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="500" data-start="3400" data-easing="Power3.easeInOut" data-splitin="none"
+                                data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1"
+                                data-linktoslide="next" style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;padding:18px 28px;
+       color: #fff;
+       text-transform: uppercase;
+       border: none;
+       background:#000;
+       font-size: 13px;
+       letter-spacing: 2px;
+       font-family: Montserrat;
+       border-radius: 0px;
+       display: table;
+       transition: .4s;">buy this theme</a>
+                        </li>
+                        <!-- SLIDE  -->
                     </ul>
+                    <div class="tp-bannertimer"></div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!--/#footer-->
-    <script src="{{ asset('welcome/js/jquery.js') }}"></script>
-    <script src="{{ asset('welcome/js/bootstrap.min.js') }}"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script src="{{ asset('welcome/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('welcome/js/mousescroll.js') }}"></script>
-    <script src="{{ asset('welcome/js/smoothscroll.js') }}"></script>
-    <script src="{{ asset('welcome/js/jquery.prettyPhoto.js') }}"></script>
-    <script src="{{ asset('welcome/js/jquery.isotope.min.js') }}"></script>
-    <script src="{{ asset('welcome/js/jquery.inview.min.js') }}"></script>
-    <script src="{{ asset('welcome/js/wow.min.js') }}"></script>
-    <script src="{{ asset('welcome/js/main.js') }}"></script>
+
+        <div class="inner-content padding70" id="1">
+            <div class="container">
+                <div class="col-md-8 col-md-offset-2 text-center space50">
+                    <h2>We are the specialised in.</h2>
+                    <p>Sed dapibus, leo ut placerat bibendum, ligula ligula consectetur eros, sed efficitur justo ex ut
+                        risus. Integer nec eros non elit finibus dictum quis sit amet augue.</p>
+                </div>
+                <div class="ct-info row">
+                    <div class="col-md-4">
+                        <img src="images/onepage/2/1.jpg" class="img-responsive" alt="" />
+                        <div class="space20"></div>
+                        <h4 class="uppercase">The twin towers</h4>
+                        <p>Lorem ipsum dolor sit amet elit facilisis aliquam ipsum a convallis sapien cursus lacinia
+                            egestas sem elit pretium lorem rutrum sit amet tempus magna laoreet.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/onepage/2/2.jpg" class="img-responsive" alt="" />
+                        <div class="space20"></div>
+                        <h4 class="uppercase">Our equipments</h4>
+                        <p>Lorem ipsum dolor sit amet elit facilisis aliquam ipsum a convallis sapien cursus lacinia
+                            egestas sem elit pretium lorem rutrum sit amet tempus magna laoreet.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/onepage/2/3.jpg" class="img-responsive" alt="" />
+                        <div class="space20"></div>
+                        <h4 class="uppercase">The Success People</h4>
+                        <p>Lorem ipsum dolor sit amet elit facilisis aliquam ipsum a convallis sapien cursus lacinia
+                            egestas sem elit pretium lorem rutrum sit amet tempus magna laoreet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space70"></div>
+            <div class="parallax-bg5 padding-top-70" id="2">
+                <div class="container">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h2 class="white">We Craft Digital Experiences.</h2>
+                        <p class="white">Sed dapibus, leo ut placerat bibendum, ligula ligula consectetur
+                            eros, sed efficitur justo ex ut risus. Integer nec eros non elit finibus dictum quis sit
+                            amet augue.</p>
+                    </div>
+                    <div class="features">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <div class="space30"></div>
+                                        <img src="images/onepage/2/1.png" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="fc-main">
+                                        <div class="feature-content space50">
+                                            <i class="fa fa-hdd-o"></i>
+                                            <div class="fc-inner">
+                                                <h2 class="white">Professionals</h2>
+                                                <p class="lite-white">Morbi vel imperdiet justo, a cursus risus.
+                                                    Sed auctor ullamcorper elit a feugiat. </p>
+                                            </div>
+                                        </div>
+                                        <div class="feature-content space50">
+                                            <i class="icon-pencil2"></i>
+                                            <div class="fc-inner">
+                                                <h2 class="white">Modern Equipments</h2>
+                                                <p class="lite-white">Morbi vel imperdiet justo, a cursus risus.
+                                                    Sed auctor ullamcorper elit a feugiat. </p>
+                                            </div>
+                                        </div>
+                                        <div class="feature-content space50">
+                                            <i class="icon-user"></i>
+                                            <div class="fc-inner">
+                                                <h2 class="white">Experienced Team</h2>
+                                                <p class="lite-white">Morbi vel imperdiet justo, a cursus risus.
+                                                    Sed auctor ullamcorper elit a feugiat. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container padding80" id="3">
+                <section id="portfolio-section">
+                    <div class="container">
+                        <h2 class="uppercase text-center">Recent <span class="highlight">Works</span></h2>
+                        <ul class="filter" data-option-key="filter">
+                            <li><a class="selected" href="#filter" data-option-value="*">All</a></li>
+                            <li><a href="#" data-option-value=".branding">Buildings</a></li>
+                            <li><a href="#" data-option-value=".illustration">Industries</a></li>
+                            <li><a href="#" data-option-value=".web-design">Architechture</a></li>
+                            <li><a href="#" data-option-value=".print">Empire</a></li>
+                        </ul>
+                        <div id="portfolio-home" class="isotope home-project-3col">
+                            <div class="project-item illustration print">
+                                <div class="project-gal">
+                                    <img src="images/projects/4/1.jpg" class="img-responsive" alt="">
+                                    <div class="overlay-folio">
+                                        <div class="hover-box">
+                                            <div class="hover-zoom">
+                                                <a class="mp-lightbox zoom" href="images/projects/4/1.jpg"><i
+                                                        class="icon-plus2"></i></a>
+                                                <a class="link" href="project-single.html"><i
+                                                        class="icon-link3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-info">
+                                    <h2>Cras ornare tristique elit</h2>
+                                    <p>Photoshop</p>
+                                </div>
+                            </div>
+                            <div class="project-item photography web-design">
+                                <div class="project-gal">
+                                    <img src="images/projects/4/2.jpg" class="img-responsive" alt="">
+                                    <div class="overlay-folio">
+                                        <div class="hover-box">
+                                            <div class="hover-zoom">
+                                                <a class="mp-lightbox zoom" href="images/projects/4/2.jpg"><i
+                                                        class="icon-plus2"></i></a>
+                                                <a class="link" href="project-single.html"><i
+                                                        class="icon-link3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-info">
+                                    <h2>Praesent placerat risus quis</h2>
+                                    <p>UI/UX, Web Design</p>
+                                </div>
+                            </div>
+                            <div class="project-item branding">
+                                <div class="project-gal">
+                                    <img src="images/projects/4/3.jpg" class="img-responsive" alt="">
+                                    <div class="overlay-folio">
+                                        <div class="hover-box">
+                                            <div class="hover-zoom">
+                                                <a class="mp-lightbox zoom" href="images/projects/4/3.jpg"><i
+                                                        class="icon-plus2"></i></a>
+                                                <a class="link" href="project-single.html"><i
+                                                        class="icon-link3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-info">
+                                    <h2>Ut aliquam sollicitudin</h2>
+                                    <p>Web Development</p>
+                                </div>
+                            </div>
+                            <div class="project-item illustration web-design print">
+                                <div class="project-gal">
+                                    <img src="images/projects/4/4.jpg" class="img-responsive" alt="">
+                                    <div class="overlay-folio">
+                                        <div class="hover-box">
+                                            <div class="hover-zoom">
+                                                <a class="mp-lightbox zoom" href="images/projects/4/4.jpg"><i
+                                                        class="icon-plus2"></i></a>
+                                                <a class="link" href="project-single.html"><i
+                                                        class="icon-link3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-info">
+                                    <h2>Cras ornare tristique</h2>
+                                    <p>Creative, Web</p>
+                                </div>
+                            </div>
+                            <div class="project-item illustration web-design">
+                                <div class="project-gal">
+                                    <img src="images/projects/4/5.jpg" class="img-responsive" alt="">
+                                    <div class="overlay-folio">
+                                        <div class="hover-box">
+                                            <div class="hover-zoom">
+                                                <a class="mp-lightbox zoom" href="images/projects/4/5.jpg"><i
+                                                        class="icon-plus2"></i></a>
+                                                <a class="link" href="project-single.html"><i
+                                                        class="icon-link3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-info">
+                                    <h2>Aliquam tincidunt risus.</h2>
+                                    <p>Image Gallery</p>
+                                </div>
+                            </div>
+                            <div class="project-item photography branding">
+                                <div class="project-gal">
+                                    <img src="images/projects/4/6.jpg" class="img-responsive" alt="">
+                                    <div class="overlay-folio">
+                                        <div class="hover-box">
+                                            <div class="hover-zoom">
+                                                <a class="mp-lightbox zoom" href="images/projects/4/6.jpg"><i
+                                                        class="icon-plus2"></i></a>
+                                                <a class="link" href="project-single.html"><i
+                                                        class="icon-link3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-info">
+                                    <h2>Aliquam erat volutpat</h2>
+                                    <p>Image Gallery</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="stats2" class="pattern-bg1 no-padding">
+                <div class="container">
+                    <div class="clearfix space80"></div>
+                    <h2 class="uppercase text-center white">Our <span class="highlight">Achievements</span></h2>
+                    <div class="clearfix space60"></div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats2-info">
+                                <p><span class="count">200</span></p>
+                                <h2 class="highlight">Completed Projects</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats2-info">
+                                <p><span class="count">150</span></p>
+                                <h2 class="highlight">Awards Received</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats2-info">
+                                <p><span class="count">387</span></p>
+                                <h2 class="highlight">Happy Clients</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats2-info">
+                                <p><span class="count">1540</span></p>
+                                <h2 class="highlight">Workers</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix space80"></div>
+                </div>
+            </div>
+            <div class="space60"></div>
+            <div class="container padding30" id="4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="uppercase text-center space30">What our clients say?</h4>
+                        <div class="testimonial-box">
+                            <div id="testimonial" class="owl-carousel">
+                                <div class="quote-info">
+                                    <img src="images/quote/1.jpg" class="img-responsive" alt="">
+                                    <p>Duis iaculis mauris dui tellus arcu rhoncus tellus non auris in porta sapien.
+                                        Pellentesque luctus urna volutpat, mollis dolor porttitor, rutrum sem. Aliquam
+                                        vitae orci a libero iaculis sollicitudin. Sed ullamcorper lorem justo, ut
+                                        elementum enim dapibus vel.</p>
+                                    <h2>David Billie</h2>
+                                </div>
+                                <div class="quote-info">
+                                    <img src="images/quote/2.jpg" class="img-responsive" alt="">
+                                    <p>Duis iaculis mauris dui tellus arcu rhoncus tellus non auris in porta sapien.
+                                        Pellentesque luctus urna volutpat, mollis dolor porttitor, rutrum sem. Aliquam
+                                        vitae orci a libero iaculis sollicitudin. Sed ullamcorper lorem justo, ut
+                                        elementum enim dapibus vel.</p>
+                                    <h2>Katey Thane</h2>
+                                </div>
+                                <div class="quote-info">
+                                    <img src="images/quote/3.jpg" class="img-responsive" alt="">
+                                    <p>Duis iaculis mauris dui tellus arcu rhoncus tellus non auris in porta sapien.
+                                        Pellentesque luctus urna volutpat, mollis dolor porttitor, rutrum sem. Aliquam
+                                        vitae orci a libero iaculis sollicitudin. Sed ullamcorper lorem justo, ut
+                                        elementum enim dapibus vel.</p>
+                                    <h2>Wally Buddy</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="uppercase space30">Check the Features</h4>
+                        <div class="panel-group" id="accordion-e1">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-e1"
+                                            href="#collapseOne">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing elit
+                                            <span class="fa fa-chevron-down"></span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <p>Nam ullamcorper imperdiet luctus. Vestibulum tincidunt malesuada mi, in
+                                                posuere augue cursus nec. Morbi et vehicula risus, fermentum lacinia
+                                                justo. Etiam tellus arcu, eleifend tristique enim rutrum iaculis risus,
+                                                id tincidunt dui fringilla.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-e1"
+                                            href="#collapseTwo">
+                                            Curabitur et diam vitae dolor aliquet et in massa
+                                            <span class="fa fa-chevron-right"></span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>Nam ullamcorper imperdiet luctus. Vestibulum tincidunt malesuada mi, in
+                                            posuere augue cursus nec. Morbi et vehicula risus, fermentum lacinia justo.
+                                            Etiam tellus arcu, eleifend tristique enim rutrum iaculis risus, id
+                                            tincidunt dui fringilla.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-e1"
+                                            href="#collapseThree">
+                                            Proin faucibus sem sed dapibus dapibus
+                                            <span class="fa fa-chevron-right"></span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>Nam ullamcorper imperdiet luctus. Vestibulum tincidunt malesuada mi, in
+                                            posuere augue cursus nec. Morbi et vehicula risus, fermentum lacinia justo.
+                                            Etiam tellus arcu, eleifend tristique enim rutrum iaculis risus, id
+                                            tincidunt dui fringilla.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space30"></div>
+            <div class="border-top">
+                <div class="space80"></div>
+                <div class="clients container">
+                    <div id="carousel_five" class="owl-carousel">
+                        <div class="item client-logo">
+                            <a href="#"><img src="images/clients/1.png" class="img-responsive" alt="" /></a>
+                        </div>
+                        <div class="item client-logo">
+                            <a href="#"><img src="images/clients/2.png" class="img-responsive" alt="" /></a>
+                        </div>
+                        <div class="item client-logo">
+                            <a href="#"><img src="images/clients/3.png" class="img-responsive" alt="" /></a>
+                        </div>
+                        <div class="item client-logo">
+                            <a href="#"><img src="images/clients/4.png" class="img-responsive" alt="" /></a>
+                        </div>
+                        <div class="item client-logo">
+                            <a href="#"><img src="images/clients/5.png" class="img-responsive" alt="" /></a>
+                        </div>
+                        <div class="item client-logo">
+                            <a href="#"><img src="images/clients/6.png" class="img-responsive" alt="" /></a>
+                        </div>
+                        <div class="item client-logo">
+                            <a href="#"><img src="images/clients/7.png" class="img-responsive" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-top"></div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4 class="space30">About us</h4>
+                        <img src="images/basic/logo-ico.png" class="img-responsive space20" alt="" />
+                        <p>Lorem ipsum dolor sit amet consec tetur elit vel quam ligula. Duis vel pulvinar diam in lacus
+                            non nisl commodo convallis.</p>
+                        <p>Phasellus rutrum urna ut nibh congue, ut vehicula nibh ultricies.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="space30">Recent Posts</h4>
+                        <ul class="f-posts">
+                            <li>
+                                <img src="images/blog/1/1.jpg" class="img-responsive" alt="" />
+                                <h5><a href="#">Lorem ipsum post title</a></h5>
+                                <p><i class="fa fa-comments"></i> 5 Comments</p>
+                            </li>
+                            <li>
+                                <img src="images/blog/1/2.jpg" class="img-responsive" alt="" />
+                                <h5><a href="#">Lorem ipsum post title</a></h5>
+                                <p><i class="fa fa-comments"></i> 5 Comments</p>
+                            </li>
+                            <li>
+                                <img src="images/blog/1/3.jpg" class="img-responsive" alt="" />
+                                <h5><a href="#">Lorem ipsum post title</a></h5>
+                                <p><i class="fa fa-comments"></i> 5 Comments</p>
+                            </li>
+                            <li>
+                                <img src="images/blog/1/4.jpg" class="img-responsive" alt="" />
+                                <h5><a href="#">Lorem ipsum post title</a></h5>
+                                <p><i class="fa fa-comments"></i> 5 Comments</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="space30">Contact</h4>
+                        <ul class="c-info">
+                            <li><i class="fa fa-map-marker"></i> 72 Wall street Rd<br>Some county<br>Newyork 20001
+                            </li>
+                            <li>
+                            </li>
+                            <li><i class="fa fa-phone"></i> (012) 345 5678 910</li>
+                            <li><i class="fa fa-envelope-o"></i> support@dk-themes.com</li>
+                            <li><i class="fa fa-skype"></i> myskypeid</li>
+                        </ul>
+                        <div class="clearfix space10"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="space30">Flickr</h4>
+                        <ul id="flickr" class="thumbs"></ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- FOOTER COPYRIGHT -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>&copy; Copyright 2015. RockSolid. Designed by CKthemes.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="f-social pull-right">
+                            <a class="fa fa-twitter" href="#"></a>
+                            <a class="fa fa-facebook" href="#"></a>
+                            <a class="fa fa-linkedin" href="#"></a>
+                            <a class="fa fa-dribbble" href="#"></a>
+                            <a class="fa fa-google-plus" href="#"></a>
+                            <a class="fa fa-skype" href="#"></a>
+                            <a class="fa fa-behance" href="#"></a>
+                            <a class="fa fa-stumbleupon" href="#"></a>
+                            <a class="fa fa-rss" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- STYLE SWITCHER
+============================================= -->
+    <div class="b-settings-panel">
+        <div class="settings-section">
+            <span>
+                Boxed
+            </span>
+            <div class="b-switch">
+                <div class="switch-handle"></div>
+            </div>
+            <span>
+                Wide
+            </span>
+        </div>
+        <hr class="dashed" style="margin: 15px 0px;">
+        <h5>Main Background</h5>
+        <div class="settings-section bg-list">
+            <div class="bg-pattern1"></div>
+            <div class="bg-pattern2"></div>
+            <div class="bg-pattern6"></div>
+            <div class="bg-pattern10"></div>
+            <div class="bg-pattern16"></div>
+            <div class="bg-pattern4"></div>
+            <div class="bg-pattern5"></div>
+            <div class="bg-pattern7"></div>
+            <div class="bg-pattern9"></div>
+            <div class="bg-pattern11"></div>
+            <div class="bg-pattern12"></div>
+            <div class="bg-pattern13"></div>
+            <div class="bg-pattern17"></div>
+            <div class="bg-pattern8"></div>
+            <div class="bg-pattern14"></div>
+            <div class="bg-pattern15"></div>
+            <div class="bg-pattern3"></div>
+            <div class="bg-pattern18"></div>
+        </div>
+        <hr class="dashed" style="margin: 15px 0px;">
+        <h5>Color Scheme</h5>
+        <div class="settings-section color-list">
+            <div data-src="css/color-scheme/moderate-green.css" style="background: #8ec249"></div>
+            <div data-src="css/color-scheme/vivid-blue.css" style="background: #228dff"></div>
+            <div data-src="css/color-scheme/orange.css" style="background: #fa6900"></div>
+            <div data-src="css/color-scheme/brown.css" style="background: #a68c69"></div>
+            <div data-src="css/color-scheme/yellow.css" style="background: #fabe28"></div>
+            <div data-src="css/color-scheme/violet.css" style="background: #ba01ff"></div>
+            <div data-src="css/color-scheme/strong-cyan.css" style="background: #00b9bd"></div>
+            <div data-src="css/color-scheme/soft-cyan.css" style="background: #4bd5ea"></div>
+            <div data-src="css/color-scheme/red.css" style="background: #ff0104"></div>
+            <div data-src="css/color-scheme/lite-brown.css" style="background: #f3a76d"></div>
+            <div data-src="css/color-scheme/lime-green.css" style="background: #3bdbad"></div>
+            <div data-src="css/color-scheme/light-voilet.css" style="background: #aaa5ff"></div>
+            <div data-src="css/color-scheme/gray-green.css" style="background: #697060"></div>
+            <div data-src="css/color-scheme/gray-cyan.css" style="background: #aeced2"></div>
+            <div data-src="css/color-scheme/de-green.css" style="background: #b6cd71"></div>
+            <div data-src="css/color-scheme/cream.css" style="background: #e0d6b2"></div>
+
+        </div>
+        <div class="btn-settings"></div>
+    </div>
+    <!-- END STYLE SWITCHER
+============================================= -->
+
+    <!-- jQuery -->
+    <script src="{{asset('welcome/js/jquery.js')}}"></script>
+
+    <!-- Plugins -->
+    <script src="{{asset('buildshelter/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('buildshelter/js/menu.js')}}"></script>
+    <script src="{{asset('logistic/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('buildshelter/js/rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
+    <script src="{{asset('buildshelter/js/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
+    <script src="{{asset('buildshelter/js/jquery.easing.min.js')}}"></script>
+    <script src="{{asset('buildshelter/js/isotope/isotope.pkgd.js')}}"></script>
+    <script src="{{asset('buildshelter/js/jflickrfeed.min.js')}}"></script>
+    <script src="{{asset('buildshelter/js/tweecool.js')}}"></script>
+    <script src="{{asset('buildshelter/js/flexslider/jquery.flexslider.js')}}"></script>
+    <script src="{{asset('buildshelter/js/easypie/jquery.easypiechart.min.js')}}"></script>
+    <script src="{{asset('buildshelter/js/jquery-ui.js')}}"></script>
+    <script src="{{asset('buildshelter/js/jquery.appear.js')}}"></script>
+    <script src="{{asset('buildshelter/js/jquery.inview.js')}}"></script>
+    <script src="{{asset('buildshelter/js/jquery.countdown.min.js')}}"></script>
+    <script src="{{asset('buildshelter/js/jquery.sticky.js')}}"></script>
+    <script src="{{asset('buildshelter/js/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('buildshelter/js/jquery.easing/jquery.easing.js')}}"></script>
+
+    <script src="{{asset('buildshelter/js/main.js')}}"></script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="{{asset('buildshelter/js/gmaps/greyscale.js')}}"></script>
+
 </body>
 
 </html>

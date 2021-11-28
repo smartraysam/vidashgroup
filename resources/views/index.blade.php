@@ -47,7 +47,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="{{ route('index') }}"><img width="120px" height="40px"
+                    <a class="navbar-brand" href="{{ route('index') }}"><img width="180px" height="80px"
                             src="{{ asset('welcome/images/logo.jpg') }}" alt="logo"></a>
                 </div>
 
@@ -55,7 +55,8 @@
                     <ul class="nav navbar-nav">
                         <li class="scroll active"><a href="#home">Home</a></li>
                         <li class="scroll"><a href="#about">About</a></li>
-                        <li class="scroll dropdown"><a href="#company" data-toggle="dropdown" class="dropdown-toggle">Our
+                        <li class="scroll dropdown"><a href="#company" data-toggle="dropdown"
+                                class="dropdown-toggle">Our
                                 Companies <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{ route('shelter') }}">Vidash Shelter</a></li>
@@ -77,10 +78,10 @@
     <!--/header-->
 
     @if ($message = Session::get('success'))
-    <div class="alert alert-success alert-block">
-        <button type="button" class="close" data-dismiss="alert">×</button>
+        <div class="alert alert-success alert-block">
+            <button type="button" class="close" data-dismiss="alert">×</button>
             <strong>{{ $message }}</strong>
-    </div>
+        </div>
     @endif
 
     <section id="main-slider">
@@ -683,7 +684,8 @@
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Corporate Philosophy</h2>
                 <p class="text-center wow fadeInDown">Our project management and execution philosophy.</p>
-                <p class="text-center wow fadeInDown">We take pride in our delivery, thus our clients can always be assured that only the most experienced
+                <p class="text-center wow fadeInDown">We take pride in our delivery, thus our clients can always be
+                    assured that only the most experienced
                     and qualified people are serving them,
                     at all times.</p>
             </div>
@@ -822,7 +824,7 @@
                         position: relative;
                         text-align: right;
                         height: 500px;
-                        width:100%  ;
+                        width: 100%;
                     }
 
                 </style><a href="https://www.embedgooglemap.net"></a>
@@ -847,8 +849,10 @@
                             <address>
                                 <strong>VIDASH GROUP OF COMPANIES LTD.</strong><br>
                                 Dx15, BARUMARK ESTATE, WUYE, ABUJA<br>
-                                <abbr title="Phone">Tel: </abbr>07061396988, 07083399007<br>
-                                <abbr title="Phone">Email: </abbr>vidashgroup@gmail.com<br>
+                                <abbr title="Phone">Tel: </abbr><a href="tel:+2347061396988">07061396988</a>,<a
+                                    href="tel:+2347083399007">07083399007</a><br>
+                                <abbr title="Phone">Email: </abbr> <a
+                                    href="mailto:vidashgroup@gmail.com">vidashgroup@gmail.com</a><br>
 
                             </address>
 
@@ -917,6 +921,7 @@
     <script src="{{ asset('welcome/js/main.js?v=0') }}"></script>
     <script type="text/javascript">
         $(document).ready(function() {
+            $('#home').focus();
             $(".dropdown, .btn-group").hover(function() {
                 var dropdownMenu =
                     $(this).children(".dropdown-menu");
