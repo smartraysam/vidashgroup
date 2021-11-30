@@ -17,6 +17,8 @@
         <!-- Fancybox -->
         <link rel="stylesheet" type="text/css" href="{{asset('buildshelter/css/jquery.fancybox.css?v=2.1.5')}}" media="screen" />
         <!-- Custom stylesheet -->
+        <link rel="shortcut icon" href="{{ asset('welcome/images/vidashshelter.jpg') }}">
+
         <link rel="stylesheet" href="{{asset('buildshelter/css/custom.css')}}" />
         <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -99,9 +101,19 @@
                         <ul class="nav navbar-nav menu">
                             <li><a href="">Home</a></li>
                             <li><a href="#about">About Us</a></li>
+                            <li class="dropdown"><a href="#company" data-toggle="dropdown"
+                                class="dropdown-toggle">Our
+                                Companies <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{ route('index') }}">Vidash Group</a></li>
+                                <li><a href="{{ route('property') }}">Vidash Property</a></li>
+                                <li><a href="{{ route('paint') }}">Vidash Paint</a></li>
+                                <li><a href="{{ route('logistics') }}">Vidash Logistics</a></li>
+                            </ul>
+                        </li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#contact_form">Contact Us</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -115,41 +127,34 @@
                 <!-- Carousel-inner -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="buildshelter/images/slider_img.jpg" alt="Construction">
+                        <img src="{{asset('welcome/images/slider/shelter.jpg')}}" alt="Construction">
                         <div class="overlay">
                             <div class="carousel-caption">
-                                <h3>We are Certified Engineers</h3>
-                                <h1>Construction Services</h1>
+                                <h3>Beautiful Homes</h3>
+                                <h1>Vidash Shelters</h1>
                                 <h1 class="second_heading">Creative & Professional</h1>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
                                 <a  class="btn know_btn">know more</a>
                                 <a  class="btn know_btn">view project</a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="buildshelter/images/slider_img2.jpg" alt="Construction">
+                        <img src="{{asset('welcome/images/slider/advert.jpeg')}}" alt="Construction">
                         <div class="overlay">
                             <div class="carousel-caption">
-                                <h3>We are Certified Engineers</h3>
-                                <h1>Construction Services</h1>
-                                <h1 class="second_heading">Creative & Professional</h1>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                                <a  class="btn know_btn">know more</a>
-                                <a  class="btn know_btn">view project</a>
+                                <h3>Selling now....</h3>
+                                <h1>Vidash Gold & Emerald</h1>
+                                <a  href="#contact" class="btn know_btn">Contact Us Now</a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="buildshelter/images/slider_img3.jpg" alt="Construction">
+                        <img src="{{asset('welcome/images/slider/advert1.jpeg')}}" alt="Construction">
                         <div class="overlay">
                             <div class="carousel-caption">
-                                <h3>We are Certified Engineers</h3>
-                                <h1>Construction Services</h1>
-                                <h1 class="second_heading">Creative & Professional</h1>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                                <a  class="btn know_btn">know more</a>
-                                <a  class="btn know_btn">view project</a>
+                                <h3>Selling now....</h3>
+                                <h1>Vidash Topaz & Sapp</h1>
+                                <a  href="#contact" class="btn know_btn">Contact Us Now</a>
                             </div>
                         </div>
                     </div>
@@ -178,10 +183,10 @@
                     <div class="col-lg-7 col-md-6">
                         <div class="about_content">
                             <h2>Welcome to Our Company</h2>
-                            <h3>Aliquam lacus purus, auctor malesuada</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
-                            <a  class="btn know_btn">know more</a>
+                            <h3>More about us</h3>
+                            <p>We are a property development company focused on premiering the integration of creatively innovative technology and professionalism into property development using sustainable methods.,</p>
+                            <p> VIDASH consist of highly regarded built environment professionals geared towards providing our clients with satisfaction </p>
+
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-lg-offset-1">
@@ -279,50 +284,73 @@
 
                 <div id="filters">
                     <button class="button is-checked" data-filter="*">Show All</button>
-                    <button class="button" data-filter=".buildings">Buildings</button>
-                    <button class="button" data-filter=".interior">Interior Design</button>
-                    <button class="button" data-filter=".isolation">Isolation</button>
-                    <button class="button" data-filter=".plumbing">Plumbing</button>
+                    <button class="button" data-filter=".topez">Vidash City Shelters (TOPAZ)</button>
+                    <button class="button" data-filter=".sapphire">Vidash City Shelters (Sapphire)</button>
+                    <button class="button" data-filter=".emerald">Vidash City Shelters (Emerald)</button>
+                    <button class="button" data-filter=".gold">Vidash City Shelters (Gold)</button>
                 </div>
                 <!-- Portfolio grid -->
                 <div class="grid">
                     <div class="grid-sizer"></div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 buildings plumbing interior">
-                        <img alt="" src="buildshelter/images/highligh_img.jpg" >
+                    <div class="grid-item grid-item--width2 grid-item--height2 topez sapphire emerald gold">
+                        <img alt="" src="{{asset('works/IMG_0280.JPG')}}" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="buildshelter/images/highligh_img.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{{asset('works/IMG_0280.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
                     </div>
 
-                    <div class="grid-item buildings interior isolation">
-                        <img alt="" src="buildshelter/images/portfolio1.jpg" >
+                    <div class="grid-item topez sapphire  gold">
+                        <img alt="" src="{{asset('works/IMG_0276.JPG')}}" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="buildshelter/images/portfolio1.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{{asset('works/IMG_0276.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
                     </div>
 
-                    <div class="grid-item interior plumbing isolation">
-                        <img alt="" src="buildshelter/images/portfolio2.jpg" >
+                    <div class="grid-item topez sapphire  gold">
+                        <img alt="" src="{{asset('works/IMG_0276.JPG')}}" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="buildshelter/buildshelter/images/portfolio2.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{{asset('works/IMG_0276.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
                     </div>
 
-                    <div class="grid-item isolation buildings">
-                        <img alt="" src="buildshelter/images/portfolio3.jpg" >
+                    <div class="grid-item  sapphire emerald gold">
+                        <img alt="" src="{{asset('works/IMG_0284.JPG')}}" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="buildshelter/images/portfolio3.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{{asset('works/IMG_0284.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
                     </div>
 
-                    <div class="grid-item plumbing isolation">
-                        <img alt="" src="buildshelter/images/portfolio4.jpg" >
+                    <div class="grid-item topez sapphire emerald ">
+                        <img alt="" src="{{asset('works/IMG_0314 tt.jpg')}}" >
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="buildshelter/images/portfolio4.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{{asset('works/IMG_0314 tt.jpg')}}g" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item topez sapphire  gold">
+                        <img alt="" src="{{asset('works/IMG_0315 tt.jpg')}}" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{{asset('works/IMG_0315 tt.jpg')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>
+                    </div>
+                    <div class="grid-item topez sapphire emerald ">
+                        <img alt="" src="{{asset('works/IMG_0314 tt.jpg')}}" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{{asset('works/IMG_0314 tt.jpg')}}g" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item topez sapphire  gold">
+                        <img alt="" src="{{asset('works/IMG_0315 tt.jpg')}}" >
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{{asset('works/IMG_0315 tt.jpg')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
                     </div>
@@ -369,7 +397,7 @@
         </section><!-- Testimonial end -->
 
         <!-- Contact form -->
-        <section id="contact_form">
+        <section id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -401,7 +429,8 @@
                         <div class="footer_item">
                             <h4>About Company</h4>
                             <img class="logo" src="{{asset('welcome/images/vidashshelter.jpg')}}" height="120" width="80" alt="Vidash shelter" />
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem</p>
+                            <p>We are a property development company focused on premiering the integration of creatively innovative technology and professionalism into property development using sustainable methods.
+                                VIDASH consist of highly regarded built environment professionals geared towards providing our clients with satisfaction</p>
 
                             <ul class="list-inline footer_social_icon">
                                 {{-- <li><a href=""><span class="fa fa-facebook"></span></a></li>

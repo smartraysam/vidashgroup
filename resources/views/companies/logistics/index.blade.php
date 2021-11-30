@@ -25,6 +25,7 @@
     <!--  style css  -->
     <link rel="stylesheet" href="{{ asset('logistic/css/meanmenu.css') }}">
     <link href="{{ asset('logistic/style.css?v=1') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ asset('welcome/images/vidashlogistics.jpg') }}">
     <!--  Responsive Css  -->
     <link href="{{ asset('logistic/css/responsive.css') }}" rel="stylesheet">
 
@@ -56,14 +57,24 @@
                                 <li class="current-menu-item"><a href="#home">Home</a>
                                 </li>
                                 <li><a href="#about">About</a></li>
+                                <li class="dropdown" ><a href="#company" data-toggle="dropdown"
+                                    class="dropdown-toggle" style="background-color: transparent !important">Our
+                                    Companies <b class="caret"></b></a>
+                                <ul class="dropdown-menu" style="background-color: transparent !important">
+                                    <li><a href="{{ route('index') }}">Vidash Group</a></li>
+                                    <li><a href="{{ route('paint') }}">Vidash Paint</a></li>
+                                    <li><a href="{{ route('property') }}">Vidash Property</a></li>
+                                    <li><a href="{{ route('shelter') }}">Vidash Shelter</a></li>
+                                </ul>
+                            </li>
                                 <li><a href="#services">Services</a></li>
-                                <li><a href="#calculator">Cost Calculator</a></li>
+                                {{-- <li><a href="#calculator">Cost Calculator</a></li> --}}
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
                             <!-- /.navbar-collapse -->
                         </nav>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-4 col-lg-3 signup">
+                    {{-- <div class="col-md-3 col-sm-3 col-xs-4 col-lg-3 signup">
                         <ul class="nav navbar-nav">
                             @guest
                                 @if (Route::has('login'))
@@ -99,7 +110,7 @@
                                 </li>
                             @endguest
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -112,17 +123,17 @@
                         <div class="col-xs-12 text-center">
                             <div class="welcome_text">
                                 <h1>Get the fastest service </h1>
-                                <h1>for your product</h1>
+                                <h1>for your product delivery</h1>
                                 <div class="welcome_p">
                                     <p>Moving your product , good and service has been made easier </p>
                                     <p>with our moderm fast tracking logistic system.</p>
                                 </div>
-                                <div class="welcome_form">
+                                {{-- <div class="welcome_form">
                                     <form action="#">
                                         <input class="form-control" type="text" placeholder="Enter your product code">
                                         <input class="submit" type="submit" value="Track your product">
                                     </form>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -205,7 +216,8 @@
                         <div class="pricing-desc-title">
                             <div class="title">
                                 <h2>our services</h2>
-                                <p>We render world class services to our customers. Our service include all offered by our companies but not limited to</p>
+                                <p>We render world class services to our customers. Our service include all offered by
+                                    our companies but not limited to</p>
                             </div>
                         </div>
                     </div>
@@ -225,7 +237,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
+                            <img src="{{ asset('logistic/processing.jpg') }}" height="45" width="100" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Fastest Processing</h4>
@@ -236,7 +248,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
+                            <img src="{{ asset('logistic/tracking.jpg') }}" height="45" width="100" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Realtime Tracking</h4>
@@ -247,7 +259,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/img/item_icon.png') }}" alt="item">
+                            <img src="{{ asset('logistic/homedelivery.jpg') }}" height="45" width="100"  alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Home Delivery</h4>
@@ -267,32 +279,30 @@
                 <div class="col-md-5 col-xs-12 col-sm-8">
                     <div class="slients-title">
                         <h2>What our clients say</h2>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,</p>
+                        <p>Check out some of our client testimonies</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-clients">
-                        <div class="client-img">
+                        {{-- <div class="client-img">
                             <img src="{{ asset('logistic/img/client.jpg') }}" alt="client">
-                        </div>
+                        </div> --}}
                         <div class="client-details">
-                            <p>“Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod
-                                tinci dunt ut laoreet dolore magna aliquam.”</p>
-                            <h4>John Doe<span>Student</span></h4>
+                            <p>“The best logistic service ever.”</p>
+                            <h4>Mr. Wale Coker<span>Civil Servant</span></h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-clients">
-                        <div class="client-img">
+                        {{-- <div class="client-img">
                             <img src="{{ asset('logistic/img/client-2.jpg') }}" alt="client">
-                        </div>
+                        </div> --}}
                         <div class="client-details">
-                            <p>“Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod
-                                tinci dunt ut laoreet dolore magna aliquam.”</p>
-                            <h4>John Doe<span>Student</span></h4>
+                            <p>“Fast, trusted. it is nothing but the best.”</p>
+                            <h4>John Olufemi <span>UNIABJ. Student</span></h4>
                         </div>
                     </div>
                 </div>
@@ -302,13 +312,13 @@
     <!--    end of client area-->
 
     <!--start Pricing Area -->
-    <section class="calculate_area" id="pricing">
+    {{-- <section class="calculate_area" id="pricing">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 col-sm-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="calculate_title">
                         <h2>Calculate your cost</h2>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,</p>
+                        <p>Get an estimate cost for your logistic servcie</p>
                     </div>
                     <div class="calculate_form">
                         <form action="post">
@@ -365,34 +375,41 @@
                                         <option value="#">cm</option>
                                     </select>
                                 </div>
-                                <div class="calculate_option padding-riht">
+                                <div class="calculate_option">
                                     <select>
-                                        <option value="#" selected>form</option>
-                                        <option value="#">ml</option>
-                                        <option value="#">cm</option>
+                                        <option value="#" selected>Location</option>
+                                        <option value="#">Abuja</option>
+                                        <option value="#">Lagos</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="calculat-button">
                                 <input type="submit" class="calulate" value="Calculate your cost now">
                             </div>
-                            <div class="totla-cost">
+                            <div class="totla-cost" style="display: none">
                                 <h5>Total Cost: <span>$ 30</span></h5>
                                 <h5>Duration:: <span>3 days</span></h5>
                             </div>
                         </form>
                     </div>
                 </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="">
+                        <img src="{{ asset('welcome/images/slider/Logistics.jpeg') }}" height="600" alt="#">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="calculat-image">
-            <img src="{{ asset('welcome/images/slider/Logistics.jpeg') }}" alt="#">
-        </div>
+
+    </section> --}}
+
+    <section class="client-area" id="blog">
+
     </section>
     <!-- /.End Of Pricing Area-->
 
-     <!--    start contact page content-->
-     <section class="contact-page-area" id="contact">
+    <!--    start contact page content-->
+    <section class="contact-page-area" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-6 text-left">
@@ -453,34 +470,34 @@
                 <div class="col-md-4 col-sm-3 col-xs-12 col-lg-4">
                     <div class="single-footer">
                         <h2>about us</h2>
-                        <p>ABOUT US Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-                            veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                            commodo consequat.</p>
+                        <p>ABOUT US Our Logistics company plan, implement,
+                            and control the movement and storage of your goods, services, or
+                            information within a given supply chain and between the points of origin and
+                            consumption with our advance technologcal tracking and reporting system.</p>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-3 col-xs-12 col-lg-2">
+                <div class="col-md-4 col-sm-3 col-xs-12 col-lg-4">
                     <div class="single-footer">
                         <h2>More links</h2>
                         <ul class="list">
-                            <li><a href="{{ route('index')}}">Vidash Group</a></li>
-                            <li><a href="{{ route('shelter')}}">Vidash Shelter</a></li>
-                            <li><a href="{{ route('property')}}">Vidash Property</a></li>
-                            <li><a href="{{ route('paint')}}">Vidash Paint</a></li>
+                            <li><a href="{{ route('index') }}">Vidash Group</a></li>
+                            <li><a href="{{ route('shelter') }}">Vidash Shelter</a></li>
+                            <li><a href="{{ route('property') }}">Vidash Property</a></li>
+                            <li><a href="{{ route('paint') }}">Vidash Paint</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3 col-xs-12 col-lg-3">
+                <div class="col-md-4 col-sm-3 col-xs-12 col-lg-4">
                     <div class="single-footer">
-                        <h2>We Accept</h2>
-                        <a href="#"><img src="{{ asset('logistic/img/cards_credt_1.png') }}" alt="#"></a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-12 col-lg-3">
-                    <div class="single-footer clearfix">
-                        <h2>news letters</h2>
-                        <input type="text" class="form-control">
-                        <input type="submit" class="submt-button" value="submit">
+                        <h2>Contact us</h2>
+                        <ul class="list">
+                            <li><a href=""><span class="fa fa-map-marker"></span> Vidash Logistics Ltd</a></li>
+                            <li><span class="fa fa-phone"></span><a href="tel:+2348137970207"> 08137970207</a>,<a
+                                    href="tel:+2347083399007">07083399007</a></li>
+                            <li><span class="fa fa-envelope"> </span><a href="mailto:vidashlogistic@gmail.com">
+                                vidashlogistic@gmail.com</a></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
