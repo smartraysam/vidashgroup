@@ -125,8 +125,8 @@
                                 <h1>Get the fastest service </h1>
                                 <h1>for your product delivery</h1>
                                 <div class="welcome_p">
-                                    <p>Moving your product , good and service has been made easier </p>
-                                    <p>with our moderm fast tracking logistic system.</p>
+                                    <p>Moving your products, goods and services have been made easier </p>
+                                    <p>with our modern fast tracking logistic system.</p>
                                 </div>
                                 {{-- <div class="welcome_form">
                                     <form action="#">
@@ -237,7 +237,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/processing.jpg') }}" height="45" width="100" alt="item">
+                            <img width="53px" height="37px" src="{{ asset('welcome/images/processing.png') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Fastest Processing</h4>
@@ -248,7 +248,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/tracking.jpg') }}" height="45" width="100" alt="item">
+                            <img src="{{ asset('welcome/images/tracking.png') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Realtime Tracking</h4>
@@ -259,7 +259,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img src="{{ asset('logistic/homedelivery.jpg') }}" height="45" width="100"  alt="item">
+                            <img src="{{ asset('welcome/images/homedelivery.jpg') }}" alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Home Delivery</h4>
