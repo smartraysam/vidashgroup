@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="{{ asset('welcome/images/slider/shelter.jpg') }}" alt="Construction">
+                    <img src="{{ asset('paintPhotos/cta2-img.png') }}" alt="Construction">
                     <div class="overlay">
                         <div class="carousel-caption">
                             <h3>We are Certified Estate Professionals</h3>
@@ -163,7 +163,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="buildshelter/images/slider_img3.jpg" alt="Construction">
+                    <img src="{{asset('welcome/images/header.png')}}" alt="Construction">
                     <div class="overlay">
                         <div class="carousel-caption">
                             <h3>We are Certified Engineers</h3>
@@ -197,7 +197,7 @@
 
     <!-- About -->
     <section id="about">
-        <div class="container about_bg">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-6">
                     <div class="about_content">
@@ -211,9 +211,9 @@
 
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-lg-offset-1">
+                <div class="col-lg-3 col-md-6 col-lg-offset-1" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " >
                     <div class="about_banner">
-                        <img src="{{asset('welcome/images/paint.png')}}" width="200" height="200" alt="" />
+                        <img src="{{asset('paintPhotos/Image12.jpeg')}}" width="400px" height="500px" alt="" />
                     </div>
                 </div>
             </div>
@@ -297,7 +297,7 @@
                         <a class="fancybox" href="{{ asset('paintPhotos/Image11.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                        
                     </div>
                 </div>
 
@@ -307,7 +307,7 @@
                         <a class="fancybox" href="{{ asset('paintPhotos/Image05.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                        
                     </div>
                 </div>
 
@@ -317,7 +317,7 @@
                         <a class="fancybox" href="{{ asset('paintPhotos/Image09.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                        
                     </div>
                 </div>
 
@@ -327,7 +327,7 @@
                         <a class="fancybox" href="{{ asset('paintPhotos/Image02.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                        
                     </div>
                 </div>
 
@@ -337,7 +337,7 @@
                         <a class="fancybox" href="{{ asset('paintPhotos/Image07.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                        
                     </div>
                 </div>
 
@@ -347,7 +347,7 @@
                         <a class="fancybox" href="{{ asset('paintPhotos/Image14.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                        
                     </div>
                 </div>
                 <div class="grid-item topez sapphire emerald ">
@@ -356,7 +356,7 @@
                         <a class="fancybox" href="{{ asset('paintPhotos/Image12.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                        
                     </div>
                 </div>
 
@@ -366,7 +366,7 @@
                         <a class="fancybox" href="{{ asset('paintPhotos/Image13.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                        
                     </div>
                 </div>
 
@@ -376,7 +376,6 @@
                         <a class="fancybox" href="{{ asset('paintPhotos/Image01.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
                     </div>
                 </div>
             </div><!-- Portfolio grid end -->

@@ -640,7 +640,7 @@
                     <div class="footer_item">
                         <h4>Explore link</h4>
                         <ul class="list-unstyled footer_menu">
-                            <li><a href="{{ route('index') }}"><span class="fa fa-play"></span>Vidash Group</a>
+                            <li><a href="{{ route('shelter') }}"><span class="fa fa-play"></span>Vidash Shelter</a>
                             <li><a href="{{ route('property') }}"><span class="fa fa-play"></span> Vidash
                                     Property</a>
                             <li><a href="{{ route('logistics') }}"><span class="fa fa-play"></span> Vidash
