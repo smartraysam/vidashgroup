@@ -447,7 +447,7 @@
                         <a class="fancybox" href="{{ asset('works/shelter1.JPG') }}"
                             data-fancybox-group="gallery" title="Grey City One Ongoing"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                       
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Shelter</h4>
@@ -460,8 +460,8 @@
                     <img alt="" src="{{ asset('works/TDP4.jpg') }}">
                     <div class="portfolio_hover_area">
                         <a class="fancybox" href="{{ asset('works/TDP4.jpg') }}" data-fancybox-group="gallery"
-                            title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                            title="  A Terrace Duplex PentHouse"><span class="fa fa-search"></span></a>
+                      
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Properties</h4>
@@ -473,8 +473,7 @@
                     <img alt="" src="{{ asset('works/SDP1.jpg') }}">
                     <div class="portfolio_hover_area">
                         <a class="fancybox" href="{{ asset('works/SDP1.jpg') }}" data-fancybox-group="gallery"
-                            title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                            title=" A Semi-Detached PentHouse"><span class="fa fa-search"></span></a>
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Properties</h4>
@@ -486,9 +485,8 @@
                     <img alt="" src="{{ asset('works/IMG_0312 tt.jpg') }}">
                     <div class="portfolio_hover_area">
                         <a class="fancybox" href="{{ asset('works/IMG_0312 tt.jpg') }}"
-                            data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
+                            data-fancybox-group="gallery" title="Onging shelter development at  Grey City Two"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Shelter</h4>
@@ -501,9 +499,8 @@
                     <img alt="" src="{{ asset('works/IMG_0314 tt.jpg') }}">
                     <div class="portfolio_hover_area">
                         <a class="fancybox" href="{{ asset('works/IMG_0314 tt.jpg') }}g"
-                            data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
+                            data-fancybox-group="gallery" title="Ongoing shelter development at  Grey City Two "><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Shelter</h4>
@@ -516,8 +513,8 @@
                     <img alt="" src="{{ asset('works/TD 3.jpg') }}">
                     <div class="portfolio_hover_area">
                         <a class="fancybox" href="{{ asset('works/TD 3.jpg') }}" data-fancybox-group="gallery"
-                            title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                            title=" A Terrace Duplex"><span class="fa fa-search"></span></a>
+                      
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Properties</h4>
@@ -528,9 +525,8 @@
                     <img alt="" src="{{ asset('works/IMG_0314 tt.jpg') }}">
                     <div class="portfolio_hover_area">
                         <a class="fancybox" href="{{ asset('works/IMG_0314 tt.jpg') }}g"
-                            data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
+                            data-fancybox-group="gallery" title="   Grey City Two"><span
                                 class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Shelter</h4>
@@ -543,8 +539,8 @@
                     <img alt="" src="{{ asset('works/DD 4.jpg') }}">
                     <div class="portfolio_hover_area">
                         <a class="fancybox" href="{{ asset('works/DD 4.jpg') }}" data-fancybox-group="gallery"
-                            title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                        <a href="#"><span class="fa fa-link"></span></a>
+                            title=" A Fully Detached Duplex"><span class="fa fa-search"></span></a>
+                       
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Properties</h4>
