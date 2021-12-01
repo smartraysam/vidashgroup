@@ -178,35 +178,80 @@
 
         <!-- About -->
         <section id="about">
-            <div class="container about_bg">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-6">
                         <div class="about_content">
                             <h2>Welcome to Our Company</h2>
-                            <h3>More about us</h3>
-                            <p>We are a property development company focused on premiering the integration of creatively innovative technology and professionalism into property development using sustainable methods.,</p>
-                            <p> VIDASH consist of highly regarded built environment professionals geared towards providing our clients with satisfaction </p>
-
+                            <h3>About us</h3>
+                            <p>VIDASH Group is comprised of several distinct business divisions,
+                                though each and every one of them is devoted to the same ideals. They all create and provide
+                                services of outstanding quality and value.
+                            </p>
+                            <p> Our core business is the City Shelters and Property, although our Group has activities in
+                                several
+                                other business areas </p>
+    
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-lg-offset-1">
-                        <div class="about_banner">
-                            <img src="buildshelter/images/man.png" alt="" />
+                    <div class="col-lg-5 col-md-6" style="padding-top: 100px">
+                        <div class="about_content">
+                            <h3>Our history</h3>
+                            <p>
+                                VIDASH began as a property in January, 2017. Over the years, the company has undertaken many
+                                challenging projects and accumulated experiences in design and building solutions,
+                                project management services, and other services.
+                            </p>
+    
+                            <p>
+                                We also provide design inputs and engineering solutions as value-added services to our
+                                clients.
+                                Our objective is to provide our clients with an I am assured experience when we are chosen
+                                to
+                                execute their projects.
+                            </p>
+    
+                            <p>
+                                Our emphasis on clear communication and follow-through procedures to ensures the client's
+                                objectives are top priority in the planning and execution of all our projects.
+                            </p>
                         </div>
+    
                     </div>
                 </div>
             </div>
         </section><!-- About end -->
-
+        <section id="missionvision" style="background: #fedb5d none repeat scroll 0 0; padding: 27px 0 32px;">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Our Mission</h2>
+                        <p> To provide sustainable and increasing value to clients, shareholders and staff,
+                            through a business model that continually innovates in all that it does.</p>
+                    </div>
+    
+                    <div class="col-md-6">
+                        <h2>Our Vision</h2>
+                        <p> To be recognized as a global partner that provides excellence in the delivery of
+                            subsurface engineering solutions.</p>
+                    </div>
+    
+                </div>
+            </div>
+        </section><!-- Contact form end -->
+    
         <!-- Why us -->
         <section id="why_us">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="head_title">
-                            <h2>WHY CHOOSE US?</h2>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-
+                            <h2> Our Core Values</h2>
+                            <p>The Group’s commitment to sustainable business practices and client satisfaction is
+                                reiterated in
+                                the Group’s underlying values.
+                                The Group’s core values are driven through five key areas of business practice.,</p>
+    
                         </div>
                     </div>
                 </div>
@@ -215,196 +260,334 @@
                         <div class="why_us_item">
                             <span class="fa fa-leaf"></span>
                             <h4>We deliver quality</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
+                            <p>A can-do culture and track record of
+                                honouring commitment</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-futbol-o"></span>
-                            <h4>Always on time</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                            <span class="fa fa-user"></span>
+                            <h4>SAFETY</h4>
+                            <p>Completing every project with zero
+                                injuries</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
                             <span class="fa fa-group"></span>
-                            <h4>We are pasionate</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                            <h4>We are pasionate about Teamwork</h4>
+                            <p> Working together to achieve our goals.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
                             <span class="fa fa-line-chart"></span>
-                            <h4>Professional Services</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                            <h4>Integrity</h4>
+                            <p>Our top level goal is always to
+                                build integrity by being honest and open with our clients (i.e. subscribers in our
+                                real estate and property). We recognize that without a high level of trust, the
+                                vital relationships that can make or break a project will dissolve.
+                                Open and honest communication with each other and all project stakeholders </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section><!-- Why us end -->
-
+    
+    
+        <section id="missionvision" style="background: #fedb5d none repeat scroll 0 0; padding: 27px 0 32px;">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 20px">
+                    <h2> CORPORATE PHILOSOPHY</h2>
+                <p>
+                    Our project management and execution philosophy.
+                <br>
+                    We take pride in our delivery, thus our clients can always be assured that only the most experienced and
+                    qualified people are serving them, at all times.</p>
+                </div>
+    
+                <div class="text-center" id="why_us" style="background: transparent !important">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-6">
+                            <div class="why_us_item">
+                                <span class="fa fa-coffee" style="padding: 18px !important; font-size:25px !important"></span>
+                                <h4>Planning</h4>
+                                <p>Create detailed schedule and resource plan to meet client's project objective</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="why_us_item">
+                                <span class="fa fa-bullhorn"  style="padding: 18px !important; font-size:25px !important"></span>
+                                <h4>Communication</h4>
+                                <p>Communicate project details clearly with all project stakeholders</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="why_us_item">
+                                <span class="fa fa-edit"  style="padding: 18px !important; font-size:25px !important"></span>
+                                <h4>Design</h4>
+                                <p>We convert your idea in creative designs</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="why_us_item">
+                                <span class="fa fa-building "  style="padding: 18px !important; font-size:25px !important"></span>
+                                <h4>Progressive Development</h4>
+                                <p>Track project progress and fine-tune deviations</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="why_us_item">
+                                <span class="fa fa-eye"  style="padding: 18px !important; font-size:25px !important"></span>
+                                <h4>Supervision</h4>
+                                <p>Supervise closely on quality of work done</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="why_us_item">
+                                <span class="fa fa-space-shuttle"  style="padding: 18px !important; font-size:25px !important"></span>
+                                <h4>Launch</h4>
+                                <p>Complete and commission the project on time</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+        </section><!-- Contact form end -->
+    
         <!-- Services -->
         <section id="services">
-            <div class="container">
-                <h2>OUR SERVICES</h2>
+            <div class="container text-center" >
+                <h2 style="margin-bottom: 0px !important">OUR SERVICES</h2>
+                <p>We render world class services to our customers. Our service include all offered by our companies but not limited to:</p>
+                <div class="row" style="margin-top: 20px">
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="buildshelter/images/service_img1.jpg" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
+                            <h3>CONSTRUCTION MANAGEMENT</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="{{asset('welcome/images/COPY.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
+                            <h3>FACILITY MANAGEMENT</h3>
+    
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service_item">
+                            <img src="{{asset('welcome/images/slider/4bsdpfs.jpeg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
+                            <h3>PROPERTIES DEVELOPMENT</h3>
+    
+                        </div>
+                    </div>
+    
+                </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="buildshelter/images/service_img1.jpg" alt="Our Services" />
-                            <h3>CONSTRUCTION MANAGEMENT</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a href="#services" class="btn know_btn">know more</a>
+                            <img src="{{asset('welcome/images/paint.png')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
+                            <h3>MANUFACTURING INDUSTRY (PAINT)</h3>
+    
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="buildshelter/images/service_img2.jpg" alt="Our Services" />
-                            <h3>RENOVATION</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a href="#services" class="btn know_btn">know more</a>
+                            <img src="{{asset('welcome/images/vidashlogistics.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
+                            <h3>LOGISTICS</h3>
+    
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
-                            <img src="buildshelter/images/service_img3.jpg" alt="Our Services" />
-                            <h3>ARCHITECTURE</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a href="#services" class="btn know_btn">know more</a>
+                            <img src="{{asset('welcome/images/areiwview.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
+                            <h3>REAL ESTATE</h3>
+    
                         </div>
                     </div>
+    
                 </div>
+    
             </div>
         </section><!-- Services end -->
-
+    
         <!-- Portfolio -->
         <section id="portfolio">
             <div class="container portfolio_area text-center">
                 <h2>Made with love</h2>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-
+                <p>Our work speaks for us,</p>
+    
                 <div id="filters">
                     <button class="button is-checked" data-filter="*">Show All</button>
-                    <button class="button" data-filter=".topez">Vidash City Shelters (TOPAZ)</button>
-                    <button class="button" data-filter=".sapphire">Vidash City Shelters (Sapphire)</button>
-                    <button class="button" data-filter=".emerald">Vidash City Shelters (Emerald)</button>
-                    <button class="button" data-filter=".gold">Vidash City Shelters (Gold)</button>
+                    <button class="button" data-filter=".shelter">Shelter</button>
+                    <button class="button" data-filter=".property">Property</button>
+                    <button class="button" data-filter=".paint">Paint</button>
                 </div>
                 <!-- Portfolio grid -->
                 <div class="grid">
                     <div class="grid-sizer"></div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 topez sapphire emerald gold">
-                        <img alt="" src="{{asset('works/IMG_0280.JPG')}}" >
+                    <div class="grid-item  shelter">
+                        <img alt="" src="{{ asset('works/shelter1.JPG') }}">
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0280.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{{ asset('works/shelter1.JPG') }}"
+                                data-fancybox-group="gallery" title="Grey City One Ongoing"><span
+                                    class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
-                    </div>
-
-                    <div class="grid-item topez sapphire  gold">
-                        <img alt="" src="{{asset('works/IMG_0276.JPG')}}" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0276.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-link"></span></a>
+                        <div class="portfolio-info" style="position: relative;bottom: 100px">
+                            <h4 style="color: white">Vidash Shelter</h4>
+                            Grey City One Ongoing
+    
                         </div>
                     </div>
-
-                    <div class="grid-item topez sapphire  gold">
-                        <img alt="" src="{{asset('works/IMG_0276.JPG')}}" >
+    
+                    <div class="grid-item property">
+                        <img alt="" src="{{ asset('works/TDP4.jpg') }}">
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0276.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{{ asset('works/TDP4.jpg') }}" data-fancybox-group="gallery"
+                                title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
-                    </div>
-
-                    <div class="grid-item  sapphire emerald gold">
-                        <img alt="" src="{{asset('works/IMG_0284.JPG')}}" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0284.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-link"></span></a>
+                        <div class="portfolio-info" style="position: relative;bottom: 100px">
+                            <h4 style="color: white">Vidash Properties</h4>
+                            A Terrace Duplex PentHouse
                         </div>
                     </div>
-
-                    <div class="grid-item topez sapphire emerald ">
-                        <img alt="" src="{{asset('works/IMG_0314 tt.jpg')}}" >
+    
+                    <div class="grid-item property">
+                        <img alt="" src="{{ asset('works/SDP1.jpg') }}">
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0314 tt.jpg')}}g" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{{ asset('works/SDP1.jpg') }}" data-fancybox-group="gallery"
+                                title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
-                    </div>
-
-                    <div class="grid-item topez sapphire  gold">
-                        <img alt="" src="{{asset('works/IMG_0315 tt.jpg')}}" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0315 tt.jpg')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-link"></span></a>
+                        <div class="portfolio-info" style="position: relative;bottom: 100px">
+                            <h4 style="color: white">Vidash Properties</h4>
+                            A Semi-Detached PentHouse
                         </div>
                     </div>
-                    <div class="grid-item topez sapphire emerald ">
-                        <img alt="" src="{{asset('works/IMG_0314 tt.jpg')}}" >
+    
+                    <div class="grid-item  shelter">
+                        <img alt="" src="{{ asset('works/IMG_0312 tt.jpg') }}">
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0314 tt.jpg')}}g" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{{ asset('works/IMG_0312 tt.jpg') }}"
+                                data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
+                                    class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
                         </div>
+                        <div class="portfolio-info" style="position: relative;bottom: 100px">
+                            <h4 style="color: white">Vidash Shelter</h4>
+                            Grey City Two Ongoing
+    
+                        </div>
                     </div>
-
-                    <div class="grid-item topez sapphire  gold">
-                        <img alt="" src="{{asset('works/IMG_0315 tt.jpg')}}" >
+    
+                    <div class="grid-item shelter ">
+                        <img alt="" src="{{ asset('works/IMG_0314 tt.jpg') }}">
                         <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0315 tt.jpg')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a class="fancybox" href="{{ asset('works/IMG_0314 tt.jpg') }}g"
+                                data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
+                                    class="fa fa-search"></span></a>
                             <a href="#"><span class="fa fa-link"></span></a>
+                        </div>
+                        <div class="portfolio-info" style="position: relative;bottom: 100px">
+                            <h4 style="color: white">Vidash Shelter</h4>
+                            Grey City Two Ongoing
+    
+                        </div>
+                    </div>
+    
+                    <div class="grid-item property">
+                        <img alt="" src="{{ asset('works/TD 3.jpg') }}">
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{{ asset('works/TD 3.jpg') }}" data-fancybox-group="gallery"
+                                title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>
+                        <div class="portfolio-info" style="position: relative;bottom: 100px">
+                            <h4 style="color: white">Vidash Properties</h4>
+                            A Terrace Duplex
+                        </div>
+                    </div>
+                    <div class="grid-item shelter">
+                        <img alt="" src="{{ asset('works/IMG_0314 tt.jpg') }}">
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{{ asset('works/IMG_0314 tt.jpg') }}g"
+                                data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
+                                    class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>
+                        <div class="portfolio-info" style="position: relative;bottom: 100px">
+                            <h4 style="color: white">Vidash Shelter</h4>
+                            Grey City Two Ongoing
+    
+                        </div>
+                    </div>
+    
+                    <div class="grid-item property">
+                        <img alt="" src="{{ asset('works/DD 4.jpg') }}">
+                        <div class="portfolio_hover_area">
+                            <a class="fancybox" href="{{ asset('works/DD 4.jpg') }}" data-fancybox-group="gallery"
+                                title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                            <a href="#"><span class="fa fa-link"></span></a>
+                        </div>
+                        <div class="portfolio-info" style="position: relative;bottom: 100px">
+                            <h4 style="color: white">Vidash Properties</h4>
+                            A Fully Detached Duplex
                         </div>
                     </div>
                 </div><!-- Portfolio grid end -->
             </div>
         </section><!-- Portfolio end -->
-
+    
         <!-- Testimonial -->
         <section id="testimonial">
             <div class="container text-center testimonial_area">
                 <h2>Customer Reviews</h2>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-
+                <p>Hear what our customers have to know.</p>
+    
                 <div class="row">
                     <div class="col-md-4">
                         <div class="testimonial_item">
                             <div class="testimonial_content text-left">
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                                <p>Its nothing but the best. Highly recommend.</p>
                             </div>
-                            <img src="buildshelter/images/testimonial_img1.png" alt="Testimonial" />
-                            <p class="worker_name">john smith</p>
+                            <p class="worker_name">Engr S. Morgan </p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="testimonial_item">
                             <div class="testimonial_content">
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                                <p>A professional consultation at it best.</p>
                             </div>
-                            <img src="buildshelter/images/testimonial_img2.png" alt="Testimonial" />
-                            <p class="worker_name">john smith</p>
+                            <p class="worker_name">Mr John Solomon</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="testimonial_item">
                             <div class="testimonial_content">
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                                <p>No 1, estate service provider, beyoud the reach</p>
                             </div>
-                            <img src="buildshelter/images/testimonial_img1.png" alt="Testimonial" />
-                            <p class="worker_name">john smith</p>
+    
+                            <p class="worker_name">Mr.Tunde Olagoke</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section><!-- Testimonial end -->
-
+    
         <!-- Contact form -->
-        <section id="contact">
+        <section id="contact_form">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <h2>Do you have any questions?</h2>
                         <h2 class="second_heading">Feel free to contact us!</h2>
                     </div>
-                    <form role="form" class="form-inline text-right col-md-6" >
+                    <form role="form" class="form-inline text-right col-md-6">
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="Name">
                         </div>
@@ -419,7 +602,7 @@
                 </div>
             </div>
         </section><!-- Contact form end -->
-
+    
         <!-- Footer -->
         <footer>
             <!-- Footer top -->
@@ -460,7 +643,7 @@
                                 <li><a href=""><span class="fa fa-map-marker"></span> Vidash City Shelters Ltd</a></li>
                                 <li><span class="fa fa-phone"></span><a href="tel:+2347061396988">   07061396988</a>,<a
                                     href="tel:+2347083399007">07083399007</a></li>
-                                <li><span class="fa fa-envelope"> </span><a href="mailto:vidashgroup@gmail.com"> vidashcityshelterslimited@gmail.com</a></li>
+                                <li><span class="fa fa-envelope"> </span><a href="mailto:vidashcityshelterslimited@gmail.com"> vidashcityshelterslimited@gmail.com</a></li>
 
                             </ul>
                         </div>
