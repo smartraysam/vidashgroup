@@ -422,11 +422,12 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="contact-form">
                         <h2 class="contact_page_headings">Send us a message</h2>
-                        <form method="post" action="http://crazycafe.net">
-                            <input type="text" name="username" placeholder="Your name">
-                            <input type="email" name="email_address" placeholder="Email address">
+                        <form method="post" action="{{ route('contactus.store') }}">
+                            @csrf
+                            <input type="text" name="name" placeholder="Your name">
+                            <input type="email" name="email" placeholder="Email address">
                             <input type="text" name="subject" placeholder="Subject">
-                            <textarea name="messages" placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Message"></textarea>
                             <input type="submit" name="submit" value="send">
                         </form>
                     </div>

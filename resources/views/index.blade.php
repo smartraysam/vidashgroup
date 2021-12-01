@@ -118,7 +118,7 @@
                         </li>
                         <li class=""><a href="#services">Services</a></li>
                         <li class=""><a href="#portfolio">Portfolio</a></li>
-                        <li class=""><a href="#contact">Contact</a></li>
+                        <li class=""><a href="#contact_form">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -447,7 +447,7 @@
                         <a class="fancybox" href="{{ asset('works/shelter1.JPG') }}"
                             data-fancybox-group="gallery" title="Grey City One Ongoing"><span
                                 class="fa fa-search"></span></a>
-                       
+
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Shelter</h4>
@@ -461,7 +461,7 @@
                     <div class="portfolio_hover_area">
                         <a class="fancybox" href="{{ asset('works/TDP4.jpg') }}" data-fancybox-group="gallery"
                             title="  A Terrace Duplex PentHouse"><span class="fa fa-search"></span></a>
-                      
+
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Properties</h4>
@@ -514,7 +514,7 @@
                     <div class="portfolio_hover_area">
                         <a class="fancybox" href="{{ asset('works/TD 3.jpg') }}" data-fancybox-group="gallery"
                             title=" A Terrace Duplex"><span class="fa fa-search"></span></a>
-                      
+
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Properties</h4>
@@ -540,7 +540,7 @@
                     <div class="portfolio_hover_area">
                         <a class="fancybox" href="{{ asset('works/DD 4.jpg') }}" data-fancybox-group="gallery"
                             title=" A Fully Detached Duplex"><span class="fa fa-search"></span></a>
-                       
+
                     </div>
                     <div class="portfolio-info" style="position: relative;bottom: 100px">
                         <h4 style="color: white">Vidash Properties</h4>
@@ -595,15 +595,16 @@
                     <h2>Do you have any questions?</h2>
                     <h2 class="second_heading">Feel free to contact us!</h2>
                 </div>
-                <form role="form" class="form-inline text-right col-md-6">
+                <form role="form" class="form-inline text-right col-md-6" method="post" action="{{ route('contactus.store') }}">
+                @csrf
                     <div class="form-group">
-                        <input type="text" class="form-control" id="name" placeholder="Name">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Email">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="5" id="msg" placeholder="Message"></textarea>
+                        <textarea class="form-control" rows="5" name="message" id="message" placeholder="Message"></textarea>
                     </div>
                     <button type="submit" class="btn submit_btn">Submit</button>
                 </form>

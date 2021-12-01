@@ -191,7 +191,7 @@
                             <p> Our core business is the City Shelters and Property, although our Group has activities in
                                 several
                                 other business areas </p>
-    
+
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6" style="padding-top: 100px">
@@ -202,7 +202,7 @@
                                 challenging projects and accumulated experiences in design and building solutions,
                                 project management services, and other services.
                             </p>
-    
+
                             <p>
                                 We also provide design inputs and engineering solutions as value-added services to our
                                 clients.
@@ -210,13 +210,13 @@
                                 to
                                 execute their projects.
                             </p>
-    
+
                             <p>
                                 Our emphasis on clear communication and follow-through procedures to ensures the client's
                                 objectives are top priority in the planning and execution of all our projects.
                             </p>
                         </div>
-    
+
                     </div>
                 </div>
             </div>
@@ -229,17 +229,17 @@
                         <p> To provide sustainable and increasing value to clients, shareholders and staff,
                             through a business model that continually innovates in all that it does.</p>
                     </div>
-    
+
                     <div class="col-md-6">
                         <h2>Our Vision</h2>
                         <p> To be recognized as a global partner that provides excellence in the delivery of
                             subsurface engineering solutions.</p>
                     </div>
-    
+
                 </div>
             </div>
         </section><!-- Contact form end -->
-    
+
         <!-- Why us -->
         <section id="why_us">
             <div class="container text-center">
@@ -251,7 +251,7 @@
                                 reiterated in
                                 the Group’s underlying values.
                                 The Group’s core values are driven through five key areas of business practice.,</p>
-    
+
                         </div>
                     </div>
                 </div>
@@ -293,8 +293,8 @@
                 </div>
             </div>
         </section><!-- Why us end -->
-    
-    
+
+
         <section id="missionvision" style="background: #fedb5d none repeat scroll 0 0; padding: 27px 0 32px;">
             <div class="container">
                 <div class="text-center" style="margin-bottom: 20px">
@@ -305,7 +305,7 @@
                     We take pride in our delivery, thus our clients can always be assured that only the most experienced and
                     qualified people are serving them, at all times.</p>
                 </div>
-    
+
                 <div class="text-center" id="why_us" style="background: transparent !important">
                     <div class="row">
                         <div class="col-md-2 col-sm-6">
@@ -351,13 +351,13 @@
                             </div>
                         </div>
                     </div>
-    
+
                 </div>
-    
-    
+
+
             </div>
         </section><!-- Contact form end -->
-    
+
         <!-- Services -->
         <section id="services">
             <div class="container text-center" >
@@ -374,52 +374,52 @@
                         <div class="service_item">
                             <img src="{{asset('welcome/images/COPY.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
                             <h3>FACILITY MANAGEMENT</h3>
-    
+
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
                             <img src="{{asset('welcome/images/slider/4bsdpfs.jpeg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
                             <h3>PROPERTIES DEVELOPMENT</h3>
-    
+
                         </div>
                     </div>
-    
+
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="service_item">
                             <img src="{{asset('welcome/images/paint.png')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
                             <h3>MANUFACTURING INDUSTRY (PAINT)</h3>
-    
+
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
                             <img src="{{asset('welcome/images/vidashlogistics.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
                             <h3>LOGISTICS</h3>
-    
+
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
                             <img src="{{asset('welcome/images/areiwview.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
                             <h3>REAL ESTATE</h3>
-    
+
                         </div>
                     </div>
-    
+
                 </div>
-    
+
             </div>
         </section><!-- Services end -->
-    
+
         <!-- Portfolio -->
         <section id="portfolio">
             <div class="container portfolio_area text-center">
                 <h2>Made with love</h2>
                 <p>Our work speaks for us,</p>
-    
+
                 <div id="filters">
                     <button class="button is-checked" data-filter="*">Show All</button>
                     <button class="button" data-filter=".shelter">Shelter</button>
@@ -435,28 +435,28 @@
                             <a class="fancybox" href="{{ asset('works/shelter1.JPG') }}"
                                 data-fancybox-group="gallery" title="Grey City One Ongoing"><span
                                     class="fa fa-search"></span></a>
-                           
+
                         </div>
                         <div class="portfolio-info" style="position: relative;bottom: 100px">
                             <h4 style="color: white">Vidash Shelter</h4>
                             Grey City One Ongoing
-    
+
                         </div>
                     </div>
-    
+
                     <div class="grid-item property">
                         <img alt="" src="{{ asset('works/TDP4.jpg') }}">
                         <div class="portfolio_hover_area">
                             <a class="fancybox" href="{{ asset('works/TDP4.jpg') }}" data-fancybox-group="gallery"
                                 title="  A Terrace Duplex PentHouse"><span class="fa fa-search"></span></a>
-                          
+
                         </div>
                         <div class="portfolio-info" style="position: relative;bottom: 100px">
                             <h4 style="color: white">Vidash Properties</h4>
                             A Terrace Duplex PentHouse
                         </div>
                     </div>
-    
+
                     <div class="grid-item property">
                         <img alt="" src="{{ asset('works/SDP1.jpg') }}">
                         <div class="portfolio_hover_area">
@@ -468,7 +468,7 @@
                             A Semi-Detached PentHouse
                         </div>
                     </div>
-    
+
                     <div class="grid-item  shelter">
                         <img alt="" src="{{ asset('works/IMG_0312 tt.jpg') }}">
                         <div class="portfolio_hover_area">
@@ -479,10 +479,10 @@
                         <div class="portfolio-info" style="position: relative;bottom: 100px">
                             <h4 style="color: white">Vidash Shelter</h4>
                             Grey City Two Ongoing
-    
+
                         </div>
                     </div>
-    
+
                     <div class="grid-item shelter ">
                         <img alt="" src="{{ asset('works/IMG_0314 tt.jpg') }}">
                         <div class="portfolio_hover_area">
@@ -493,16 +493,16 @@
                         <div class="portfolio-info" style="position: relative;bottom: 100px">
                             <h4 style="color: white">Vidash Shelter</h4>
                             Grey City Two Ongoing
-    
+
                         </div>
                     </div>
-    
+
                     <div class="grid-item property">
                         <img alt="" src="{{ asset('works/TD 3.jpg') }}">
                         <div class="portfolio_hover_area">
                             <a class="fancybox" href="{{ asset('works/TD 3.jpg') }}" data-fancybox-group="gallery"
                                 title=" A Terrace Duplex"><span class="fa fa-search"></span></a>
-                          
+
                         </div>
                         <div class="portfolio-info" style="position: relative;bottom: 100px">
                             <h4 style="color: white">Vidash Properties</h4>
@@ -519,16 +519,16 @@
                         <div class="portfolio-info" style="position: relative;bottom: 100px">
                             <h4 style="color: white">Vidash Shelter</h4>
                             Grey City Two Ongoing
-    
+
                         </div>
                     </div>
-    
+
                     <div class="grid-item property">
                         <img alt="" src="{{ asset('works/DD 4.jpg') }}">
                         <div class="portfolio_hover_area">
                             <a class="fancybox" href="{{ asset('works/DD 4.jpg') }}" data-fancybox-group="gallery"
                                 title=" A Fully Detached Duplex"><span class="fa fa-search"></span></a>
-                           
+
                         </div>
                         <div class="portfolio-info" style="position: relative;bottom: 100px">
                             <h4 style="color: white">Vidash Properties</h4>
@@ -538,13 +538,13 @@
                 </div><!-- Portfolio grid end -->
             </div>
         </section><!-- Portfolio end -->
-    
+
         <!-- Testimonial -->
         <section id="testimonial">
             <div class="container text-center testimonial_area">
                 <h2>Customer Reviews</h2>
                 <p>Hear what our customers have to know.</p>
-    
+
                 <div class="row">
                     <div class="col-md-4">
                         <div class="testimonial_item">
@@ -567,14 +567,14 @@
                             <div class="testimonial_content">
                                 <p>No 1, estate service provider, beyoud the reach</p>
                             </div>
-    
+
                             <p class="worker_name">Mr.Tunde Olagoke</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section><!-- Testimonial end -->
-    
+
         <!-- Contact form -->
         <section id="contact_form">
             <div class="container">
@@ -583,22 +583,23 @@
                         <h2>Do you have any questions?</h2>
                         <h2 class="second_heading">Feel free to contact us!</h2>
                     </div>
-                    <form role="form" class="form-inline text-right col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="name" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" id="msg" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn submit_btn">Submit</button>
-                    </form>
+                    <form role="form" class="form-inline text-right col-md-6" method="post" action="{{ route('contactus.store') }}">
+                        @csrf
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" name="message" id="message" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn submit_btn">Submit</button>
+                        </form>
                 </div>
             </div>
         </section><!-- Contact form end -->
-    
+
         <!-- Footer -->
         <footer>
             <!-- Footer top -->
