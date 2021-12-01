@@ -658,11 +658,11 @@
                     <div class="footer_item">
                         <h4>Contact us</h4>
                         <ul class="list-unstyled footer_contact">
-                            <li><a href=""><span class="fa fa-map-marker"></span> Vidash City Shelters Ltd</a></li>
+                            <li><a href=""><span class="fa fa-map-marker"></span> Vidash Group of Company</a></li>
                             <li><span class="fa fa-phone"></span><a href="tel:+2347061396988"> 07061396988</a>,<a
                                     href="tel:+2347083399007">07083399007</a></li>
                             <li><span class="fa fa-envelope"> </span><a href="mailto:vidashgroup@gmail.com">
-                                    vidashcityshelterslimited@gmail.com</a></li>
+                                    vidashgroup@gmail.com</a></li>
 
                         </ul>
                     </div>
