@@ -278,21 +278,23 @@
             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
                 dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
                 dolor sit amet, consectetur, adipisci velit,</p>
+            <!--
+                <div id="filters">
+                    <button class="button is-checked" data-filter="*">Show All</button>
+                    <button class="button" data-filter=".topez">Vidash City Shelters (TOPAZ)</button>
+                    <button class="button" data-filter=".sapphire">Vidash City Shelters (Sapphire)</button>
+                    <button class="button" data-filter=".emerald">Vidash City Shelters (Emerald)</button>
+                    <button class="button" data-filter=".gold">Vidash City Shelters (Gold)</button>
+                </div>
+            -->
 
-            <div id="filters">
-                <button class="button is-checked" data-filter="*">Show All</button>
-                <button class="button" data-filter=".topez">Vidash City Shelters (TOPAZ)</button>
-                <button class="button" data-filter=".sapphire">Vidash City Shelters (Sapphire)</button>
-                <button class="button" data-filter=".emerald">Vidash City Shelters (Emerald)</button>
-                <button class="button" data-filter=".gold">Vidash City Shelters (Gold)</button>
-            </div>
             <!-- Portfolio grid -->
             <div class="grid">
                 <div class="grid-sizer"></div>
                 <div class="grid-item grid-item--width2 grid-item--height2 topez sapphire emerald gold">
-                    <img alt="" src="{{ asset('works/IMG_0280.JPG') }}">
+                    <img alt="" src="{{ asset('paintPhotos/Image11.jpeg') }}">
                     <div class="portfolio_hover_area">
-                        <a class="fancybox" href="{{ asset('works/IMG_0280.JPG') }}"
+                        <a class="fancybox" href="{{ asset('paintPhotos/Image11.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
                         <a href="#"><span class="fa fa-link"></span></a>
@@ -300,9 +302,9 @@
                 </div>
 
                 <div class="grid-item topez sapphire  gold">
-                    <img alt="" src="{{ asset('works/IMG_0276.JPG') }}">
+                    <img alt="" src="{{ asset('paintPhotos/Image05.jpeg') }}">
                     <div class="portfolio_hover_area">
-                        <a class="fancybox" href="{{ asset('works/IMG_0276.JPG') }}"
+                        <a class="fancybox" href="{{ asset('paintPhotos/Image05.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
                         <a href="#"><span class="fa fa-link"></span></a>
@@ -310,9 +312,9 @@
                 </div>
 
                 <div class="grid-item topez sapphire  gold">
-                    <img alt="" src="{{ asset('works/IMG_0276.JPG') }}">
+                    <img alt="" src="{{ asset('paintPhotos/Image09.jpeg') }}">
                     <div class="portfolio_hover_area">
-                        <a class="fancybox" href="{{ asset('works/IMG_0276.JPG') }}"
+                        <a class="fancybox" href="{{ asset('paintPhotos/Image09.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
                         <a href="#"><span class="fa fa-link"></span></a>
@@ -320,9 +322,9 @@
                 </div>
 
                 <div class="grid-item  sapphire emerald gold">
-                    <img alt="" src="{{ asset('works/IMG_0284.JPG') }}">
+                    <img alt="" src="{{ asset('paintPhotos/Image02.jpeg') }}">
                     <div class="portfolio_hover_area">
-                        <a class="fancybox" href="{{ asset('works/IMG_0284.JPG') }}"
+                        <a class="fancybox" href="{{ asset('paintPhotos/Image02.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
                         <a href="#"><span class="fa fa-link"></span></a>
@@ -330,9 +332,9 @@
                 </div>
 
                 <div class="grid-item topez sapphire emerald ">
-                    <img alt="" src="{{ asset('works/IMG_0314 tt.jpg') }}">
+                    <img alt="" src="{{ asset('paintPhotos/Image07.jpeg') }}">
                     <div class="portfolio_hover_area">
-                        <a class="fancybox" href="{{ asset('works/IMG_0314 tt.jpg') }}g"
+                        <a class="fancybox" href="{{ asset('paintPhotos/Image07.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
                         <a href="#"><span class="fa fa-link"></span></a>
@@ -340,18 +342,18 @@
                 </div>
 
                 <div class="grid-item topez sapphire  gold">
-                    <img alt="" src="{{ asset('works/IMG_0315 tt.jpg') }}">
+                    <img alt="" src="{{ asset('paintPhotos/Image14.jpeg') }}">
                     <div class="portfolio_hover_area">
-                        <a class="fancybox" href="{{ asset('works/IMG_0315 tt.jpg') }}"
+                        <a class="fancybox" href="{{ asset('paintPhotos/Image14.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
                         <a href="#"><span class="fa fa-link"></span></a>
                     </div>
                 </div>
                 <div class="grid-item topez sapphire emerald ">
-                    <img alt="" src="{{ asset('works/IMG_0314 tt.jpg') }}">
+                    <img alt="" src="{{ asset('paintPhotos/Image12.jpeg') }}">
                     <div class="portfolio_hover_area">
-                        <a class="fancybox" href="{{ asset('works/IMG_0314 tt.jpg') }}g"
+                        <a class="fancybox" href="{{ asset('paintPhotos/Image12.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
                         <a href="#"><span class="fa fa-link"></span></a>
@@ -359,9 +361,19 @@
                 </div>
 
                 <div class="grid-item topez sapphire  gold">
-                    <img alt="" src="{{ asset('works/IMG_0315 tt.jpg') }}">
+                    <img alt="" src="{{ asset('paintPhotos/Image13.jpeg') }}">
                     <div class="portfolio_hover_area">
-                        <a class="fancybox" href="{{ asset('works/IMG_0315 tt.jpg') }}"
+                        <a class="fancybox" href="{{ asset('paintPhotos/Image13.jpeg') }}"
+                            data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
+                                class="fa fa-search"></span></a>
+                        <a href="#"><span class="fa fa-link"></span></a>
+                    </div>
+                </div>
+
+                <div class="grid-item topez sapphire  gold">
+                    <img alt="" src="{{ asset('paintPhotos/Image01.jpeg') }}">
+                    <div class="portfolio_hover_area">
+                        <a class="fancybox" href="{{ asset('paintPhotos/Image01.jpeg') }}"
                             data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span
                                 class="fa fa-search"></span></a>
                         <a href="#"><span class="fa fa-link"></span></a>
