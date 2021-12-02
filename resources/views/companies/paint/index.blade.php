@@ -136,14 +136,9 @@
                     <img src="{{ asset('welcome/images/slider/bg1.jpg') }}" alt="Construction">
                     <div class="overlay">
                         <div class="carousel-caption">
-                            <h3>We are Certified Engineers</h3>
-                            <h1>Construction Services</h1>
+                            <h3>Vidash Paint</h3>
+                            <h1>Best quality, Uniquie textures</h1>
                             <h1 class="second_heading">Creative & Professional</h1>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a class="btn know_btn">know more</a>
-                            <a class="btn know_btn">view project</a>
                         </div>
                     </div>
                 </div>
@@ -151,14 +146,9 @@
                     <img src="{{ asset('paintPhotos/cta2-img.png') }}" alt="Construction">
                     <div class="overlay">
                         <div class="carousel-caption">
-                            <h3>We are Certified Estate Professionals</h3>
-                            <h1>Real Esate Services</h1>
+                            <h3>Vidash Paint</h3>
+                            <h1>Best quality, Uniquie textures</h1>
                             <h1 class="second_heading">Creative & Professional</h1>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a class="btn know_btn">know more</a>
-                            <a class="btn know_btn">view project</a>
                         </div>
                     </div>
                 </div>
@@ -166,14 +156,9 @@
                     <img src="{{asset('welcome/images/header.png')}}" alt="Construction">
                     <div class="overlay">
                         <div class="carousel-caption">
-                            <h3>We are Certified Engineers</h3>
-                            <h1>Construction Services</h1>
+                            <h3>Vidash Paint</h3>
+                            <h1>Best quality, Uniquie textures</h1>
                             <h1 class="second_heading">Creative & Professional</h1>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a class="btn know_btn">know more</a>
-                            <a class="btn know_btn">view project</a>
                         </div>
                     </div>
                 </div>
@@ -203,11 +188,9 @@
                     <div class="about_content">
                         <h2>Welcome to Our Company</h2>
                         <h3>More about us</h3>
-                        <p>We are a property development company focused on premiering the integration of creatively
-                            innovative technology and professionalism into property development using sustainable
-                            methods.,</p>
-                        <p> VIDASH consist of highly regarded built environment professionals geared towards providing
-                            our clients with satisfaction </p>
+                        <p>We are a paint production focused on premiering the integration of creatively
+                            innovative technology and professionalism into producing paint that stand the test of time.</p>
+                        <p> Our products are used across nigeria by world class developer and builders.</p>
 
                     </div>
                 </div>
@@ -227,9 +210,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="head_title">
                         <h2>WHY CHOOSE US?</h2>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                            est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                        <p>For the best quality paint that stand the test of time.</p>
 
                     </div>
                 </div>
@@ -246,7 +227,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="why_us_item">
                         <span class="fa fa-futbol-o"></span>
-                        <h4>Always on time</h4>
+                        <h4>A Uniquie texture and pattern</h4>
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                             consequuntur magni</p>
                     </div>
@@ -254,7 +235,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="why_us_item">
                         <span class="fa fa-group"></span>
-                        <h4>We are pasionate</h4>
+                        <h4>Stand a test of time</h4>
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                             consequuntur magni</p>
                     </div>
@@ -262,7 +243,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="why_us_item">
                         <span class="fa fa-line-chart"></span>
-                        <h4>Professional Services</h4>
+                        <h4>Professional looks</h4>
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                             consequuntur magni</p>
                     </div>
@@ -274,10 +255,8 @@
 
     <section id="portfolio">
         <div class="container portfolio_area text-center">
-            <h2>Made with love</h2>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                dolor sit amet, consectetur, adipisci velit,</p>
+            <h2>Always the best for your structure</h2>
+            <p>Check out the beautiful of our paint on structural development</p>
             <!--
                 <div id="filters">
                     <button class="button is-checked" data-filter="*">Show All</button>
@@ -386,42 +365,32 @@
     <section id="testimonial">
         <div class="container text-center testimonial_area">
             <h2>Customer Reviews</h2>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                dolor sit amet, consectetur, adipisci velit,</p>
+            <p>Hear what our customers have to know.</p>
 
             <div class="row">
                 <div class="col-md-4">
                     <div class="testimonial_item">
                         <div class="testimonial_content text-left">
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <p>Its nothing but the best. Highly recommend.</p>
                         </div>
-                        <img src="buildshelter/images/testimonial_img1.png" alt="Testimonial" />
-                        <p class="worker_name">john smith</p>
+                        <p class="worker_name">Engr S. Morgan </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="testimonial_item">
                         <div class="testimonial_content">
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <p>A professional consultation at it best.</p>
                         </div>
-                        <img src="buildshelter/images/testimonial_img2.png" alt="Testimonial" />
-                        <p class="worker_name">john smith</p>
+                        <p class="worker_name">Mr John Solomon</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="testimonial_item">
                         <div class="testimonial_content">
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <p>No 1, estate service provider, beyoud the reach</p>
                         </div>
-                        <img src="buildshelter/images/testimonial_img1.png" alt="Testimonial" />
-                        <p class="worker_name">john smith</p>
+
+                        <p class="worker_name">Mr.Tunde Olagoke</p>
                     </div>
                 </div>
             </div>
@@ -452,6 +421,7 @@
             </div>
         </div>
     </section><!-- Contact form end -->
+
 
     <!-- Footer -->
     <footer>

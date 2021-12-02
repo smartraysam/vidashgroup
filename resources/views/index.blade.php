@@ -620,8 +620,7 @@
                 <div class="col-lg-4 col-sm-8">
                     <div class="footer_item">
                         <h4>About Company</h4>
-                        <img class="logo" src="{{ asset('welcome/images/logo.jpg') }}" height="120"
-                            width="80" alt="Vidash shelter" />
+                        <img class="logo" src="{{ asset('welcome/images/logo.jpg') }}" width="180" height="80"  alt="Vidash shelter" />
                         <p>We are a property development company focused on premiering the integration of creatively
                             innovative technology and professionalism into property development using sustainable
                             methods.
