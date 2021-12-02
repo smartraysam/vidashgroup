@@ -373,7 +373,7 @@
                         <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
-                                    <img src="/propertyassets/img/item/1.jpg" alt="img">
+                                    <img weight="370px" height="220px" src="{{ asset('works/DD 1.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-sale">
                                     For Sale
@@ -402,7 +402,7 @@
                         <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
-                                    <img src="/propertyassets/img/item/2.jpg" alt="img">
+                                    <img weight="370px" height="220px" src="{{ asset('works/SDD 1.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-rent">
                                     For Rent
@@ -431,7 +431,7 @@
                         <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
-                                    <img src="/propertyassets/img/item/3.jpg" alt="img">
+                                    <img weight="370px" height="220px" src="{{ asset('works/SDP1.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag sold-out">
                                     Sold Out
@@ -460,7 +460,7 @@
                         <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
-                                    <img src="/propertyassets/img/item/4.jpg" alt="img">
+                                    <img weight="370px" height="220px" src="{{ asset('works/SDP6.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-sale">
                                     For Sale
@@ -489,7 +489,7 @@
                         <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
-                                    <img src="/propertyassets/img/item/5.jpg" alt="img">
+                                    <img weight="370px" height="220px" src="{{ asset('works/TDP 1.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag sold-out">
                                     Sold Out
@@ -518,7 +518,7 @@
                         <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
-                                    <img src="/propertyassets/img/item/6.jpg" alt="img">
+                                    <img weight="370px" height="220px" src="{{ asset('works/VR.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-rent">
                                     For Rent
@@ -818,7 +818,7 @@
                             <ul class="aa-testimonial-slider">
                                 <li>
                                     <div class="aa-testimonial-single">
-                                       
+
                                         <div class="aa-testimonial-info">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
                                                 consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae
@@ -833,7 +833,7 @@
                                 </li>
                                 <li>
                                     <div class="aa-testimonial-single">
-                                      
+
                                         <div class="aa-testimonial-info">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
                                                 consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae
@@ -848,7 +848,7 @@
                                 </li>
                                 <li>
                                     <div class="aa-testimonial-single">
-                                     
+
                                         <div class="aa-testimonial-info">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
                                                 consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae
@@ -917,8 +917,8 @@
                                     <img src="{{asset('welcome/images/vidashshelter.jpg')}}" width="150" height="60" alt="brand image">
                                 </div>
                             </li>
-                           
-                         
+
+
                         </ul>
                     </div>
                 </div>

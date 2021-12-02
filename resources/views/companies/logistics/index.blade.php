@@ -437,7 +437,7 @@
                         <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
                                 src="https://maps.google.com/maps?q=vidash%20group%20barumark%20estate%20wuye%20abuja&t=&z=15&ie=UTF8&iwloc=&output=embed"
                                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                                href="https://123movies-to.org"></a><br>
+                                href=""></a><br>
                             <style>
                                 .mapouter {
                                     position: relative;

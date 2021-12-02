@@ -180,7 +180,6 @@
                 <div class="row">
                     <div class="col-lg-7 col-md-6" style="padding-top: 10px; padding-bottom: 40px">
                         <div class="about_content">
-<<<<<<< HEAD
                             <h2>Welcome to Our Company</h2>
                             <h3>About us</h3>
                             <p>VIDASH Group is comprised of several distinct business divisions,
@@ -216,33 +215,6 @@
                             </p>
                         </div>
 
-=======
-                          
-                            <h2>Who we are?</h2>
-                            <p>We are a property development company focused on premiering the integration of creatively
-                                 innovative technology and professionalism into property development using sustainable methods. 
-                            </p>  
-                            <p> VIDASH consist of highly regarded built environment professionals geared towards providing our clients with satisfaction</p>
-                            <p> Our shelter cities are location at </p> 
-                            <ul>
-                            <li>TOPAZ:  Off Gbaupe Road, Behind Aco Phase II, Airport Road, Abuja, Nigeria</li> 
-                            
-                            <li>Sapphire:  Aco Behind Vidash City Shelters (Emerald), Airport Road, Abuja, Nigeria</li> 
-                            <li>Emerald:  Lugbe, By Aco Estate, Behind Mantrac, Just After Arab Contractor, Airport Road, Abuja, Nigeria.</li> 
-                            <li>Gold: Lugbe 1 Extension, Off Idu Train Station Road, Behind Nigerian Army Housing Estate, Idu Axis, Abuja, Nigeria.</li> 
-                            
-                            </ul> 
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-6 fadeInLeft" style="padding-top: 100px;padding-bottom: 40px">
-                        <div class="about_content">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe width=""
-                                        src="{{asset('buildshelter/City-Logo-Reveal-Render-Here_2.mp4')}}"
-                                        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                </div>
-                        </div>
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
                     </div>
                 </div>
             </div>
@@ -263,11 +235,7 @@
 
                 </div>
             </div>
-<<<<<<< HEAD
         </section><!-- Contact form end -->
-=======
-        </section>
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
 
         <!-- Why us -->
         <section id="why_us">
@@ -275,18 +243,12 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="head_title">
-<<<<<<< HEAD
                             <h2> Our Core Values</h2>
                             <p>The Group’s commitment to sustainable business practices and client satisfaction is
                                 reiterated in
                                 the Group’s underlying values.
                                 The Group’s core values are driven through five key areas of business practice.,</p>
 
-=======
-                            <h2>Getting started</h2>
-                            <h3>We Are Ready To Help You With</h3>
-                           <p>With our experience, we are ready to help you create a modern property with an easy step.</p>
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
                         </div>
                     </div>
                 </div>
@@ -312,12 +274,11 @@
                             <p>If you feel you are in accordance in with the property model and have seen the property directly then make a payment.</p>
                         </div>
                     </div>
-                  
+
                 </div>
             </div>
         </section><!-- Why us end -->
 
-<<<<<<< HEAD
 
         <section id="missionvision" style="background: #fedb5d none repeat scroll 0 0; padding: 27px 0 32px;">
             <div class="container">
@@ -416,37 +377,17 @@
                             <img src="{{asset('welcome/images/paint.png')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
                             <h3>MANUFACTURING INDUSTRY (PAINT)</h3>
 
-=======
-        <!-- Services -->
-        <section id="services" style="margin-bottom: 30px">
-            <div class="container">
-                <h2 style="margin: 20px">OUR SERVICES</h2>
-                <h3 style="text-align: center; font-size: 15px; margin-bottom: 15px;text-transform: lowercase !important">We offer the following service through our shelter packages.</h3>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="service_item">
-                            <img src="buildshelter/images/service_img1.jpg" alt="Our Services" />
-                            <h3>CONSTRUCTION MANAGEMENT</h3>
-                         
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
-<<<<<<< HEAD
                             <img src="{{asset('welcome/images/vidashlogistics.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
                             <h3>LOGISTICS</h3>
 
-=======
-                            <img src="buildshelter/images/service_img2.jpg" alt="Our Services" />
-                            <h3>RENOVATION</h3>
-                           
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
-<<<<<<< HEAD
                             <img src="{{asset('welcome/images/areiwview.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
                             <h3>REAL ESTATE</h3>
 
@@ -455,14 +396,6 @@
 
                 </div>
 
-=======
-                            <img src="buildshelter/images/service_img3.jpg" alt="Our Services" />
-                            <h3>ARCHITECTURE</h3>
-                          
-                        </div>
-                    </div>
-                </div>
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
             </div>
         </section><!-- Services end -->
 
@@ -470,12 +403,8 @@
         <section id="portfolio">
             <div class="container portfolio_area text-center">
                 <h2>Made with love</h2>
-<<<<<<< HEAD
                 <p>Our work speaks for us,</p>
 
-=======
-               <p>We have shelter located at the following:.</p>
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
                 <div id="filters">
                     <button class="button is-checked" data-filter="*">Show All</button>
                     <button class="button" data-filter=".topez">TOPAZ</button>
@@ -489,7 +418,6 @@
                     <div class="grid-item topez sapphire emerald gold">
                         <img alt="" src="{{asset('works/IMG_0280.JPG')}}" >
                         <div class="portfolio_hover_area">
-<<<<<<< HEAD
                             <a class="fancybox" href="{{ asset('works/shelter1.JPG') }}"
                                 data-fancybox-group="gallery" title="Grey City One Ongoing"><span
                                     class="fa fa-search"></span></a>
@@ -517,30 +445,12 @@
 
                     <div class="grid-item property">
                         <img alt="" src="{{ asset('works/SDP1.jpg') }}">
-=======
-                            <a class="fancybox" href="{{asset('works/IMG_0280.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                           
-                        </div>
-                    </div>
-
-                    <div class="grid-item topez sapphire  gold">
-                        <img alt="" src="{{asset('works/IMG_0276.JPG')}}" >
                         <div class="portfolio_hover_area">
                             <a class="fancybox" href="{{asset('works/IMG_0276.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                           
+
                         </div>
                     </div>
 
-                    <div class="grid-item topez sapphire  gold">
-                        <img alt="" src="{{asset('works/IMG_0276.JPG')}}" >
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0276.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                           
-                        </div>
-                    </div>
-
-<<<<<<< HEAD
                     <div class="grid-item  shelter">
                         <img alt="" src="{{ asset('works/IMG_0312 tt.jpg') }}">
                         <div class="portfolio_hover_area">
@@ -579,35 +489,11 @@
                         <div class="portfolio-info" style="position: relative;bottom: 100px">
                             <h4 style="color: white">Vidash Properties</h4>
                             A Terrace Duplex
-=======
-                    <div class="grid-item  sapphire emerald gold">
-                        <img alt="" src="{{asset('works/IMG_0284.JPG')}}" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0284.JPG')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                           
-                        </div>
-                    </div>
-
-                    <div class="grid-item topez sapphire emerald ">
-                        <img alt="" src="{{asset('works/IMG_0314 tt.jpg')}}" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0314 tt.jpg')}}g" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                           
-                        </div>
-                    </div>
-
-                    <div class="grid-item topez sapphire  gold">
-                        <img alt="" src="{{asset('works/IMG_0315 tt.jpg')}}" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0315 tt.jpg')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                           
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
                         </div>
                     </div>
                     <div class="grid-item topez sapphire emerald ">
                         <img alt="" src="{{asset('works/IMG_0314 tt.jpg')}}" >
                         <div class="portfolio_hover_area">
-<<<<<<< HEAD
                             <a class="fancybox" href="{{ asset('works/IMG_0314 tt.jpg') }}g"
                                 data-fancybox-group="gallery" title="   Grey City Two"><span
                                     class="fa fa-search"></span></a>
@@ -625,18 +511,6 @@
                             <a class="fancybox" href="{{ asset('works/DD 4.jpg') }}" data-fancybox-group="gallery"
                                 title=" A Fully Detached Duplex"><span class="fa fa-search"></span></a>
 
-=======
-                            <a class="fancybox" href="{{asset('works/IMG_0314 tt.jpg')}}g" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                           
-                        </div>
-                    </div>
-
-                    <div class="grid-item topez sapphire  gold">
-                        <img alt="" src="{{asset('works/IMG_0315 tt.jpg')}}" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="{{asset('works/IMG_0315 tt.jpg')}}" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                           
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
                         </div>
                     </div>
                 </div><!-- Portfolio grid end -->
@@ -702,11 +576,7 @@
                         </form>
                 </div>
             </div>
-<<<<<<< HEAD
         </section><!-- Contact form end -->
-=======
-        </section>
->>>>>>> 31ba59e9ff0978a35297ec3396819a657be0edbe
 
         <!-- Footer -->
         <footer>
