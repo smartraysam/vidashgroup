@@ -33,4 +33,6 @@ Route::get('/paint', [App\Http\Controllers\PaintController::class, 'index'])->na
 
 Route::get('/logistics', [App\Http\Controllers\LogisticsController::class, 'index'])->name('logistics');
 
+Route::get('/propDetail', [App\Http\Controllers\PropertyDetailController::class, 'index'])->name('propDetail');
+
 Route::post('/contactus', [App\Http\Controllers\ContactusController::class, 'store'])->name('contactus.store');

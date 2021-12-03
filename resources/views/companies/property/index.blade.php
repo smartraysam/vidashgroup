@@ -100,10 +100,10 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul id="top-menu" class="nav navbar-nav navbar-right aa-main-nav">
                         <li class="active"><a href="#">Home</a></li>
-                        <li class=""><a href="#about">About Us</a></li>
-                        <li class=""><a href="#properties">Properties</a></li>
+                        <li class=""><a href="#aa-about-us">About Us</a></li>
+                        <li class=""><a href="#aa-latest-property">Properties</a></li>
 
-                        <li class="dropdown"><a href="#company" data-toggle="dropdown" class="dropdown-toggle">Our
+                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our
                                 Companies <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{ route('shelter') }}">Vidash Shelter</a></li>
@@ -112,7 +112,7 @@
                                 <li><a href="{{ route('logistics') }}">Vidash Logistics</a></li>
                             </ul>
                         </li>
-                        <li><a href="#profolio">Service</a></li>
+                        <li><a href="#aa-service">Service</a></li>
 
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -394,7 +394,7 @@
                                         <span class="aa-price">
                                             $35000
                                         </span>
-                                        <a href="#" class="aa-secondary-btn">View Details</a>
+                                        <a href="{{ route('propDetail')}}" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
                             </article>
@@ -423,7 +423,7 @@
                                         <span class="aa-price">
                                             $11000
                                         </span>
-                                        <a href="#" class="aa-secondary-btn">View Details</a>
+                                        <a href="{{ route('propDetail')}}" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
                             </article>
@@ -452,7 +452,7 @@
                                         <span class="aa-price">
                                             $15000
                                         </span>
-                                        <a href="#" class="aa-secondary-btn">View Details</a>
+                                        <a href="{{ route('propDetail')}}" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
                             </article>
@@ -481,7 +481,7 @@
                                         <span class="aa-price">
                                             $35000
                                         </span>
-                                        <a href="#" class="aa-secondary-btn">View Details</a>
+                                        <a href="{{ route('propDetail')}}" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
                             </article>
@@ -510,7 +510,7 @@
                                         <span class="aa-price">
                                             $11000
                                         </span>
-                                        <a href="#" class="aa-secondary-btn">View Details</a>
+                                        <a href="{{ route('propDetail') }}" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
                             </article>
@@ -539,7 +539,7 @@
                                         <span class="aa-price">
                                             $15000
                                         </span>
-                                        <a href="#" class="aa-secondary-btn">View Details</a>
+                                        <a href="{{ route('propDetail') }}" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
                             </article>
