@@ -58,15 +58,17 @@
                 <div class="col-md-12">
                     <div class="aa-header-area">
                         <div class="row">
-                            <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="col-12">
                                 <div class="aa-header-left">
                                     <div class="aa-telephone-no">
-                                        <span class="fa fa-phone"></span>
-                                        1-900-523-3564
+                                        <span class="fa fa-phone" style="margin-left: 5px"> </span><a style="color: white" href="tel:+2347061396988"> 07061396988</a>,<a
+                                            href="tel:+2347083399007" style="color: white">07083399007</a>
                                     </div>
                                     <div class="aa-email hidden-xs">
-                                        <span class="fa fa-envelope-o"></span> info@markups.com
+                                        <span class="fa fa-envelope"> </span><a href="mailto:vidashpaints@gmail.com">
+                                            vidashpaints@gmail.com</a>
                                     </div>
+                                  
                                 </div>
                             </div>
 
@@ -94,7 +96,7 @@
                     <!-- LOGO -->
 
                     <!-- Image based logo -->
-                    <a class="navbar-brand" href="#"><img src="{{ asset('welcome/images/vidashproperty.jpg') }}"
+                    <a class="navbar-brand" href="#"><img src="{{ asset('welcome/images/vidashproperty.jpg') }}" style="margin-left: 10px"
                             width="100" height="60" alt="logo"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
@@ -137,7 +139,7 @@
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
                         <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦460,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -153,7 +155,7 @@
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
                         <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦460,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -169,7 +171,7 @@
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
                         <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦460,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -185,7 +187,7 @@
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
                         <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦460,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -201,7 +203,7 @@
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
                         <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦460,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -217,7 +219,7 @@
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
                         <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦4,600,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -391,9 +393,9 @@
                                             ducimus quibusdam odit vitae.</p>
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $35000
-                                        </span>
+                                        {{-- <span class="aa-price">
+                                            ₦35000
+                                        </span> --}}
                                         <a href="#" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
@@ -405,7 +407,7 @@
                                     <img weight="370px" height="220px" src="{{ asset('works/SDD 1.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-rent">
-                                    For Rent
+                                    For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
@@ -420,9 +422,9 @@
                                             ducimus quibusdam odit vitae.</p>
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $11000
-                                        </span>
+                                        {{-- <span class="aa-price">
+                                            ₦11000
+                                        </span> --}}
                                         <a href="#" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
@@ -434,7 +436,7 @@
                                     <img weight="370px" height="220px" src="{{ asset('works/SDP1.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag sold-out">
-                                    Sold Out
+                                    For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
@@ -449,9 +451,9 @@
                                             ducimus quibusdam odit vitae.</p>
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $15000
-                                        </span>
+                                        {{-- <span class="aa-price">
+                                            ₦15000
+                                        </span> --}}
                                         <a href="#" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
@@ -478,9 +480,9 @@
                                             ducimus quibusdam odit vitae.</p>
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $35000
-                                        </span>
+                                        {{-- <span class="aa-price">
+                                            ₦35000
+                                        </span> --}}
                                         <a href="#" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
@@ -492,7 +494,7 @@
                                     <img weight="370px" height="220px" src="{{ asset('works/TDP 1.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag sold-out">
-                                    Sold Out
+                                    For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
@@ -507,9 +509,9 @@
                                             ducimus quibusdam odit vitae.</p>
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $11000
-                                        </span>
+                                        {{-- <span class="aa-price">
+                                            ₦11000
+                                        </span> --}}
                                         <a href="#" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
@@ -521,7 +523,7 @@
                                     <img weight="370px" height="220px" src="{{ asset('works/VR.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-rent">
-                                    For Rent
+                                    For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
@@ -536,9 +538,9 @@
                                             ducimus quibusdam odit vitae.</p>
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $15000
-                                        </span>
+                                        {{-- <span class="aa-price">
+                                            ₦15000
+                                        </span> --}}
                                         <a href="#" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
@@ -925,6 +927,46 @@
             </div>
         </div>
 
+        <section class="footer-area" id="aa-footer" style="color: white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-3 col-xs-12 col-lg-4">
+                        <div class="single-footer">
+                            <h2>About us</h2>
+                            <p>Our Property company plan, implement,
+                                and control the movement and storage of your goods, services, or
+                                information within a given supply chain and between the points of origin and
+                                consumption with our advance technologcal tracking and reporting system.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-3 col-xs-12 col-lg-4">
+                        <div class="single-footer">
+                            <h2>More links</h2>
+                            <ul class="list" style="color: white">
+                                <li><a href="{{ route('index') }}"  style="color: white">Vidash Group</a></li>
+                                <li><a href="{{ route('shelter') }}"  style="color: white">Vidash Shelter</a></li>
+                                <li><a href="{{ route('logistics') }}"  style="color: white">Vidash Logistic</a></li>
+                                <li><a href="{{ route('paint') }}"  style="color: white">Vidash Paint</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-3 col-xs-12 col-lg-4">
+                        <div class="single-footer">
+                            <h2>Contact us</h2>
+                            <ul class="list" style="color: white">
+                                <li><a href=""  style="color: white"><span class="fa fa-map-marker"  style="color: white"></span> Vidash Logistics Ltd</a></li>
+                                <li><span class="fa fa-phone"></span><a href="tel:+2348137970207"  style="color: white"> 08137970207</a>,<a
+                                        href="tel:+2347083399007"  style="color: white">07083399007</a></li>
+                                <li><span class="fa fa-envelope"> </span><a href="mailto:vidashlogistic@gmail.com"  style="color: white">
+                                    vidashlogistic@gmail.com</a></li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <!-- Footer -->
         <footer id="aa-footer">
@@ -933,20 +975,10 @@
                     <div class="col-md-12">
                         <div class="aa-footer-area">
                             <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div>
                                     <div class="aa-footer-left">
                                         <p> &copy; Copyright <?php echo date('Y'); ?> Vidash Group of Company. All Rights
                                             Reserved.</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6 col-sm-12 col-xs-12">
-                                    <div class="aa-footer-right">
-                                        <a href="#">Vidash Group</a>
-                                        <a href="#">Vidash Paint</a>
-                                        <a href="#">Vidash Logistics</a>
-                                        <a href="#">Vidash Shelter</a>
-
                                     </div>
                                 </div>
                             </div>
