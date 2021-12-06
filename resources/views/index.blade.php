@@ -22,7 +22,7 @@
     <!-- Custom stylesheet -->
     <link rel="shortcut icon" href="{{ asset('welcome/images/vidashshelter.jpg') }}">
 
-    <link rel="stylesheet" href="{{ asset('buildshelter/css/custom.css?v=1') }}" />
+    <link rel="stylesheet" href="{{ asset('buildshelter/css/custom.css?v=5') }}" />
     <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->

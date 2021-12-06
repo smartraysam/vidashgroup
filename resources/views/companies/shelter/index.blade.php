@@ -19,7 +19,7 @@
         <!-- Custom stylesheet -->
         <link rel="shortcut icon" href="{{ asset('welcome/images/vidashshelter.jpg') }}">
 
-        <link rel="stylesheet" href="{{asset('buildshelter/css/custom.css')}}" />
+        <link rel="stylesheet" href="{{asset('buildshelter/css/custom.css?v=8')}}" />
         <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -91,8 +91,8 @@
                     </div>
                     <!-- Header Navigation -->
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                            <i class="fa fa-bars"></i>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" style="background-color: transparent !important">
+                            <i class="fa fa-bars" style="color: white; font-size: 25px"></i>
                         </button>
                         <a class="navbar-brand" href=""><img class="logo" src="{{asset('welcome/images/vidashshelter.jpg')}}" width="180" height="80" alt=""></a>
                     </div>
@@ -133,8 +133,7 @@
                                 <h3>Beautiful Homes</h3>
                                 <h1>Vidash Shelters</h1>
                                 <h1 class="second_heading">Creative & Professional</h1>
-                                <a  class="btn know_btn">know more</a>
-                                <a  class="btn know_btn">view project</a>
+                                <a  href="#portfolio" class="btn know_btn">view project</a>
                             </div>
                         </div>
                     </div>
@@ -144,7 +143,7 @@
                             <div class="carousel-caption">
                                 <h3>Selling now....</h3>
                                 <h1>Vidash Gold & Emerald</h1>
-                                <a  href="#contact" class="btn know_btn">Contact Us Now</a>
+                                <a  href="#contact_form" class="btn know_btn">Contact Us Now</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +153,7 @@
                             <div class="carousel-caption">
                                 <h3>Selling now....</h3>
                                 <h1>Vidash Topaz & Sapp</h1>
-                                <a  href="#contact" class="btn know_btn">Contact Us Now</a>
+                                <a  href="#contact_form" class="btn know_btn">Contact Us Now</a>
                             </div>
                         </div>
                     </div>
@@ -177,10 +176,10 @@
 
 
         <!-- About -->
-        <section id="about">
+        <section id="about" style="padding-bottom: 50px">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="about_content">
                             <h2>Welcome to Our Company</h2>
                             <h3>More about us</h3>
@@ -189,10 +188,14 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-6 col-lg-offset-1">
-                       <div>
-                           <video src="{{asset('buildshelter/City-Logo-Reveal-Render-Here_2.mp4')}}"></video>
-                       </div>
+                    <div class="col-lg-6 col-md-6" style="padding-top: 40px">
+                        <h3 class="column-title">Video Intro</h3>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe
+                                src="{{asset('buildshelter/City-Logo-Reveal-Render-Here_2.mp4')}}"
+                                frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                     
                     </div>
                 </div>
             </div>
@@ -213,30 +216,30 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-leaf"></span>
-                            <h4>We deliver quality</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
+                            <span class="fa fa-building"></span>
+                            <h4>We deliver best quality shelter </h4>
+                            <p>Uniques quality sturcture that standout </p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-futbol-o"></span>
+                            <span class="fa fa-clock-o"></span> 
                             <h4>Always on time</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                            <p>Safe you more quality time, We deliver on time</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
                             <span class="fa fa-group"></span>
-                            <h4>We are pasionate</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                            <h4>We are pasionate </h4>
+                            <p>Our customer are our priority </p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="why_us_item">
                             <span class="fa fa-line-chart"></span>
                             <h4>Professional Services</h4>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                            <p>We deliver the best professional service</p>
                         </div>
                     </div>
                 </div>
@@ -246,30 +249,31 @@
         <!-- Services -->
         <section id="services">
             <div class="container">
-                <h2>OUR SERVICES</h2>
+                <h2 style="margin-bottom: 0px !important">OUR SERVICES</h2>
+                <p style="text-align: center">Our services include but not limited to the followings</p>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="service_item">
                             <img src="buildshelter/images/service_img1.jpg" alt="Our Services" />
                             <h3>CONSTRUCTION MANAGEMENT</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a href="#services" class="btn know_btn">know more</a>
+                            <p>We give the best professional construction management service on industrial, resident, infrastructure development,</p>
+                            <a href="#contact_form" class="btn know_btn">know more</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
                             <img src="buildshelter/images/service_img2.jpg" alt="Our Services" />
                             <h3>RENOVATION</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a href="#services" class="btn know_btn">know more</a>
+                            <p>Professional renocvation that make your infrasturcture look good as new</p>
+                            <a href="#contact_form" class="btn know_btn">know more</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service_item">
                             <img src="buildshelter/images/service_img3.jpg" alt="Our Services" />
                             <h3>ARCHITECTURE</h3>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            <a href="#services" class="btn know_btn">know more</a>
+                            <p>We offers a world class architechureal service </p>
+                            <a href="#contact_form" class="btn know_btn">know more</a>
                         </div>
                     </div>
                 </div>
