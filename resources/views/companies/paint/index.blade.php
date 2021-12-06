@@ -229,7 +229,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="why_us_item">
-                        <span class="fa fa-group"></span>
+                        <span class="fa fa-clock-o"></span>
                         <h4>Stand a test of time</h4>
                         <p>Paint quality that withstand test of time under different weather condition</p>
                     </div>
