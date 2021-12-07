@@ -21,6 +21,10 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
+Route::get('/offline', function () {
+    return view('vendor.laravelpwa.offline');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

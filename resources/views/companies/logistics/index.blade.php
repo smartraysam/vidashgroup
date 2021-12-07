@@ -28,6 +28,8 @@
     <link rel="shortcut icon" href="{{ asset('welcome/images/vidashlogistics.jpg') }}">
     <!--  Responsive Css  -->
     <link href="{{ asset('logistic/css/responsive.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('buildshelter/css/custom.css?v=5') }}" />
+    @laravelPWA
 </head>
 
 <body class="js">
@@ -53,8 +55,8 @@
                                 <li><a href="#about">About</a></li>
                                 <li class="dropdown"><a href="#company" data-toggle="dropdown"
                                         class="dropdown-toggle" style="background-color: transparent !important">Our
-                                        Companies</a>
-                                    <ul class="" style="background-color: transparent !important">
+                                        Companies <b class="hidden-xs caret"></b></a>
+                                    <ul class="dropdown-menu" style="background-color: transparent !important">
                                         <li><a href="{{ route('index') }}">Vidash Group</a></li>
                                         <li><a href="{{ route('paint') }}">Vidash Paint</a></li>
                                         <li><a href="{{ route('property') }}">Vidash Property</a></li>

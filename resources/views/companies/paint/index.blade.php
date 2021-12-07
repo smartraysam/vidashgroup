@@ -23,7 +23,7 @@
     <!-- Custom stylesheet -->
     <link rel="shortcut icon" href="{{ asset('welcome/images/vidashpaint.jpg') }}">
 
-    <link rel="stylesheet" href="{{asset('buildshelter/css/custom.css?v=8')}}" />
+    @laravelPWA
 </head>
 
 <body>

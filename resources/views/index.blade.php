@@ -20,12 +20,10 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('buildshelter/css/jquery.fancybox.css?v=2.1.5') }}"
         media="screen" />
     <!-- Custom stylesheet -->
-    <link rel="shortcut icon" href="{{ asset('welcome/images/vidashshelter.jpg') }}">
-
+    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
+    @laravelPWA
     <link rel="stylesheet" href="{{ asset('buildshelter/css/custom.css?v=5') }}" />
-    <!--[if lt IE 9]>
-                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+  
 </head>
 
 <body>
@@ -96,7 +94,8 @@
                 </div>
                 <!-- Header Navigation -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" style="background-color: transparent !important">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"
+                        style="background-color: transparent !important">
                         <i class="fa fa-bars" style="color: white; font-size: 25px"></i>
                     </button>
                     <a class="navbar-brand" href=""><img class="logo"
@@ -311,53 +310,61 @@
         <div class="container">
             <div class="text-center" style="margin-bottom: 20px">
                 <h2> CORPORATE PHILOSOPHY</h2>
-            <p>
-                Our project management and execution philosophy.
-            <br>
-                We take pride in our delivery, thus our clients can always be assured that only the most experienced and
-                qualified people are serving them, at all times.</p>
+                <p>
+                    Our project management and execution philosophy.
+                    <br>
+                    We take pride in our delivery, thus our clients can always be assured that only the most experienced
+                    and
+                    qualified people are serving them, at all times.
+                </p>
             </div>
 
             <div class="text-center" id="why_us" style="background: transparent !important">
                 <div class="row">
                     <div class="col-md-2 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-coffee" style="padding: 18px !important; font-size:25px !important"></span>
+                            <span class="fa fa-coffee"
+                                style="padding: 18px !important; font-size:25px !important"></span>
                             <h4>Planning</h4>
                             <p>Create detailed schedule and resource plan to meet client's project objective</p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-bullhorn"  style="padding: 18px !important; font-size:25px !important"></span>
+                            <span class="fa fa-bullhorn"
+                                style="padding: 18px !important; font-size:25px !important"></span>
                             <h4>Communication</h4>
                             <p>Communicate project details clearly with all project stakeholders</p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-edit"  style="padding: 18px !important; font-size:25px !important"></span>
+                            <span class="fa fa-edit"
+                                style="padding: 18px !important; font-size:25px !important"></span>
                             <h4>Design</h4>
                             <p>We convert your idea in creative designs</p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-building "  style="padding: 18px !important; font-size:25px !important"></span>
+                            <span class="fa fa-building "
+                                style="padding: 18px !important; font-size:25px !important"></span>
                             <h4>Progressive Development</h4>
                             <p>Track project progress and fine-tune deviations</p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-eye"  style="padding: 18px !important; font-size:25px !important"></span>
+                            <span class="fa fa-eye"
+                                style="padding: 18px !important; font-size:25px !important"></span>
                             <h4>Supervision</h4>
                             <p>Supervise closely on quality of work done</p>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-6">
                         <div class="why_us_item">
-                            <span class="fa fa-space-shuttle"  style="padding: 18px !important; font-size:25px !important"></span>
+                            <span class="fa fa-space-shuttle"
+                                style="padding: 18px !important; font-size:25px !important"></span>
                             <h4>Launch</h4>
                             <p>Complete and commission the project on time</p>
                         </div>
@@ -372,26 +379,32 @@
 
     <!-- Services -->
     <section id="services">
-        <div class="container text-center" >
+        <div class="container text-center">
             <h2 style="margin-bottom: 0px !important">OUR SERVICES</h2>
-            <p>We render world class services to our customers. Our service include all offered by our companies but not limited to:</p>
+            <p>We render world class services to our customers. Our service include all offered by our companies but not
+                limited to:</p>
             <div class="row" style="margin-top: 20px">
                 <div class="col-md-4">
                     <div class="service_item">
-                        <img src="buildshelter/images/service_img1.jpg" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
+                        <img src="buildshelter/images/service_img1.jpg" height="200px" width="263px" alt="Our Services"
+                            style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
                         <h3>CONSTRUCTION MANAGEMENT</h3>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="service_item">
-                        <img src="{{asset('welcome/images/COPY.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
+                        <img src="{{ asset('welcome/images/COPY.jpg') }}" height="200px" width="263px"
+                            alt="Our Services"
+                            style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
                         <h3>FACILITY MANAGEMENT</h3>
 
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="service_item">
-                        <img src="{{asset('welcome/images/slider/4bsdpfs.jpeg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
+                        <img src="{{ asset('welcome/images/slider/4bsdpfs.jpeg') }}" height="200px" width="263px"
+                            alt="Our Services"
+                            style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
                         <h3>PROPERTIES DEVELOPMENT</h3>
 
                     </div>
@@ -401,21 +414,27 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="service_item">
-                        <img src="{{asset('welcome/images/paint.png')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
+                        <img src="{{ asset('welcome/images/paint.png') }}" height="200px" width="263px"
+                            alt="Our Services"
+                            style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
                         <h3>MANUFACTURING INDUSTRY (PAINT)</h3>
 
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="service_item">
-                        <img src="{{asset('welcome/images/vidashlogistics.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "/>
+                        <img src="{{ asset('welcome/images/vidashlogistics.jpg') }}" height="200px" width="263px"
+                            alt="Our Services"
+                            style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
                         <h3>LOGISTICS</h3>
 
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="service_item">
-                        <img src="{{asset('welcome/images/areiwview.jpg')}}" height="200px" width="263px" alt="Our Services" style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
+                        <img src="{{ asset('welcome/images/areiwview.jpg') }}" height="200px" width="263px"
+                            alt="Our Services"
+                            style="border-radius: 20px;padding: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " />
                         <h3>REAL ESTATE</h3>
 
                     </div>
@@ -595,8 +614,9 @@
                     <h2>Do you have any questions?</h2>
                     <h2 class="second_heading">Feel free to contact us!</h2>
                 </div>
-                <form role="form" class="form-inline text-right col-md-6" method="post" action="{{ route('contactus.store') }}">
-                @csrf
+                <form role="form" class="form-inline text-right col-md-6" method="post"
+                    action="{{ route('contactus.store') }}">
+                    @csrf
                     <div class="form-group">
                         <input type="text" class="form-control" name="name" id="name" placeholder="Name">
                     </div>
@@ -604,7 +624,8 @@
                         <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="5" name="message" id="message" placeholder="Message"></textarea>
+                        <textarea class="form-control" rows="5" name="message" id="message"
+                            placeholder="Message"></textarea>
                     </div>
                     <button type="submit" class="btn submit_btn">Submit</button>
                 </form>
@@ -620,7 +641,8 @@
                 <div class="col-lg-4 col-sm-8">
                     <div class="footer_item">
                         <h4>About Company</h4>
-                        <img class="logo" src="{{ asset('welcome/images/logo.jpg') }}" width="180" height="80"  alt="Vidash shelter" />
+                        <img class="logo" src="{{ asset('welcome/images/logo.jpg') }}" width="180"
+                            height="80" alt="Vidash shelter" />
                         <p>We are a property development company focused on premiering the integration of creatively
                             innovative technology and professionalism into property development using sustainable
                             methods.
@@ -640,7 +662,8 @@
                     <div class="footer_item">
                         <h4>Explore link</h4>
                         <ul class="list-unstyled footer_menu">
-                            <li><a href="{{ route('shelter') }}"><span class="fa fa-play"></span>Vidash Shelter</a>
+                            <li><a href="{{ route('shelter') }}"><span class="fa fa-play"></span>Vidash
+                                    Shelter</a>
                             <li><a href="{{ route('property') }}"><span class="fa fa-play"></span> Vidash
                                     Property</a>
                             <li><a href="{{ route('logistics') }}"><span class="fa fa-play"></span> Vidash

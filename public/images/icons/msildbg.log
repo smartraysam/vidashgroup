@@ -1,0 +1,20 @@
+
+Starting. 08/02/20 14:25:00
+inifile: C:\Program Files (x86)\LabJack\Applications\LVRTE\LVRunTimeEng.ini
+rundir: C:\Program Files (x86)\LabJack\Applications\LVRTE\
+Internal data resouces found.
+Starting to load self extact info.
+Got all SelfExtractInfo.
+Entering Install mode
+Created worker thread.
+Msi version: 0x50000, 0x47ba0001
+Extracting file resouce 0x0004.  30 chunks.
+Finished extracting file resouce.
+Spawning "msiexec.exe" /i "C:\Users\SMARTR~1\AppData\Local\Temp\lvruntimeeng.msi" 
+Exit code from msiexec = 0
+Entering SelfExtractClean
+Cleaning...
+Failed to delete file C:\Users\SMARTR~1\AppData\Local\Temp\instmsi.exe, Windows Error 2.
+Failed to delete file C:\Users\SMARTR~1\AppData\Local\Temp\instmsiw.exe, Windows Error 2.
+Exiting SelfExtractClean.
+Exiting.
