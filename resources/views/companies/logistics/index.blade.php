@@ -28,12 +28,8 @@
     <link rel="shortcut icon" href="{{ asset('welcome/images/vidashlogistics.jpg') }}">
     <!--  Responsive Css  -->
     <link href="{{ asset('logistic/css/responsive.css') }}" rel="stylesheet">
-
-    <!--  browser campatibel css files-->
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="{{ asset('buildshelter/css/custom.css?v=5') }}" />
+    @laravelPWA
 </head>
 
 <body class="js">
@@ -57,16 +53,16 @@
                                 <li class="current-menu-item"><a href="#home">Home</a>
                                 </li>
                                 <li><a href="#about">About</a></li>
-                                <li class="dropdown" ><a href="#company" data-toggle="dropdown"
-                                    class="dropdown-toggle" style="background-color: transparent !important">Our
-                                    Companies <b class="caret"></b></a>
-                                <ul class="dropdown-menu" style="background-color: transparent !important">
-                                    <li><a href="{{ route('index') }}">Vidash Group</a></li>
-                                    <li><a href="{{ route('paint') }}">Vidash Paint</a></li>
-                                    <li><a href="{{ route('property') }}">Vidash Property</a></li>
-                                    <li><a href="{{ route('shelter') }}">Vidash Shelter</a></li>
-                                </ul>
-                            </li>
+                                <li class="dropdown"><a href="#company" data-toggle="dropdown"
+                                        class="dropdown-toggle" style="background-color: transparent !important">Our
+                                        Companies <b class="hidden-xs caret"></b></a>
+                                    <ul class="dropdown-menu" style="background-color: transparent !important">
+                                        <li><a href="{{ route('index') }}">Vidash Group</a></li>
+                                        <li><a href="{{ route('paint') }}">Vidash Paint</a></li>
+                                        <li><a href="{{ route('property') }}">Vidash Property</a></li>
+                                        <li><a href="{{ route('shelter') }}">Vidash Shelter</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#services">Services</a></li>
                                 {{-- <li><a href="#calculator">Cost Calculator</a></li> --}}
                                 <li><a href="#contact">Contact</a></li>
@@ -74,43 +70,7 @@
                             <!-- /.navbar-collapse -->
                         </nav>
                     </div>
-                    {{-- <div class="col-md-3 col-sm-3 col-xs-4 col-lg-3 signup">
-                        <ul class="nav navbar-nav">
-                            @guest
-                                @if (Route::has('login'))
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                                    </li>
-                                @endif
 
-                                @if (Route::has('register'))
-                                    <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="{{ route('register') }}">{{ __('sign up') }}</a>
-                                    </li>
-                                @endif
-                            @else
-                                <li class="nav-item dropdown">
-                                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                        {{ Auth::user()->name }}
-                                    </a>
-
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                                 document.getElementById('logout-form').submit();">
-                                            {{ __('Logout') }}
-                                        </a>
-
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                            class="d-none">
-                                            @csrf
-                                        </form>
-                                    </div>
-                                </li>
-                            @endguest
-                        </ul>
-                    </div> --}}
                 </div>
             </div>
         </div>
@@ -237,7 +197,8 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="about_single_item">
                         <div class="item_icon">
-                            <img width="53px" height="37px" src="{{ asset('welcome/images/processing.png') }}" alt="item">
+                            <img width="53px" height="37px" src="{{ asset('welcome/images/processing.png') }}"
+                                alt="item">
                         </div>
                         <div class="about_single_item_content">
                             <h4>Fastest Processing</h4>
@@ -496,7 +457,7 @@
                             <li><span class="fa fa-phone"></span><a href="tel:+2348137970207"> 08137970207</a>,<a
                                     href="tel:+2347083399007">07083399007</a></li>
                             <li><span class="fa fa-envelope"> </span><a href="mailto:vidashlogistic@gmail.com">
-                                vidashlogistic@gmail.com</a></li>
+                                    vidashlogistic@gmail.com</a></li>
 
                         </ul>
                     </div>

@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Building the world affordable shelter | Vidash Shelter</title>
+    <title>Beautify our creativity | Vidash Paint</title>
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Custom Fonts -->
@@ -23,10 +23,7 @@
     <!-- Custom stylesheet -->
     <link rel="shortcut icon" href="{{ asset('welcome/images/vidashpaint.jpg') }}">
 
-    <link rel="stylesheet" href="{{ asset('buildshelter/css/custom.css') }}" />
-    <!--[if lt IE 9]>
-                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+    @laravelPWA
 </head>
 
 <body>
@@ -97,8 +94,8 @@
                 </div>
                 <!-- Header Navigation -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" style="background-color: transparent !important">
+                        <i class="fa fa-bars" style="color: white; font-size: 25px"></i>
                     </button>
                     <a class="navbar-brand" href=""><img class="logo"
                             src="{{ asset('welcome/images/vidashpaint.jpg') }}" width="180" height="80" alt=""></a>
@@ -188,8 +185,8 @@
                     <div class="about_content">
                         <h2>Welcome to Our Company</h2>
                         <h3>More about us</h3>
-                        <p>We are a paint production focused on premiering the integration of creatively
-                            innovative technology and professionalism into producing paint that stand the test of time.</p>
+                        <p>Vidash paint show the premier of integration of creatively
+                            innovative technology and professionalism into paint production that stand the test of time.</p>
                         <p> Our products are used across nigeria by world class developer and builders.</p>
 
                     </div>
@@ -220,32 +217,28 @@
                     <div class="why_us_item">
                         <span class="fa fa-leaf"></span>
                         <h4>We deliver quality</h4>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni </p>
+                        <p>Quality is our watch word. Giving you the best quality always </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="why_us_item">
                         <span class="fa fa-futbol-o"></span>
                         <h4>A Uniquie texture and pattern</h4>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni</p>
+                        <p>Our product create a uniquie texture and pattern look best suit you creativity </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="why_us_item">
-                        <span class="fa fa-group"></span>
+                        <span class="fa fa-clock-o"></span>
                         <h4>Stand a test of time</h4>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni</p>
+                        <p>Paint quality that withstand test of time under different weather condition</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="why_us_item">
                         <span class="fa fa-line-chart"></span>
                         <h4>Professional looks</h4>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni</p>
+                        <p>Giving a professional touch and look to your work</p>
                     </div>
                 </div>
             </div>
@@ -379,15 +372,15 @@
                 <div class="col-md-4">
                     <div class="testimonial_item">
                         <div class="testimonial_content">
-                            <p>A professional consultation at it best.</p>
+                            <p>it give more profession look to my works.</p>
                         </div>
-                        <p class="worker_name">Mr John Solomon</p>
+                        <p class="worker_name">Mr John Solomon (Painter)</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="testimonial_item">
                         <div class="testimonial_content">
-                            <p>No 1, estate service provider, beyoud the reach</p>
+                            <p>It's uniqueness make my house standout and unique</p>
                         </div>
 
                         <p class="worker_name">Mr.Tunde Olagoke</p>
@@ -433,11 +426,8 @@
                         <h4>About Company</h4>
                         <img class="logo" src="{{ asset('welcome/images/vidashpaint.jpg') }}" height="120"
                             width="80" alt="Vidash paint" />
-                        <p>We are a property development company focused on premiering the integration of creatively
-                            innovative technology and professionalism into property development using sustainable
-                            methods.
-                            VIDASH consist of highly regarded built environment professionals geared towards providing
-                            our clients with satisfaction</p>
+                        <p>VIDASH paint, we' re proud of our commitment to provide customer service that exceed beyoud their expectation 
+                            with our fast turnaround, time tested,precise color mactching quality paint.</p>
 
                         <ul class="list-inline footer_social_icon">
                             {{-- <li><a href=""><span class="fa fa-facebook"></span></a></li>

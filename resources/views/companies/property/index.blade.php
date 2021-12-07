@@ -32,13 +32,8 @@
     <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="{{ asset('buildshelter/css/custom.css?v=5') }}" />
+    @laravelPWA
 
 </head>
 
@@ -58,15 +53,17 @@
                 <div class="col-md-12">
                     <div class="aa-header-area">
                         <div class="row">
-                            <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="col-12">
                                 <div class="aa-header-left">
                                     <div class="aa-telephone-no">
-                                        <span class="fa fa-phone"></span>
-                                        1-900-523-3564
+                                        <span class="fa fa-phone" style="margin-left: 5px"> </span><a style="color: white" href="tel:+2347061396988"> 07061396988</a>,<a
+                                            href="tel:+2347083399007" style="color: white">07083399007</a>
                                     </div>
                                     <div class="aa-email hidden-xs">
-                                        <span class="fa fa-envelope-o"></span> info@markups.com
+                                        <span class="fa fa-envelope"> </span><a href="mailto:vidashpaints@gmail.com">
+                                            vidashpaints@gmail.com</a>
                                     </div>
+
                                 </div>
                             </div>
 
@@ -94,7 +91,7 @@
                     <!-- LOGO -->
 
                     <!-- Image based logo -->
-                    <a class="navbar-brand" href="#"><img src="{{ asset('welcome/images/vidashproperty.jpg') }}"
+                    <a class="navbar-brand" href="#"><img src="{{ asset('welcome/images/vidashproperty.jpg') }}" style="margin-left: 10px"
                             width="100" height="60" alt="logo"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
@@ -106,8 +103,9 @@
                         <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our
                                 Companies <b class="caret"></b></a>
                             <ul class="dropdown-menu">
+
+                                <li><a href="{{ route('index') }}">Vidash Group</a></li>
                                 <li><a href="{{ route('shelter') }}">Vidash Shelter</a></li>
-                                <li><a href="{{ route('property') }}">Vidash Property</a></li>
                                 <li><a href="{{ route('paint') }}">Vidash Paint</a></li>
                                 <li><a href="{{ route('logistics') }}">Vidash Logistics</a></li>
                             </ul>
@@ -135,9 +133,9 @@
                     <div class="aa-top-slider-content">
                         <span class="aa-top-slider-catg">Duplex</span>
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
-                        <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
+                        <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>Topaz ,Off Gbaupe Road, Behind Aco Phase II, Airport Road , Abuja (NG)</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦460,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -151,9 +149,9 @@
                     <div class="aa-top-slider-content">
                         <span class="aa-top-slider-catg">Duplex</span>
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
-                        <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
+                        <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>Sapphire :Aco Behind Vidash City Shelters (Emerald), Airport Road, Abuja, Nigeria</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦460,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -167,9 +165,9 @@
                     <div class="aa-top-slider-content">
                         <span class="aa-top-slider-catg">Duplex</span>
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
-                        <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
+                        <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>Emerald: Lugbe, By Aco Estate, Behind Mantrac, Just After Arab Contractor, Airport Road, Abuja, Nigeria.</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦460,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -183,9 +181,9 @@
                     <div class="aa-top-slider-content">
                         <span class="aa-top-slider-catg">Duplex</span>
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
-                        <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
+                        <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>Gold: Lugbe 1 Extension, Off Idu Train Station Road, Behind Nigerian Army Housing Estate, Idu Axis, Abuja, Nigeria</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦460,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -201,7 +199,7 @@
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
                         <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦460,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -217,7 +215,7 @@
                         <h2 class="aa-top-slider-title">1560 Square Feet</h2>
                         <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>South Beach, Miami (USA)</p>
                         <span class="aa-top-slider-off">30% OFF</span>
-                        <p class="aa-top-slider-price">$460,000</p>
+                        {{-- <p class="aa-top-slider-price">₦4,600,000</p> --}}
                         <a href="#" class="aa-top-slider-btn">Read More <span
                                 class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -333,20 +331,21 @@
                                         <h2>About Us</h2>
                                         <span></span>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ab dignissimos
-                                        vitae maxime adipisci blanditiis rerum quae quos! Id at rerum maxime modi fugit
-                                        vero corrupti, ad atque sit laborum ipsum sunt blanditiis suscipit odio, aut
-                                        nostrum assumenda nobis rem a maiores temporibus non commodi laboriosam,
-                                        doloremque expedita! Corporis, provident?</p>
+                                    <p>We are a property development company focused on premiering the integration of creatively innovative technology and professionalism into property development using sustainable methods.,</p>
+                                    <p> VIDASH consist of highly regarded built environment professionals geared towards providing our clients with satisfaction </p>
+                                    <p>We offer property in following location </p>
+
                                     <ul>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, blanditiis.
+                                        <li> Vidash City Shelters (TOPAZ):
+                                              Off Gbaupe Road, Behind Aco Phase II, Airport Road, Abuja, Nigeria
                                         </li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, blanditiis.
+                                        <li>Vidash City Shelters (Sapphire):
+                                             Aco Behind Vidash City Shelters (Emerald), Airport Road, Abuja, Nigeria</li>
+                                        <li>Vidash City Shelters (Emerald):
+                                             Lugbe, By Aco Estate, Behind Mantrac, Just After Arab Contractor, Airport Road, Abuja, Nigeria.</li>
+                                        <li>Vidash City Shelters (Gold):
+                                            Lugbe 1 Extension, Off Idu Train Station Road, Behind Nigerian Army Housing Estate, Idu Axis, Abuja, Nigeria.
                                         </li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -365,36 +364,34 @@
                 <div class="aa-title">
                     <h2>Latest Properties</h2>
                     <span></span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sit ea nobis quae vero
-                        voluptatibus.</p>
+                    <p> Check out some of our managed properties.</p>
                 </div>
                 <div class="aa-latest-properties-content">
                     <div class="row">
                         <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
-                                    <img weight="370px" height="220px" src="{{ asset('works/DD 1.jpg') }}" alt="img">
+                                    <img weight="370px" height="220px" src="{{ asset('propertyassets/images/4 Bedroom Terrace Duplex Side View.jpeg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-sale">
                                     For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
-                                        <span>5 Rooms</span>
-                                        <span>2 Beds</span>
-                                        <span>3 Baths</span>
+                                        <span>2 Living Rooms</span>
+                                        <span>4 BedRooms</span>
+                                        <span>5 Baths</span>
                                         <span>1100 SQ FT</span>
                                     </div>
                                     <div class="aa-properties-about">
-                                        <h3><a href="#">Appartment Title</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
-                                            ducimus quibusdam odit vitae.</p>
+                                        <h3><a href="#">4 Bedroom Terrace Duplex</a></h3>
+
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $35000
-                                        </span>
-                                        <a href="{{ route('propDetail')}}" class="aa-secondary-btn">View Details</a>
+                                        {{-- <span class="aa-price">
+                                            ₦35000
+                                        </span> --}}
+                                        <a href="#" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
                             </article>
@@ -405,25 +402,23 @@
                                     <img weight="370px" height="220px" src="{{ asset('works/SDD 1.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-rent">
-                                    For Rent
+                                    For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
-                                        <span>5 Rooms</span>
+                                        <span>1 Living Room</span>
                                         <span>2 Beds</span>
-                                        <span>3 Baths</span>
-                                        <span>1100 SQ FT</span>
+                                        <span>800 SQ FT</span>
                                     </div>
                                     <div class="aa-properties-about">
-                                        <h3><a href="#">Appartment Title</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
-                                            ducimus quibusdam odit vitae.</p>
+                                        <h3><a href="#">Semi Detachable Duplex</a></h3>
+
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $11000
-                                        </span>
-                                        <a href="{{ route('propDetail')}}" class="aa-secondary-btn">View Details</a>
+                                        {{-- <span class="aa-price">
+                                            ₦11000
+                                        </span> --}}
+                                        {{-- <a href="#" class="aa-secondary-btn">View Details</a> --}}
                                     </div>
                                 </div>
                             </article>
@@ -434,25 +429,24 @@
                                     <img weight="370px" height="220px" src="{{ asset('works/SDP1.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag sold-out">
-                                    Sold Out
+                                    For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
-                                        <span>5 Rooms</span>
+                                        <span>1 Living Room</span>
                                         <span>2 Beds</span>
-                                        <span>3 Baths</span>
-                                        <span>1100 SQ FT</span>
+                                        <span>800 SQ FT</span>
                                     </div>
                                     <div class="aa-properties-about">
-                                        <h3><a href="#">Appartment Title</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
-                                            ducimus quibusdam odit vitae.</p>
+                                        <h3><a href="#">Semi Detachable Penthouse</a></h3>
+                                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
+                                            ducimus quibusdam odit vitae.</p> --}}
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $15000
-                                        </span>
-                                        <a href="{{ route('propDetail')}}" class="aa-secondary-btn">View Details</a>
+                                        {{-- <span class="aa-price">
+                                            ₦15000
+                                        </span> --}}
+                                        {{-- <a href="#" class="aa-secondary-btn">View Details</a> --}}
                                     </div>
                                 </div>
                             </article>
@@ -460,28 +454,28 @@
                         <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
-                                    <img weight="370px" height="220px" src="{{ asset('works/SDP6.jpg') }}" alt="img">
+                                    <img weight="370px" height="220px" src="{{ asset('propertyassets/images/4 Bedroom Terrace Duplex.jpeg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-sale">
                                     For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
-                                        <span>5 Rooms</span>
-                                        <span>2 Beds</span>
-                                        <span>3 Baths</span>
+                                        <span>2 Living Rooms</span>
+                                        <span>4 Bed rooms</span>
+                                        <span>5 Baths</span>
                                         <span>1100 SQ FT</span>
                                     </div>
                                     <div class="aa-properties-about">
-                                        <h3><a href="#">Appartment Title</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
-                                            ducimus quibusdam odit vitae.</p>
+                                        <h3><a href="#">4 Bedroom Terrace Duplex</a></h3>
+                                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
+                                            ducimus quibusdam odit vitae.</p> --}}
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $35000
-                                        </span>
-                                        <a href="{{ route('propDetail')}}" class="aa-secondary-btn">View Details</a>
+                                        {{-- <span class="aa-price">
+                                            ₦35000
+                                        </span> --}}
+                                        {{-- <a href="#" class="aa-secondary-btn">View Details</a> --}}
                                     </div>
                                 </div>
                             </article>
@@ -489,28 +483,28 @@
                         <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
-                                    <img weight="370px" height="220px" src="{{ asset('works/TDP 1.jpg') }}" alt="img">
+                                    <img weight="370px" height="220px" src="{{ asset('propertyassets/images/KK.jpeg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag sold-out">
-                                    Sold Out
+                                    For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
-                                        <span>5 Rooms</span>
-                                        <span>2 Beds</span>
-                                        <span>3 Baths</span>
+                                        <span>2 Living Rooms</span>
+                                        <span>3 Bed Rooms</span>
+                                        <span>2 Baths</span>
                                         <span>1100 SQ FT</span>
                                     </div>
                                     <div class="aa-properties-about">
-                                        <h3><a href="#">Appartment Title</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
-                                            ducimus quibusdam odit vitae.</p>
+                                        <h3><a href="#">3 Bedroom Terrace Duplex</a></h3>
+                                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
+                                            ducimus quibusdam odit vitae.</p> --}}
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $11000
-                                        </span>
-                                        <a href="{{ route('propDetail') }}" class="aa-secondary-btn">View Details</a>
+                                        {{-- <span class="aa-price">
+                                            ₦11000
+                                        </span> --}}
+                                        {{-- <a href="#" class="aa-secondary-btn">View Details</a> --}}
                                     </div>
                                 </div>
                             </article>
@@ -521,25 +515,25 @@
                                     <img weight="370px" height="220px" src="{{ asset('works/VR.jpg') }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-rent">
-                                    For Rent
+                                    For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
                                         <span>5 Rooms</span>
                                         <span>2 Beds</span>
                                         <span>3 Baths</span>
-                                        <span>1100 SQ FT</span>
+                                        <span>600 SQ FT</span>
                                     </div>
                                     <div class="aa-properties-about">
-                                        <h3><a href="#">Appartment Title</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
-                                            ducimus quibusdam odit vitae.</p>
+                                        <h3><a href="#">Terrace Duplex Penthouse</a></h3>
+                                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
+                                            ducimus quibusdam odit vitae.</p> --}}
                                     </div>
                                     <div class="aa-properties-detial">
-                                        <span class="aa-price">
-                                            $15000
-                                        </span>
-                                        <a href="{{ route('propDetail') }}" class="aa-secondary-btn">View Details</a>
+                                        {{-- <span class="aa-price">
+                                            ₦15000
+                                        </span> --}}
+                                        {{-- <a href="#" class="aa-secondary-btn">View Details</a> --}}
                                     </div>
                                 </div>
                             </article>
@@ -560,8 +554,7 @@
                         <div class="aa-title">
                             <h2>Our Service</h2>
                             <span></span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sit ea nobis quae vero
-                                voluptatibus.</p>
+                            <p>We offer the best service in property management business. This include but not limited to:</p>
                         </div>
                         <!-- service content -->
                         <div class="aa-service-content">
@@ -573,8 +566,7 @@
                                         </div>
                                         <div class="aa-single-service-content">
                                             <h4><a href="#">Property Sale</a></h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
-                                                repellendus quasi asperiores itaque dolorem at.</p>
+                                            <p>We help in sale property all over nigeria at affordable price with great payment plan.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -585,8 +577,7 @@
                                         </div>
                                         <div class="aa-single-service-content">
                                             <h4><a href="#">Property Rent</a></h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
-                                                repellendus quasi asperiores itaque dolorem at.</p>
+                                            <p>We offer property foe rent at affordable price.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -597,8 +588,7 @@
                                         </div>
                                         <div class="aa-single-service-content">
                                             <h4><a href="#">Property Development</a></h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
-                                                repellendus quasi asperiores itaque dolorem at.</p>
+                                            <p>With our shelter company, we develop property and delievr on time.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -609,8 +599,7 @@
                                         </div>
                                         <div class="aa-single-service-content">
                                             <h4><a href="#">Market Analysis</a></h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
-                                                repellendus quasi asperiores itaque dolorem at.</p>
+                                            <p>We give the best market strategic for our properties.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -630,9 +619,7 @@
                 <div class="col-md-12">
                     <div class="aa-promo-banner-area">
                         <h3>Find Your Best Property</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, ex illum corporis
-                            quibusdam numquam quisquam optio explicabo. Officiis odit quia odio dignissimos eius
-                            repellat id!</p>
+                        <p>Check out someof our property on sale</p>
                         <a href="#" class="aa-view-btn">View Details</a>
                     </div>
                 </div>
@@ -641,167 +628,6 @@
     </section>
     <!-- / Promo Banner Section -->
 
-    <!-- Our Agent Section-->
-    {{-- <section id="aa-agents">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="aa-agents-area">
-                        <div class="aa-title">
-                            <h2>Our Agents</h2>
-                            <span></span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sit ea nobis quae vero
-                                voluptatibus.</p>
-                        </div>
-                        <!-- agents content -->
-                        <div class="aa-agents-content">
-                            <ul class="aa-agents-slider">
-                                <li>
-                                    <div class="aa-single-agents">
-                                        <div class="aa-agents-img">
-                                            <img src="/propertyassets/img/agents/agent-1.png" alt="agent member image">
-                                        </div>
-                                        <div class="aa-agetns-info">
-                                            <h4><a href="#">Philip Smith</a></h4>
-                                            <span>Top Agent</span>
-                                            <div class="aa-agent-social">
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="aa-single-agents">
-                                        <div class="aa-agents-img">
-                                            <img src="/propertyassets/img/agents/agent-5.png" alt="agent member image">
-                                        </div>
-                                        <div class="aa-agetns-info">
-                                            <h4><a href="#">Adam Barney</a></h4>
-                                            <span>Expert Agent</span>
-                                            <div class="aa-agent-social">
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="aa-single-agents">
-                                        <div class="aa-agents-img">
-                                            <img src="/propertyassets/img/agents/agent-3.png" alt="agent member image">
-                                        </div>
-                                        <div class="aa-agetns-info">
-                                            <h4><a href="#">Paul Walker</a></h4>
-                                            <span>Director</span>
-                                            <div class="aa-agent-social">
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="aa-single-agents">
-                                        <div class="aa-agents-img">
-                                            <img src="/propertyassets/img/agents/agent-4.png" alt="agent member image">
-                                        </div>
-                                        <div class="aa-agetns-info">
-                                            <h4><a href="#">John Smith</a></h4>
-                                            <span>Jr. Agent</span>
-                                            <div class="aa-agent-social">
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="aa-single-agents">
-                                        <div class="aa-agents-img">
-                                            <img src="/propertyassets/img/agents/agent-1.png" alt="agent member image">
-                                        </div>
-                                        <div class="aa-agetns-info">
-                                            <h4><a href="#">Philip Smith</a></h4>
-                                            <span>Top Agent</span>
-                                            <div class="aa-agent-social">
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="aa-single-agents">
-                                        <div class="aa-agents-img">
-                                            <img src="/propertyassets/img/agents/agent-5.png" alt="agent member image">
-                                        </div>
-                                        <div class="aa-agetns-info">
-                                            <h4><a href="#">Adam Barney</a></h4>
-                                            <span>Expert Agent</span>
-                                            <div class="aa-agent-social">
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="aa-single-agents">
-                                        <div class="aa-agents-img">
-                                            <img src="/propertyassets/img/agents/agent-3.png" alt="agent member image">
-                                        </div>
-                                        <div class="aa-agetns-info">
-                                            <h4><a href="#">Paul Walker</a></h4>
-                                            <span>Director</span>
-                                            <div class="aa-agent-social">
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="aa-single-agents">
-                                        <div class="aa-agents-img">
-                                            <img src="/propertyassets/img/agents/agent-4.png" alt="agent member image">
-                                        </div>
-                                        <div class="aa-agetns-info">
-                                            <h4><a href="#">John Smith</a></h4>
-                                            <span>Jr. Agent</span>
-                                            <div class="aa-agent-social">
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!-- / Our Agent Section-->
-
-    <!-- Client Testimonial -->
     <section id="aa-client-testimonial">
         <div class="container">
             <div class="row">
@@ -820,14 +646,11 @@
                                     <div class="aa-testimonial-single">
 
                                         <div class="aa-testimonial-info">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-                                                consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae
-                                                voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
-                                                nesciunt fuga ab natus, dolorem?</p>
+                                            <p>Best service ever,  Nice home </p>
                                         </div>
                                         <div class="aa-testimonial-bio">
-                                            <p>David Muller</p>
-                                            <span>Web Designer</span>
+                                            <p>Wale Oluoba </p>
+                                            <span>Developer</span>
                                         </div>
                                     </div>
                                 </li>
@@ -835,32 +658,15 @@
                                     <div class="aa-testimonial-single">
 
                                         <div class="aa-testimonial-info">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-                                                consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae
-                                                voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
-                                                nesciunt fuga ab natus, dolorem?</p>
+                                            <p>Got a nice world class, with their easy payment feature, so conveinent</p>
                                         </div>
                                         <div class="aa-testimonial-bio">
                                             <p>David Muller</p>
-                                            <span>Web Designer</span>
+                                            <span>Businessman</span>
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="aa-testimonial-single">
 
-                                        <div class="aa-testimonial-info">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-                                                consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae
-                                                voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum
-                                                nesciunt fuga ab natus, dolorem?</p>
-                                        </div>
-                                        <div class="aa-testimonial-bio">
-                                            <p>David Muller</p>
-                                            <span>Web Designer</span>
-                                        </div>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -925,6 +731,45 @@
             </div>
         </div>
 
+        <section class="footer-area" id="aa-footer" style="color: white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-3 col-xs-12 col-lg-4">
+                        <div class="single-footer">
+                            <h2>About us</h2>
+                            <p>We are a property development company focused on premiering the integration
+                                 of creatively innovative technology and professionalism into property development using sustainable methods
+                            .</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-3 col-xs-12 col-lg-4">
+                        <div class="single-footer">
+                            <h2>More links</h2>
+                            <ul class="list" style="color: white">
+                                <li><a href="{{ route('index') }}"  style="color: white">Vidash Group</a></li>
+                                <li><a href="{{ route('shelter') }}"  style="color: white">Vidash Shelter</a></li>
+                                <li><a href="{{ route('logistics') }}"  style="color: white">Vidash Logistic</a></li>
+                                <li><a href="{{ route('paint') }}"  style="color: white">Vidash Paint</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-3 col-xs-12 col-lg-4">
+                        <div class="single-footer">
+                            <h2>Contact us</h2>
+                            <ul class="list" style="color: white">
+                                <li><a href=""  style="color: white"><span class="fa fa-map-marker"  style="color: white"></span> Vidash property Ltd</a></li>
+                                <li><span class="fa fa-phone"></span><a href="tel:+2348137970207"  style="color: white"> 08137970207</a>,<a
+                                        href="tel:+2347083399007"  style="color: white">07083399007</a></li>
+                                <li><span class="fa fa-envelope"> </span><a href="mailto:vidashproperty@gmail.com"  style="color: white">
+                                    vidashproperty@gmail.com</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <!-- Footer -->
         <footer id="aa-footer">
@@ -933,20 +778,10 @@
                     <div class="col-md-12">
                         <div class="aa-footer-area">
                             <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div>
                                     <div class="aa-footer-left">
                                         <p> &copy; Copyright <?php echo date('Y'); ?> Vidash Group of Company. All Rights
                                             Reserved.</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6 col-sm-12 col-xs-12">
-                                    <div class="aa-footer-right">
-                                        <a href="#">Vidash Group</a>
-                                        <a href="#">Vidash Paint</a>
-                                        <a href="#">Vidash Logistics</a>
-                                        <a href="#">Vidash Shelter</a>
-
                                     </div>
                                 </div>
                             </div>

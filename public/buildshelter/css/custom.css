@@ -275,13 +275,13 @@ nav.navbar.bootsnav ul.nav>li>a:focus {
 
 .home .carousel {
     position: relative;
-    height: 700px;
+    /* height: 700px; */
     display: inline-block;
 }
 
 .home .carousel .item img {
     width: 100%;
-    height: 700px;
+    object-fit: cover;
 }
 
 
@@ -965,6 +965,9 @@ footer::after {
     .container {
         width: 1200px;
     }
+    .home .carousel {
+        height: 700px;
+    }
     .carousel-inner>.item>a>img,
     .carousel-inner>.item>img {
         height: 740px;
@@ -983,6 +986,9 @@ footer::after {
     h1 {
         font-size: 50px;
         line-height: 55px;
+    }
+    .home .carousel {
+        height: 0px;
     }
     h2 {
         font-size: 25px;
@@ -1030,6 +1036,9 @@ footer::after {
 @media (max-width: 991px) {
     .list-inline.info>li {
         padding: 0 12px 0 0;
+    }
+    .home .carousel {
+        height: 0px;
     }
     .list-inline.social_icon>li {
         padding: 0 2px;
@@ -1086,6 +1095,9 @@ footer::after {
     h1 {
         font-size: 32px;
         line-height: 35px;
+    }
+    .home .carousel {
+        height: 0px;
     }
     .list-inline.info {
         width: 60%;
@@ -1153,6 +1165,9 @@ footer::after {
     h1 {
         font-size: 30px;
         line-height: 32px;
+    }
+    .home .carousel {
+        height: 400px;
     }
     h3 {
         font-size: 17px;
