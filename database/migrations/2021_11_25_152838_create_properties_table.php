@@ -15,7 +15,6 @@ class CreatePropertiesTable extends Migration
     {
         Schema::create('properties', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
             $table->string('name')->nullable();
             $table->string('location')->nullable();
             $table->double('price')->nullable();
@@ -23,6 +22,9 @@ class CreatePropertiesTable extends Migration
             $table->string('type')->nullable();
             $table->string('size')->nullable();
             $table->double('discount')->nullable();
+            $table->tinyInteger('status')->default(0)->comment('0:Available, 1:Not available');
+            $table->string('image')->default('welcome/images/dummy.jpg');
+            $table->timestamps();
         });
     }
 

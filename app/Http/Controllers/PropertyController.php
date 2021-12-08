@@ -14,8 +14,9 @@ class PropertyController extends Controller
      */
     public function index()
     {
-        //
-        return view('companies.property.index');
+        $properties = Property::where('status', 0)->limit(6)->orderBy('id','desc')->get();
+        // dd($properties);
+        return view('companies.property.index', compact('properties'));
     }
 
     /**
@@ -45,9 +46,17 @@ class PropertyController extends Controller
      * @param  \App\Models\Property  $property
      * @return \Illuminate\Http\Response
      */
-    public function show(Property $property)
+    public function show($id)
+    {
+        dd($id);
+        //
+
+    }
+
+    public function loadProperty()
     {
         //
+
     }
 
     /**

@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\PropertyDetail;
+use App\Models\Property;
 use Illuminate\Http\Request;
+
 
 class PropertyDetailController extends Controller
 {
@@ -12,10 +14,18 @@ class PropertyDetailController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($id)
     {
-        //
-        return view('companies.property.details.index');
+        // dd($id);
+        //$properties is an array
+        //Property is a Class
+        //:: is the operator to call a method from a class
+        $properties = Property::where('id', $id)->get();
+        // $properties = Property::find($id); // search by primary key 'ID'
+        // dd($properties);
+        return view('companies.property.details.index', compact('properties')); // compact(array name)
+
+
     }
 
     /**
@@ -45,9 +55,9 @@ class PropertyDetailController extends Controller
      * @param  \App\Models\PropertyDetail  $propertyDetail
      * @return \Illuminate\Http\Response
      */
-    public function show(PropertyDetail $propertyDetail)
+    public function show($id)
     {
-        //
+    //
     }
 
     /**

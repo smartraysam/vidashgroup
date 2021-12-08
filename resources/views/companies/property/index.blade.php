@@ -368,35 +368,35 @@
                 </div>
                 <div class="aa-latest-properties-content">
                     <div class="row">
+                        @foreach ( $properties as $property )
                         <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
-                                    <img weight="370px" height="220px" src="{{ asset('propertyassets/images/4 Bedroom Terrace Duplex Side View.jpeg') }}" alt="img">
+                                    <img weight="370px" height="220px" src="{{ asset($property->image) }}" alt="img">
                                 </a>
                                 <div class="aa-tag for-sale">
                                     For Sale
                                 </div>
                                 <div class="aa-properties-item-content">
                                     <div class="aa-properties-info">
-                                        <span>2 Living Rooms</span>
-                                        <span>4 BedRooms</span>
-                                        <span>5 Baths</span>
-                                        <span>1100 SQ FT</span>
+                                        <span>{{$property->description}}</span>
                                     </div>
                                     <div class="aa-properties-about">
-                                        <h3><a href="#">4 Bedroom Terrace Duplex</a></h3>
+                                        <h3><a href="#">{{$property->name}}</a></h3>
 
                                     </div>
                                     <div class="aa-properties-detial">
-                                        {{-- <span class="aa-price">
-                                            ₦35000
-                                        </span> --}}
-                                        <a href="#" class="aa-secondary-btn">View Details</a>
+                                        <span class="aa-price">
+                                            ₦{{$property->price}}
+                                        </span>
+                                        <a href="{{ route('propDetail',$property->id) }} " class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
                             </article>
                         </div>
-                        <div class="col-md-4">
+                        @endforeach
+
+                        {{-- <div class="col-md-4">
                             <article class="aa-properties-item">
                                 <a href="#" class="aa-properties-item-img">
                                     <img weight="370px" height="220px" src="{{ asset('works/SDD 1.jpg') }}" alt="img">
@@ -415,129 +415,15 @@
 
                                     </div>
                                     <div class="aa-properties-detial">
-                                        {{-- <span class="aa-price">
+                                        <span class="aa-price">
                                             ₦11000
-                                        </span> --}}
-                                        {{-- <a href="#" class="aa-secondary-btn">View Details</a> --}}
+                                        </span>
+                                        <a href="#" class="aa-secondary-btn">View Details</a>
                                     </div>
                                 </div>
                             </article>
-                        </div>
-                        <div class="col-md-4">
-                            <article class="aa-properties-item">
-                                <a href="#" class="aa-properties-item-img">
-                                    <img weight="370px" height="220px" src="{{ asset('works/SDP1.jpg') }}" alt="img">
-                                </a>
-                                <div class="aa-tag sold-out">
-                                    For Sale
-                                </div>
-                                <div class="aa-properties-item-content">
-                                    <div class="aa-properties-info">
-                                        <span>1 Living Room</span>
-                                        <span>2 Beds</span>
-                                        <span>800 SQ FT</span>
-                                    </div>
-                                    <div class="aa-properties-about">
-                                        <h3><a href="#">Semi Detachable Penthouse</a></h3>
-                                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
-                                            ducimus quibusdam odit vitae.</p> --}}
-                                    </div>
-                                    <div class="aa-properties-detial">
-                                        {{-- <span class="aa-price">
-                                            ₦15000
-                                        </span> --}}
-                                        {{-- <a href="#" class="aa-secondary-btn">View Details</a> --}}
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-4">
-                            <article class="aa-properties-item">
-                                <a href="#" class="aa-properties-item-img">
-                                    <img weight="370px" height="220px" src="{{ asset('propertyassets/images/4 Bedroom Terrace Duplex.jpeg') }}" alt="img">
-                                </a>
-                                <div class="aa-tag for-sale">
-                                    For Sale
-                                </div>
-                                <div class="aa-properties-item-content">
-                                    <div class="aa-properties-info">
-                                        <span>2 Living Rooms</span>
-                                        <span>4 Bed rooms</span>
-                                        <span>5 Baths</span>
-                                        <span>1100 SQ FT</span>
-                                    </div>
-                                    <div class="aa-properties-about">
-                                        <h3><a href="#">4 Bedroom Terrace Duplex</a></h3>
-                                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
-                                            ducimus quibusdam odit vitae.</p> --}}
-                                    </div>
-                                    <div class="aa-properties-detial">
-                                        {{-- <span class="aa-price">
-                                            ₦35000
-                                        </span> --}}
-                                        {{-- <a href="#" class="aa-secondary-btn">View Details</a> --}}
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-4">
-                            <article class="aa-properties-item">
-                                <a href="#" class="aa-properties-item-img">
-                                    <img weight="370px" height="220px" src="{{ asset('propertyassets/images/KK.jpeg') }}" alt="img">
-                                </a>
-                                <div class="aa-tag sold-out">
-                                    For Sale
-                                </div>
-                                <div class="aa-properties-item-content">
-                                    <div class="aa-properties-info">
-                                        <span>2 Living Rooms</span>
-                                        <span>3 Bed Rooms</span>
-                                        <span>2 Baths</span>
-                                        <span>1100 SQ FT</span>
-                                    </div>
-                                    <div class="aa-properties-about">
-                                        <h3><a href="#">3 Bedroom Terrace Duplex</a></h3>
-                                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
-                                            ducimus quibusdam odit vitae.</p> --}}
-                                    </div>
-                                    <div class="aa-properties-detial">
-                                        {{-- <span class="aa-price">
-                                            ₦11000
-                                        </span> --}}
-                                        {{-- <a href="#" class="aa-secondary-btn">View Details</a> --}}
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-4">
-                            <article class="aa-properties-item">
-                                <a href="#" class="aa-properties-item-img">
-                                    <img weight="370px" height="220px" src="{{ asset('works/VR.jpg') }}" alt="img">
-                                </a>
-                                <div class="aa-tag for-rent">
-                                    For Sale
-                                </div>
-                                <div class="aa-properties-item-content">
-                                    <div class="aa-properties-info">
-                                        <span>5 Rooms</span>
-                                        <span>2 Beds</span>
-                                        <span>3 Baths</span>
-                                        <span>600 SQ FT</span>
-                                    </div>
-                                    <div class="aa-properties-about">
-                                        <h3><a href="#">Terrace Duplex Penthouse</a></h3>
-                                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae vero
-                                            ducimus quibusdam odit vitae.</p> --}}
-                                    </div>
-                                    <div class="aa-properties-detial">
-                                        {{-- <span class="aa-price">
-                                            ₦15000
-                                        </span> --}}
-                                        {{-- <a href="#" class="aa-secondary-btn">View Details</a> --}}
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
+                        </div> --}}
+
                     </div>
                 </div>
             </div>
