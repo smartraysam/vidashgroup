@@ -158,8 +158,8 @@
     <section id="aa-properties">
         <div class="container">
             <div class="row">
-                @foreach ($properties as $property)
-                    <div class="col-md-8">
+                <div class="col-md-8">
+                    @foreach ($properties as $property)
                         <div class="aa-properties-content">
                             <!-- Start properties content body -->
                             <div class="aa-properties-details">
@@ -172,17 +172,6 @@
                                     <h2>{{ $property->name }}</h2>
                                     <span class="aa-price">${{ $property->price }}</span>
                                     <p>{{ $property->description }}</p>
-                                    {{-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur,
-                                        veritatis, ducimus in aliquam magnam voluptatibus ullam libero fugiat temporibus
-                                        at,
-                                        aliquid explicabo placeat eligendi, assumenda magni saepe eius consequuntur.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dicta
-                                        aliquid,
-                                        autem, cum, impedit nostrum, rem molestias quisquam ab iure enim totam? Itaque
-                                        esse
-                                        ut adipisci officiis nulla repellendus ratione dolore, iste ex doloribus tenetur
-                                        eos
-                                        provident quam quasi maxime.</p> --}}
                                     <h4>Property Features</h4>
                                     <ul>
                                         <li>4 Bedroom</li>
@@ -288,119 +277,117 @@
                                 </div>
 
                             </div> --}}
-
                             </div>
                         </div>
-
-                    </div>
-                    <!-- Start properties sidebar -->
-                    <div class="col-md-4">
-                        <aside class="aa-properties-sidebar">
-                            <!-- Start Single properties sidebar -->
-                            <div class="aa-properties-single-sidebar">
-                                <h3>Property Search</h3>
-                                <form action="">
-                                    <div class="aa-single-advance-search">
-                                        <input type="text" placeholder="Type Your Location">
-                                    </div>
-                                    <div class="aa-single-advance-search">
-                                        <select id="" name="">
-                                            <option selected="" value="0">Category</option>
-                                            <option value="1">Flat</option>
-                                            <option value="2">Land</option>
-                                            <option value="3">Plot</option>
-                                            <option value="4">Commercial</option>
-                                        </select>
-                                    </div>
-                                    <div class="aa-single-advance-search">
-                                        <select id="" name="">
-                                            <option selected="" value="0">Type</option>
-                                            <option value="1">Flat</option>
-                                            <option value="2">Land</option>
-                                            <option value="3">Plot</option>
-                                            <option value="4">Commercial</option>
-                                        </select>
-                                    </div>
-                                    <div class="aa-single-advance-search">
-                                        <select id="" name="">
-                                            <option selected="" value="0">Type</option>
-                                            <option value="1">Flat</option>
-                                            <option value="2">Land</option>
-                                            <option value="3">Plot</option>
-                                            <option value="4">Commercial</option>
-                                        </select>
-                                    </div>
-                                    <div class="aa-single-filter-search">
-                                        <span>AREA (SQ)</span>
-                                        <span>FROM</span>
-                                        <span id="skip-value-lower" class="example-val">30.00</span>
-                                        <span>TO</span>
-                                        <span id="skip-value-upper" class="example-val">100.00</span>
-                                        <div id="aa-sqrfeet-range"
-                                            class="noUi-target noUi-ltr noUi-horizontal noUi-background">
-                                        </div>
-                                    </div>
-                                    <div class="aa-single-filter-search">
-                                        <span>PRICE ($)</span>
-                                        <span>FROM</span>
-                                        <span id="skip-value-lower2" class="example-val">30.00</span>
-                                        <span>TO</span>
-                                        <span id="skip-value-upper2" class="example-val">100.00</span>
-                                        <div id="aa-price-range"
-                                            class="noUi-target noUi-ltr noUi-horizontal noUi-background">
-                                        </div>
-                                    </div>
-                                    <div class="aa-single-advance-search">
-                                        <input type="submit" value="Search" class="aa-search-btn">
-                                    </div>
-                                </form>
-                            </div>
-                            <!-- Start Single properties sidebar -->
-                            <div class="aa-properties-single-sidebar">
-                                <h3>Popular Properties</h3>
-                                <div class="media">
-                                    <div class="media-left">
-                                        <a href="#">
-                                            <img class="media-object"
-                                                src="{{ asset('propertyDetail/img/item/1.jpg') }}" alt="img">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">This is Title</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        <span>$65000</span>
+                    @endforeach
+                </div>
+                <!-- Start properties sidebar -->
+                <div class="col-md-4">
+                    <aside class="aa-properties-sidebar">
+                        <!-- Start Single properties sidebar -->
+                        <div class="aa-properties-single-sidebar">
+                            <h3>Property Search</h3>
+                            <form action="">
+                                <div class="aa-single-advance-search">
+                                    <input type="text" placeholder="Type Your Location">
+                                </div>
+                                <div class="aa-single-advance-search">
+                                    <select id="" name="">
+                                        <option selected="" value="0">Category</option>
+                                        <option value="1">Flat</option>
+                                        <option value="2">Land</option>
+                                        <option value="3">Plot</option>
+                                        <option value="4">Commercial</option>
+                                    </select>
+                                </div>
+                                <div class="aa-single-advance-search">
+                                    <select id="" name="">
+                                        <option selected="" value="0">Type</option>
+                                        <option value="1">Flat</option>
+                                        <option value="2">Land</option>
+                                        <option value="3">Plot</option>
+                                        <option value="4">Commercial</option>
+                                    </select>
+                                </div>
+                                <div class="aa-single-advance-search">
+                                    <select id="" name="">
+                                        <option selected="" value="0">Type</option>
+                                        <option value="1">Flat</option>
+                                        <option value="2">Land</option>
+                                        <option value="3">Plot</option>
+                                        <option value="4">Commercial</option>
+                                    </select>
+                                </div>
+                                <div class="aa-single-filter-search">
+                                    <span>AREA (SQ)</span>
+                                    <span>FROM</span>
+                                    <span id="skip-value-lower" class="example-val">30.00</span>
+                                    <span>TO</span>
+                                    <span id="skip-value-upper" class="example-val">100.00</span>
+                                    <div id="aa-sqrfeet-range"
+                                        class="noUi-target noUi-ltr noUi-horizontal noUi-background">
                                     </div>
                                 </div>
-                                <div class="media">
-                                    <div class="media-left">
-                                        <a href="#">
-                                            <img class="media-object"
-                                                src="{{ asset('propertyDetail/img/item/1.jpg') }}" alt="img">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">This is Title</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        <span>$65000</span>
+                                <div class="aa-single-filter-search">
+                                    <span>PRICE ($)</span>
+                                    <span>FROM</span>
+                                    <span id="skip-value-lower2" class="example-val">30.00</span>
+                                    <span>TO</span>
+                                    <span id="skip-value-upper2" class="example-val">100.00</span>
+                                    <div id="aa-price-range"
+                                        class="noUi-target noUi-ltr noUi-horizontal noUi-background">
                                     </div>
                                 </div>
-                                <div class="media">
-                                    <div class="media-left">
-                                        <a href="#">
-                                            <img class="media-object"
-                                                src="{{ asset('propertyDetail/img/item/1.jpg') }}" alt="img">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <h4 class="media-heading"><a href="#">This is Title</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                        <span>$65000</span>
-                                    </div>
+                                <div class="aa-single-advance-search">
+                                    <input type="submit" value="Search" class="aa-search-btn">
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Start Single properties sidebar -->
+                        <div class="aa-properties-single-sidebar">
+                            <h3>Popular Properties</h3>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object"
+                                            src="{{ asset('propertyDetail/img/item/1.jpg') }}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">This is Title</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <span>$65000</span>
                                 </div>
                             </div>
-                        </aside>
-                    </div>
-                @endforeach
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object"
+                                            src="{{ asset('propertyDetail/img/item/1.jpg') }}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">This is Title</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <span>$65000</span>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object"
+                                            src="{{ asset('propertyDetail/img/item/1.jpg') }}" alt="img">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">This is Title</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <span>$65000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
             </div>
         </div>
     </section>
