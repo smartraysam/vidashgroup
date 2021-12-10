@@ -60,7 +60,7 @@
                                             href="tel:+2347083399007" style="color: white">07083399007</a>
                                     </div>
                                     <div class="aa-email hidden-xs">
-                                        <span class="fa fa-envelope"> </span><a href="mailto:vidashpaints@gmail.com">
+                                        <span class="fa fa-envelope"> </span><a href="mailto:vidashpaints@gmail.com" style="color: white">
                                             vidashpaints@gmail.com</a>
                                     </div>
 

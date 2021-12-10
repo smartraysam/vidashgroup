@@ -2,18 +2,17 @@
 
 namespace App\Models;
 
-
-use App\Models\PropertyMedia;
-
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Property extends Model
+use App\Models\Property;
+class PropertyMedia extends Model
 {
     use HasFactory;
 
-    public function media()
+    public function property()
     {
-        return $this->hasMany(PropertyMedia::class);
+        return $this->hasone(Property::class);
     }
+
 }

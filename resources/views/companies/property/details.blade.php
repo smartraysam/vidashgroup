@@ -10,7 +10,6 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('welcome/images/vidashproperty.jpg') }}" type="image/x-icon">
 
-
     <!-- Font awesome -->
     <link href="{{ asset('propertyDetail/css/font-awesome.css') }}" rel="stylesheet">
     <!-- Bootstrap -->
@@ -55,89 +54,84 @@
 
 
     <!-- Start header section -->
-    <header id="aa-header">
+    <header id="aa-header" style="background-color: black">
         <div class="container">
-            {{-- <div class="row">
+            <div class="row">
                 <div class="col-md-12">
                     <div class="aa-header-area">
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-6">
                                 <div class="aa-header-left">
                                     <div class="aa-telephone-no">
-                                        <span class="fa fa-phone"></span>
-                                        1-900-523-3564
+                                        <span class="fa fa-phone" style="margin-left: 5px"> </span>
+                                        <a style="color: white" href="tel:+2347061396988"> 07061396988</a>,
+                                        <a style="color: white" href="tel:+2347083399007">07083399007</a>
                                     </div>
                                     <div class="aa-email hidden-xs">
-                                        <span class="fa fa-envelope-o"></span> info@markups.com
+                                        <span class="fa fa-envelope"> </span>
+                                        <a style="color: white"
+                                            href="mailto:vidashpaints@gmail.com">vidashpaints@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-6">
-                                <div class="aa-header-right">
-                                    <a href="register.html" class="aa-register">Register</a>
-                                    <a href="signin.html" class="aa-login">Login</a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
     </header>
     <!-- End header section -->
+
     <!-- Start menu section -->
-    <section id="aa-menu-area">
+    <section id="aa-menu-area" style="background-color: gray">
         <nav class="navbar navbar-default main-navbar" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
-                    {{-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                         aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button> --}}
+                        <span class="icon-bar"></span>
+                    </button>
                     <!-- LOGO -->
 
-                    <!-- Text based logo -->
-                    <a class="navbar-brand aa-logo" href="{{ route('property') }}"> Home <span>Property</span></a>
                     <!-- Image based logo -->
-                    <!-- <a class="navbar-brand aa-logo-img" href="index.html"><img src="img/logo.png" alt="logo"></a> -->
+                    <a class="navbar-brand" href="#"><img src="{{ asset('welcome/images/vidashproperty.jpg') }}"
+                            style="margin-left: 10px" width="100" height="60" alt="logo"></a>
                 </div>
-                {{-- <div id="navbar" class="navbar-collapse collapse">
+
+                <div id="navbar" class="navbar-collapse collapse">
                     <ul id="top-menu" class="nav navbar-nav navbar-right aa-main-nav">
-                        <li><a href="index.html">HOME</a></li>
-                        <li class="dropdown active">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="properties.html">PROPERTIES <span
-                                    class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="properties.html">PROPERTIES</a></li>
-                                <li><a href="properties-detail.html">PROPERTIES DETAIL</a></li>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class=""><a href="#aa-about-us">About Us</a></li>
+                        <li class=""><a href="#aa-latest-property">Properties</a></li>
+
+                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our
+                                Companies <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+
+                                <li><a href="{{ route('index') }}">Vidash Group</a></li>
+                                <li><a href="{{ route('shelter') }}">Vidash Shelter</a></li>
+                                <li><a href="{{ route('paint') }}">Vidash Paint</a></li>
+                                <li><a href="{{ route('logistics') }}">Vidash Logistics</a></li>
                             </ul>
                         </li>
-                        <li><a href="gallery.html">GALLERY</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="blog-archive.html">BLOG <span
-                                    class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="blog-archive.html">BLOG</a></li>
-                                <li><a href="blog-single.html">BLOG DETAILS</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                        <li><a href="404.html">404 PAGE</a></li>
+                        <li><a href="#aa-service">Service</a></li>
+
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
-                </div> --}}
+                </div>
                 <!--/.nav-collapse -->
             </div>
         </nav>
     </section>
     <!-- End menu section -->
 
-    <!-- Start Proerty header  -->
-
-    <section id="aa-property-header">
+    <!-- Start Property header  -->
+    {{-- <section id="aa-property-header">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -151,62 +145,96 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- End Proerty header  -->
+
+    <!-- Start slider  -->
+    <section id="aa-slider">
+        <div class="aa-slider-area">
+            <!-- Top slider -->
+            <div class="aa-top-slider">
+                @foreach ($property->media as $media)
+                    @if ($media->type == 0)
+                        <!-- start Top slider single slide -->
+                        <div class="aa-top-slider-single">
+                            <img width="451px" height="300px" src="{{ asset($media->image) }}" alt="img">
+                            <!-- start Top slider content -->
+                            <div class="aa-top-slider-content">
+                                <span class="aa-top-slider-catg">Duplex</span>
+                                <h2 class="aa-top-slider-title">1560 Square Feet</h2>
+                                <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>Topaz ,Off Gbaupe
+                                    Road, Behind
+                                    Aco Phase II, Airport Road , Abuja (NG)</p>
+                                <span class="aa-top-slider-off">30% OFF</span>
+                                <!-- <p class="aa-top-slider-price">₦460,000</p> -->
+                                <a href="#" class="aa-top-slider-btn">Read More <span
+                                        class="fa fa-angle-double-right"></span></a>
+                            </div>
+                            <!-- / end Top slider content -->
+                        </div>
+                        <!-- / end Top slider single slide -->
+                    @endif
+                @endforeach
+            </div>
+        </div>
+    </section>
+    <!-- End slider  -->
+
 
     <!-- Start Properties  -->
     <section id="aa-properties">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    @foreach ($properties as $property)
-                        <div class="aa-properties-content">
-                            <!-- Start properties content body -->
-                            <div class="aa-properties-details">
-                                <div class="aa-properties-details-img">
-                                    <img src="{{ asset($property->image) }}" alt="img">
-                                    <img src="{{ asset($property->image) }}" alt="img">
-                                    <img src="{{ asset($property->image) }}" alt="img">
-                                </div>
-                                <div class="aa-properties-info">
-                                    <h2>{{ $property->name }}</h2>
-                                    <span class="aa-price">${{ $property->price }}</span>
-                                    <p>{{ $property->description }}</p>
-                                    <h4>Property Features</h4>
-                                    <ul>
-                                        <li>4 Bedroom</li>
-                                        <li>3 Baths</li>
-                                        <li>Kitchen</li>
-                                        <li>Air Condition</li>
-                                        <li>Belcony</li>
-                                        <li>Gym</li>
-                                        <li>Garden</li>
-                                        <li>CCTV</li>
-                                        <li>Children Play Ground</li>
-                                        <li>Comunity Center</li>
-                                        <li>Security System</li>
-                                    </ul>
-                                    <h4>Property Video</h4>
-                                    <iframe width="100%" height="480" src="https://www.youtube.com/embed/CegXQps0In4"
-                                        frameborder="0" allowfullscreen></iframe>
-                                    <h4>Property Map</h4>
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6851.201919469417!2d-86.11773906635584!3d33.47324776828677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888bdb60cc49c571%3A0x40451ca6baf275c7!2s36008+AL-77%2C+Talladega%2C+AL+35160%2C+USA!5e0!3m2!1sbn!2sbd!4v1460452919256"
-                                        width="100%" height="450" frameborder="0" style="border:0"
-                                        allowfullscreen></iframe>
-                                </div>
-                                <!-- Properties social share -->
-                                <div class="aa-properties-social">
-                                    <ul>
-                                        <li>Share</li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                                <!-- Nearby properties -->
-                                {{-- <div class="aa-nearby-properties">
+                    <div class="aa-properties-content">
+                        <!-- Start properties content body -->
+                        <div class="aa-properties-details">
+                            <div class="aa-properties-details-img">
+                                @foreach ($property->media as $media)
+                                    @if ($media->type == 0)
+                                        <img src="{{ asset($media->image) }}" alt="img">
+                                    @endif
+                                @endforeach
+                            </div>
+                            <div class="aa-properties-info">
+                                <h2>{{ $property->name }}</h2>
+                                <span class="aa-price">₦{{ $property->price }}</span>
+                                <p>{{ $property->description }}</p>
+                                <h4>Property Features</h4>
+                                <ul>
+                                    <li>4 Bedroom</li>
+                                    <li>3 Baths</li>
+                                    <li>Kitchen</li>
+                                    <li>Air Condition</li>
+                                    <li>Belcony</li>
+                                    <li>Gym</li>
+                                    <li>Garden</li>
+                                    <li>CCTV</li>
+                                    <li>Children Play Ground</li>
+                                    <li>Comunity Center</li>
+                                    <li>Security System</li>
+                                </ul>
+                                <h4>Property Video</h4>
+                                {{-- <iframe width="100%" height="480" src=""
+                                        frameborder="0" allowfullscreen></iframe> --}}
+                                <h4>Property Map</h4>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1454379267902!2d3.852824414319343!3d7.337559115200828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398c27d155d85d%3A0xb4733e1738617ed3!2sTaska%20Energy%20Resources%20Ltd.!5e0!3m2!1sen!2sng!4v1639065192996!5m2!1sen!2sng"
+                                    width="600" height="450" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                            </div>
+                            <!-- Properties social share -->
+                            <div class="aa-properties-social">
+                                <ul>
+                                    <li>Share</li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Nearby properties -->
+                            {{-- <div class="aa-nearby-properties">
                                 <div class="aa-title">
                                     <h2>Nearby Properties</h2>
                                     <span></span>
@@ -277,9 +305,9 @@
                                 </div>
 
                             </div> --}}
-                            </div>
                         </div>
-                    @endforeach
+                    </div>
+
                 </div>
                 <!-- Start properties sidebar -->
                 <div class="col-md-4">
@@ -402,7 +430,10 @@
                         <div class="row">
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="aa-footer-left">
-                                    <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
+                                    <p>&copy; Copyright <?php echo date('Y'); ?></p>
+                                    <p>Vidash Group of Company.</p>
+                                    <p>All Rights Reserved.</p>
+                                    {{-- <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p> --}}
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12">

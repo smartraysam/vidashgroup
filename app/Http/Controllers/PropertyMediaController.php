@@ -2,32 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\PropertyDetail;
-use App\Models\Property;
+use App\Models\PropertyMedia;
 use Illuminate\Http\Request;
 
-
-class PropertyDetailController extends Controller
+class PropertyMediaController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($id)
+    public function index()
     {
-        // dd($id);
-        //$properties is an array
-        //Property is a Class
-        //:: is the operator to call a method from a class
-
-        // $property = Property::where('id', $id)->first();
-        $property = Property::find($id); // search by primary key 'ID'
-
-        // dd($properties);
-        return view('companies.property.details', compact('property')); // compact(array name)
-
-
+        //
     }
 
     /**
@@ -54,21 +41,21 @@ class PropertyDetailController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\PropertyDetail  $propertyDetail
+     * @param  \App\Models\PropertyMedia  $propertyMedia
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(PropertyMedia $propertyMedia)
     {
-    //
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\PropertyDetail  $propertyDetail
+     * @param  \App\Models\PropertyMedia  $propertyMedia
      * @return \Illuminate\Http\Response
      */
-    public function edit(PropertyDetail $propertyDetail)
+    public function edit(PropertyMedia $propertyMedia)
     {
         //
     }
@@ -77,10 +64,10 @@ class PropertyDetailController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\PropertyDetail  $propertyDetail
+     * @param  \App\Models\PropertyMedia  $propertyMedia
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, PropertyDetail $propertyDetail)
+    public function update(Request $request, PropertyMedia $propertyMedia)
     {
         //
     }
@@ -88,10 +75,10 @@ class PropertyDetailController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\PropertyDetail  $propertyDetail
+     * @param  \App\Models\PropertyMedia  $propertyMedia
      * @return \Illuminate\Http\Response
      */
-    public function destroy(PropertyDetail $propertyDetail)
+    public function destroy(PropertyMedia $propertyMedia)
     {
         //
     }
